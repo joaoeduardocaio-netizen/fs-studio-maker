@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#090909">
+  <meta name="theme-color" content="#f7f3ec">
   <meta name="description" content="FS Studio Maker: creazioni personalizzate in stampa 3D, spedite in tutta Europa.">
   <title>FS Studio Maker | Creazioni personalizzate in 3D</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23090909'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial' font-size='30' font-weight='700' fill='%23c89655'%3EFS%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css?v=6">
+  <script src="script.js?v=6" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -53,13 +53,21 @@
           <div><strong>EU</strong><span data-i18n="delivery">Consegna europea</span></div>
         </div>
       </div>
-      <div class="hero-media reveal">
-        <div class="video-frame">
-          <video autoplay muted loop playsinline preload="metadata" poster="assets/colecionaveis.jpg"><source src="assets/criacoes.mp4" type="video/mp4"></video>
-          <div class="video-badge"><i></i><span data-i18n="made">Creato da FS Studio Maker</span></div>
-        </div>
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="hero-scene reveal" aria-label="Mascotte FS Studio Maker con una creazione 3D">
+        <div class="hero-blob"></div>
+        <div class="printer-card"><span>3D</span><i></i><b>MAKER</b></div>
+        <img class="maker-mascot" src="assets/mascote-fernanda.png" alt="Fernanda di FS Studio Maker con un dinosauro stampato in 3D">
+        <div class="idea-note"><span>✦</span><strong data-i18n="ideaNote">La tua idea<br>diventa reale</strong></div>
+        <div class="floating-piece piece-one">◆</div>
+        <div class="floating-piece piece-two">✦</div>
       </div>
+    </section>
+
+    <section class="benefit-strip section-shell reveal" aria-label="Vantaggi">
+      <div><span>♡</span><p><strong data-i18n="benefitUnique">Pezzi unici</strong><small data-i18n="benefitUniqueText">Creati su misura</small></p></div>
+      <div><span>✦</span><p><strong data-i18n="benefitQuality">Alta qualità</strong><small data-i18n="benefitQualityText">Cura in ogni dettaglio</small></p></div>
+      <div><span>▣</span><p><strong data-i18n="benefitEurope">Spedizione europea</strong><small data-i18n="benefitEuropeText">Direttamente a casa tua</small></p></div>
+      <div><span>⌁</span><p><strong data-i18n="benefitIdeas">Idee che prendono forma</strong><small data-i18n="benefitIdeasText">Dal progetto alla realtà</small></p></div>
     </section>
 
     <section id="creations" class="creations">
@@ -68,7 +76,26 @@
           <div><span class="kicker" data-i18n="portfolioKicker">Il nostro mondo</span><h2 data-i18n="portfolioTitle">Creazioni che non passano inosservate.</h2></div>
           <p data-i18n="portfolioText">Dall'idea all'oggetto finito: ogni pezzo nasce per raccontare qualcosa di tuo.</p>
         </div>
-        <div class="category-grid">
+        <div class="productions-layout reveal">
+          <div class="production-copy">
+            <span class="kicker" data-i18n="productionKicker">Dietro le quinte</span>
+            <h3 data-i18n="productionTitle">Guarda come nascono le nostre creazioni.</h3>
+            <p data-i18n="productionText">Scorri i video, aprili a schermo intero e scopri ogni dettaglio.</p>
+          </div>
+          <div class="media-carousel" data-carousel>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <article class="media-slide is-active"><video autoplay muted loop playsinline preload="metadata" poster="assets/colecionaveis.jpg"><source src="assets/criacoes.mp4" type="video/mp4"></video><button class="fullscreen-control" type="button" aria-label="Apri a schermo intero">⛶</button><div class="video-badge"><i></i><span data-i18n="made">Creato da FS Studio Maker</span></div></article>
+                <article class="media-slide"><video muted loop playsinline preload="metadata" poster="assets/acessorios-poster.jpg"><source src="assets/acessorios.mp4" type="video/mp4"></video><button class="video-control" type="button" aria-label="Riproduci video">▶</button><button class="fullscreen-control" type="button" aria-label="Apri a schermo intero">⛶</button></article>
+                <article class="media-slide"><video muted loop playsinline preload="metadata" poster="assets/chaveiros-poster.jpg"><source src="assets/chaveiros.mp4" type="video/mp4"></video><button class="video-control" type="button" aria-label="Riproduci video">▶</button><button class="fullscreen-control" type="button" aria-label="Apri a schermo intero">⛶</button></article>
+                <article class="media-slide"><img src="assets/colecionaveis.jpg" alt="Creazioni personalizzate realizzate da FS Studio Maker"><button class="fullscreen-control" type="button" aria-label="Apri a schermo intero">⛶</button></article>
+              </div>
+            </div>
+            <button class="carousel-arrow carousel-prev" type="button" aria-label="Contenuto precedente">‹</button><button class="carousel-arrow carousel-next" type="button" aria-label="Contenuto successivo">›</button>
+            <div class="carousel-dots" aria-label="Seleziona contenuto"></div><p class="swipe-hint" data-i18n="swipeHint">Scorri lateralmente per vedere altri lavori</p>
+          </div>
+        </div>
+        <div class="creation-carousel" data-scroll-gallery>
           <article class="category-card category-feature reveal">
             <img src="assets/colecionaveis.jpg" alt="Collezione di creazioni personalizzate stampate in 3D" loading="lazy">
             <div class="card-shade"></div><div class="card-copy"><span>01</span><h3 data-i18n="catCollectibles">Collezionabili personalizzati</h3><p data-i18n="catCollectiblesText">Personaggi e oggetti decorativi pieni di personalità.</p></div>
@@ -83,7 +110,12 @@
             <button class="video-control" aria-label="Riproduci video">▶</button>
             <div class="card-shade"></div><div class="card-copy"><span>03</span><h3 data-i18n="catKeychains">Portachiavi e piccoli regali</h3><p data-i18n="catKeychainsText">Dettagli personalizzati da portare sempre con te.</p></div>
           </article>
+          <article class="category-card reveal">
+            <img src="assets/acessorios-poster.jpg" alt="Altri accessori personalizzati" loading="lazy">
+            <div class="card-shade"></div><div class="card-copy"><span>04</span><h3 data-i18n="moreCreations">Altre creazioni</h3><p data-i18n="moreCreationsText">Nuovi progetti e idee personalizzate.</p></div>
+          </article>
         </div>
+        <div class="gallery-progress" aria-hidden="true"><span></span></div>
       </div>
     </section>
 
