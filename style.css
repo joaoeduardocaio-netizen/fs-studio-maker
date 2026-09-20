@@ -36,3 +36,36 @@ h1{font-weight:900;letter-spacing:-.045em}
 .brand img{width:172px;height:64px;object-fit:contain;filter:drop-shadow(0 5px 8px rgba(87,53,25,.18))}
 .about-mark img,.footer-main img{filter:drop-shadow(0 8px 14px rgba(0,0,0,.22))}
 @media(max-width:700px){.brand img{width:144px;height:57px}}
+
+/* Ícones e seletor de idioma inspirados na referência — versão 9 */
+.icon-sprite{position:absolute;width:0;height:0;overflow:hidden}
+.ui-icon{width:23px;height:23px;display:block;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.language-picker{min-width:82px;padding:0 12px;box-shadow:0 6px 18px rgba(16,26,63,.07)}
+.language-picker select{width:100%;cursor:pointer;font-size:13px}
+.hero-proof .word-stat{font-size:17px;letter-spacing:.025em;line-height:1.35}
+.idea-note .ui-icon{width:22px;height:22px}
+.floating-piece .ui-icon{width:23px;height:23px}
+.benefit-strip>div{border:1px solid rgba(16,26,63,.055);background:#fff}
+.benefit-strip>div:nth-child(2),.benefit-strip>div:nth-child(3){background:#fff}
+.benefit-strip span.benefit-icon{flex:0 0 48px;width:48px;height:48px;border-radius:16px;color:#fff;box-shadow:0 8px 18px rgba(16,26,63,.13)}
+.benefit-strip .icon-rose{background:linear-gradient(145deg,#ff6c91,#ed4070)}
+.benefit-strip .icon-blue{background:linear-gradient(145deg,#438bff,#1769e8)}
+.benefit-strip .icon-amber{background:linear-gradient(145deg,#f5b640,#e68b15)}
+.benefit-strip .icon-teal{background:linear-gradient(145deg,#56c8b7,#249b8d)}
+.benefit-strip strong{color:var(--navy);font-size:13px;line-height:1.25}
+.benefit-strip small{margin-top:3px;font-size:10px;line-height:1.35}
+.step-icon .ui-icon{width:28px;height:28px}
+.step:nth-child(1) .step-icon{background:linear-gradient(145deg,#438bff,#1769e8)}
+.step:nth-child(2) .step-icon{background:linear-gradient(145deg,#f5b640,#e68b15)}
+.step:nth-child(3) .step-icon{background:linear-gradient(145deg,#56c8b7,#249b8d)}
+.location span{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;border-radius:14px;background:rgba(255,255,255,.1);color:#e5b47c}
+.location .ui-icon{width:21px;height:21px}
+@media(max-width:700px){
+  .language-picker{min-width:76px;padding-inline:9px}
+  .language-picker select{font-size:12px}
+  .hero-proof .word-stat{font-size:13px;line-height:1.65}
+  .benefit-strip span.benefit-icon{flex-basis:40px;width:40px;height:40px;border-radius:13px}
+  .benefit-strip .ui-icon{width:20px;height:20px}
+  .benefit-strip strong{font-size:11.5px}
+  .benefit-strip small{font-size:9px}
+}
