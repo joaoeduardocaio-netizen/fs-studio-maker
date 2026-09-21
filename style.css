@@ -146,10 +146,10 @@ h1{font-weight:900;letter-spacing:-.045em}
   .site-header .brand::after{animation:printer-head-up 8s steps(60,end) infinite}
 }
 
-/* Impressora 3D em marca-d'agua no fundo do titulo — versao 25 */
+/* Impressora 3D detalhada em marca-d'agua — versao 26 */
 .hero-copy{position:relative;isolation:isolate}
 .hero-copy>*{position:relative;z-index:1}
-.hero-copy::before{content:"";position:absolute;z-index:0;top:48px;right:-105px;width:500px;height:430px;pointer-events:none;opacity:.2;background:center/contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 360' fill='none' stroke='%23a76732' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Crect x='66' y='50' width='270' height='238' rx='7'/%3E%3Cpath d='M82 70h238M88 70v195M314 70v195M62 288h278M78 288l-18 30h282l-18-30'/%3E%3Cpath d='M96 246l210-17 24 24-219 23-15-30Z'/%3E%3Cpath d='M108 246v-15l190-14 8 12M116 258l180-17M128 276v12M289 258v22'/%3E%3Crect x='151' y='102' width='101' height='18' rx='3'/%3E%3Cpath d='M164 120v46h76v-46M184 166v33h36v-33M191 199l-8 19h38l-8-19M201 218v20'/%3E%3Ccircle cx='277' cy='48' r='34'/%3E%3Ccircle cx='277' cy='48' r='12'/%3E%3Cpath d='M277 82c0 17-22 14-22 31M66 92h-18v124h18M336 98h17v105h-17'/%3E%3Crect x='250' y='278' width='69' height='27' rx='4'/%3E%3Ccircle cx='305' cy='291' r='5'/%3E%3Cpath d='M260 288h28M260 295h22M91 318v12M311 318v12'/%3E%3C/svg%3E")}
+.hero-copy::before{content:"";position:absolute;z-index:0;top:36px;right:-78px;width:500px;height:455px;pointer-events:none;opacity:.16;background:center/contain no-repeat url("assets/impressora-3d-watermark.png")}
 @media(max-width:700px){
-  .hero-copy::before{top:52px;right:-46px;width:335px;height:335px;opacity:.22}
+  .hero-copy::before{top:49px;right:-28px;width:342px;height:342px;opacity:.18}
 }
