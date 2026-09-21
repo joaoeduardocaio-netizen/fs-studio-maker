@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#ffffff"><meta name="description" content="Catalogo delle creazioni personalizzate FS Studio Maker.">
+  <title>Catalogo | FS Studio Maker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Nunito+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="catalogo.css?v=1">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.4/dist/umd/supabase.min.js" defer></script>
+  <script src="supabase-config.js?v=1" defer></script><script src="catalogo.js?v=1" defer></script>
+</head>
+<body>
+  <header class="catalog-header"><a href="index.html" class="brand"><img src="assets/logo-transparent.png" alt="FS Studio Maker"></a><div class="header-actions"><label><span class="sr-only">Lingua</span><select id="language-select"><option value="it">🇮🇹 IT</option><option value="pt">🇵🇹 PT</option><option value="en">🇬🇧 EN</option><option value="es">🇪🇸 ES</option><option value="de">🇩🇪 DE</option></select></label><a href="index.html" class="back" data-i18n="back">← Torna al sito</a></div></header>
+  <main><section class="catalog-hero"><span data-i18n="kicker">Le nostre creazioni</span><h1 data-i18n="title">Idee diventate realtà.</h1><p data-i18n="intro">Scopri alcuni progetti realizzati e contattaci per crearne uno tutto tuo.</p></section><section class="filters" aria-label="Filtri"><button class="active" data-category="all" data-i18n="all">Tutte</button><div id="dynamic-filters"></div></section><section id="catalog-grid" class="catalog-grid" aria-live="polite"><div class="state"><span class="loader"></span><p data-i18n="loading">Caricamento delle creazioni…</p></div></section></main>
+  <footer><span>© <span id="year"></span> FS Studio Maker</span><a id="footer-wa" target="_blank" rel="noopener" data-i18n="whatsapp">Scrivici su WhatsApp</a></footer>
+</body></html>
