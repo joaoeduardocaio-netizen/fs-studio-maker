@@ -130,11 +130,11 @@ h1{font-weight:900;letter-spacing:-.045em}
 .main-nav a:first-child,.main-nav a:hover{background:#fff;color:var(--navy);box-shadow:0 8px 20px rgba(0,0,0,.18)}
 .site-header .language-picker{border-color:rgba(255,255,255,.18);background:#fff}
 .site-header .brand{--logo-y:0px;position:relative;overflow:hidden}
-.site-header .brand img{transform-origin:50% 100%;animation:logo-reprint 5s cubic-bezier(.2,.8,.2,1) infinite}
-.site-header .brand::after{content:"";position:absolute;inset:5px -35%;pointer-events:none;background:linear-gradient(105deg,transparent 38%,rgba(255,226,174,0) 44%,rgba(255,226,174,.5) 50%,rgba(255,226,174,0) 56%,transparent 62%);transform:translateX(-75%);animation:logo-shine 5s ease-in-out infinite}
+.site-header .brand img{transform-origin:50% 100%;will-change:clip-path;animation:logo-3d-print 8s steps(60,end) infinite}
+.site-header .brand::after{content:"";position:absolute;z-index:2;left:3px;right:3px;bottom:3px;height:2px;pointer-events:none;border-radius:99px;background:linear-gradient(90deg,transparent 0%,#d79a55 12%,#ffd69a 50%,#d79a55 88%,transparent 100%);box-shadow:0 0 5px rgba(255,205,135,.9),0 -3px 8px rgba(255,190,100,.28);opacity:0;animation:printer-head-up 8s steps(60,end) infinite}
 @keyframes logo-print{0%{opacity:0;clip-path:inset(100% 0 0);transform:translateY(calc(var(--logo-y) + 9px)) scaleY(.94)}55%{opacity:1}100%{opacity:1;clip-path:inset(0);transform:translateY(var(--logo-y)) scaleY(1)}}
-@keyframes logo-reprint{0%,68%{opacity:1;clip-path:inset(0);transform:translateY(var(--logo-y)) scaleY(1)}72%{opacity:0;clip-path:inset(100% 0 0);transform:translateY(calc(var(--logo-y) + 7px)) scaleY(.95)}76%{opacity:.18;clip-path:inset(92% 0 0);transform:translateY(calc(var(--logo-y) + 6px)) scaleY(.95)}100%{opacity:1;clip-path:inset(0);transform:translateY(var(--logo-y)) scaleY(1)}}
-@keyframes logo-shine{0%,64%{transform:translateX(-75%);opacity:0}72%{opacity:.8}86%,100%{transform:translateX(75%);opacity:0}}
+@keyframes logo-3d-print{0%{opacity:1;clip-path:inset(100% 0 0 0);transform:translateY(var(--logo-y))}37.5%,100%{opacity:1;clip-path:inset(0 0 0 0);transform:translateY(var(--logo-y))}}
+@keyframes printer-head-up{0%{opacity:1;transform:translateY(0)}36.5%{opacity:1;transform:translateY(-58px)}37.5%,100%{opacity:0;transform:translateY(-60px)}}
 @media(max-width:980px){
   .site-header .main-nav{border-color:rgba(255,255,255,.12);background:var(--navy)}
 }
@@ -142,6 +142,6 @@ h1{font-weight:900;letter-spacing:-.045em}
   .site-header .brand{--logo-y:3px}
 }
 @media(prefers-reduced-motion:reduce){
-  .site-header .brand img{animation:logo-reprint 5s cubic-bezier(.2,.8,.2,1) infinite}
-  .site-header .brand::after{animation:logo-shine 5s ease-in-out infinite}
+  .site-header .brand img{animation:logo-3d-print 8s steps(60,end) infinite}
+  .site-header .brand::after{animation:printer-head-up 8s steps(60,end) infinite}
 }
