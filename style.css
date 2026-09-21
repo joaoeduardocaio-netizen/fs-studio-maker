@@ -123,7 +123,7 @@ h1{font-weight:900;letter-spacing:-.045em}
 }
 
 /* Cabeçalho azul-marinho — versão 16 */
-.site-header{border-color:rgba(255,255,255,.12);background:rgba(16,26,63,.97);box-shadow:0 15px 45px rgba(16,26,63,.2)}
+.site-header{border-color:rgba(255,255,255,.12);background:rgba(16,26,63,.97)!important;box-shadow:0 15px 45px rgba(16,26,63,.2)}
 .site-header .brand img{filter:drop-shadow(0 5px 9px rgba(0,0,0,.28))}
 .menu-toggle span{background:#fff}
 .main-nav a{color:#e8ebf5}
