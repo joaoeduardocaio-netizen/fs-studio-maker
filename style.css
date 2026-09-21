@@ -89,3 +89,25 @@ h1{font-weight:900;letter-spacing:-.045em}
   .hero-proof .shipping-stat{height:29px}
   .hero-proof .shipping-stat .ui-icon{width:31px;height:31px}
 }
+
+/* Consulta de frete pelo WhatsApp — versione 11 */
+.hero-proof .shipping-proof{position:relative;margin-right:0;padding-right:0;overflow:visible}
+.shipping-trigger{padding:0;border:0;background:transparent;color:inherit;text-align:left;cursor:pointer}
+.shipping-trigger>span{transition:color .2s}
+.shipping-trigger:hover>span,.shipping-trigger:focus-visible>span{color:var(--bronze)}
+.shipping-check{position:absolute;top:calc(100% + 10px);right:0;z-index:12;width:190px;padding:11px 13px;border-radius:13px;background:var(--navy);color:#fff;font-size:10px;font-weight:800;line-height:1.35;text-align:center;box-shadow:0 12px 28px rgba(16,26,63,.24);opacity:0;visibility:hidden;transform:translateY(-5px);transition:opacity .2s,transform .2s,visibility .2s}
+.shipping-check::before{content:"";position:absolute;right:18px;bottom:100%;border:6px solid transparent;border-bottom-color:var(--navy)}
+.shipping-proof.open .shipping-check{opacity:1;visibility:visible;transform:none}
+@media(max-width:700px){
+  .shipping-check{right:-2px;width:174px;font-size:9px}
+}
+
+/* Contatto WhatsApp nel footer — versione 12 */
+.footer-links{align-items:center;flex-wrap:wrap}
+.footer-whatsapp{min-height:44px;padding:0 16px;display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.15);border-radius:999px;background:#25d366;color:#082d18;font-weight:800;box-shadow:0 9px 22px rgba(0,0,0,.2);transition:transform .2s,background .2s}
+.footer-whatsapp:hover{background:#38e477;transform:translateY(-2px)}
+.footer-whatsapp .ui-icon{width:22px;height:22px;stroke-width:1.8}
+@media(max-width:700px){
+  .footer-links{width:100%;gap:12px!important}
+  .footer-whatsapp{width:100%;justify-content:center}
+}

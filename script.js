@@ -18,11 +18,24 @@ Object.assign(translations.pt,{delivery:"Envio para a Europa"});
 Object.assign(translations.en,{delivery:"Shipping across Europe"});
 Object.assign(translations.es,{delivery:"Envío por Europa"});
 Object.assign(translations.de,{delivery:"Versand in Europa"});
+Object.assign(translations.it,{delivery:"Spedizione",checkDelivery:"Verifica la zona di consegna",deliveryWa:"Ciao! Vorrei verificare la disponibilità della consegna nella mia zona. È possibile?"});
+Object.assign(translations.pt,{delivery:"Frete",checkDelivery:"Verificar região de entrega",deliveryWa:"Olá! Quero verificar a disponibilidade de entrega para a minha região. É possível?"});
+Object.assign(translations.en,{delivery:"Shipping",checkDelivery:"Check delivery area",deliveryWa:"Hello! I would like to check whether delivery is available in my area. Is it possible?"});
+Object.assign(translations.es,{delivery:"Envío",checkDelivery:"Consultar zona de entrega",deliveryWa:"¡Hola! Quisiera verificar si hay entrega disponible en mi zona. ¿Es posible?"});
+Object.assign(translations.de,{delivery:"Versand",checkDelivery:"Liefergebiet prüfen",deliveryWa:"Hallo! Ich möchte prüfen, ob eine Lieferung in meine Region möglich ist. Ist das möglich?"});
+Object.assign(translations.it,{footerWhatsapp:"Scrivici su WhatsApp"});
+Object.assign(translations.pt,{footerWhatsapp:"Chame no WhatsApp"});
+Object.assign(translations.en,{footerWhatsapp:"Message us on WhatsApp"});
+Object.assign(translations.es,{footerWhatsapp:"Escríbenos por WhatsApp"});
+Object.assign(translations.de,{footerWhatsapp:"Schreib uns auf WhatsApp"});
 Object.assign(translations.es,{ideaNote:"Tu idea<br>hecha realidad",benefitUnique:"Piezas únicas",benefitUniqueText:"Creadas a medida",benefitQuality:"Alta calidad",benefitQualityText:"Cuidado en cada detalle",benefitEurope:"Envío por Europa",benefitEuropeText:"Directo a tu casa",benefitIdeas:"Ideas que toman forma",benefitIdeasText:"Del proyecto a la realidad",productionKicker:"Detrás de escena",productionTitle:"Mira cómo nacen nuestras creaciones.",productionText:"Desliza los vídeos, ábrelos a pantalla completa y descubre cada detalle."});
 Object.assign(translations.de,{ideaNote:"Deine Idee<br>wird Wirklichkeit",benefitUnique:"Einzigartige Stücke",benefitUniqueText:"Für dich gefertigt",benefitQuality:"Hohe Qualität",benefitQualityText:"Sorgfalt in jedem Detail",benefitEurope:"Europaweiter Versand",benefitEuropeText:"Direkt zu dir nach Hause",benefitIdeas:"Ideen nehmen Form an",benefitIdeasText:"Vom Entwurf zur Realität",productionKicker:"Hinter den Kulissen",productionTitle:"Sieh, wie unsere Kreationen entstehen.",productionText:"Wische durch die Videos, öffne sie im Vollbild und entdecke jedes Detail."});
 const select=document.querySelector('#language-select');
-function setLanguage(lang){const t=translations[lang]||translations.it;document.documentElement.lang=lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const value=t[el.dataset.i18n];if(value!==undefined)el.innerHTML=value});document.querySelectorAll('[data-wa]').forEach(a=>a.href=`https://wa.me/393287036017?text=${encodeURIComponent(t.wa)}`);localStorage.setItem('fs-language',lang);select.value=lang}
+function setLanguage(lang){const t=translations[lang]||translations.it;document.documentElement.lang=lang;document.querySelectorAll('[data-i18n]').forEach(el=>{const value=t[el.dataset.i18n];if(value!==undefined)el.innerHTML=value});document.querySelectorAll('[data-wa]').forEach(a=>a.href=`https://wa.me/393287036017?text=${encodeURIComponent(t.wa)}`);document.querySelectorAll('[data-shipping-wa]').forEach(a=>a.href=`https://wa.me/393287036017?text=${encodeURIComponent(t.deliveryWa)}`);localStorage.setItem('fs-language',lang);select.value=lang}
 select.addEventListener('change',e=>setLanguage(e.target.value));setLanguage(localStorage.getItem('fs-language')||'it');
+const shippingTrigger=document.querySelector('.shipping-trigger'),shippingProof=document.querySelector('.shipping-proof');
+shippingTrigger.addEventListener('click',event=>{event.stopPropagation();const open=shippingProof.classList.toggle('open');shippingTrigger.setAttribute('aria-expanded',open)});
+document.addEventListener('click',event=>{if(!shippingProof.contains(event.target)){shippingProof.classList.remove('open');shippingTrigger.setAttribute('aria-expanded','false')}});
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('.main-nav');menu.addEventListener('click',()=>{const open=nav.classList.toggle('open');menu.setAttribute('aria-expanded',open)});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');menu.setAttribute('aria-expanded','false')}));
 document.querySelectorAll('.video-control').forEach(button=>{const video=button.closest('article').querySelector('video');button.addEventListener('click',()=>{if(video.paused){video.play();button.textContent='❚❚'}else{video.pause();button.textContent='▶'}});video.addEventListener('ended',()=>button.textContent='▶')});
 
