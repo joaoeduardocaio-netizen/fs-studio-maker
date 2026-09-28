@@ -6,18 +6,20 @@ function safe(value){const node=document.createElement("span");node.textContent=
 function attr(value){return safe(value).replaceAll('"','&quot;').replaceAll("'",'&#39;')}
 function applyLanguage(){const t=copy[lang]||copy.it;document.documentElement.lang=lang;document.querySelectorAll("[data-i18n]").forEach(el=>{if(t[el.dataset.i18n])el.textContent=t[el.dataset.i18n]});select.value=lang;localStorage.setItem("fs-language",lang);document.querySelector("#footer-wa").href=`https://wa.me/${cfg.whatsapp}?text=${encodeURIComponent(t.wa)}`;render()}
 function isVideo(path){return /\.(mp4|webm)$/i.test(path||"")}
+function localized(item,field){return item.translations?.[lang]?.[field]?.trim()||item[field]||""}
 function render(){
   if(!creations.length)return;
   const t=copy[lang]||copy.it;
   grid.innerHTML=creations.map(item=>{
+    const title=localized(item,"title"),description=localized(item,"description"),category=localized(item,"category");
     const media=(item.creation_images||[]).sort((a,b)=>Number(isVideo(a.storage_path))-Number(isVideo(b.storage_path))||a.sort_order-b.sort_order);
     const slides=media.length?media.map(entry=>{
       const url=attr(db.storage.from("creations").getPublicUrl(entry.storage_path).data.publicUrl);
-      return `<div class="media-slide">${isVideo(entry.storage_path)?`<video src="${url}" controls playsinline preload="metadata" aria-label="Vídeo: ${attr(item.title)}"></video>`:`<img src="${url}" alt="${attr(entry.alt_text||item.title)}" loading="lazy">`}</div>`;
-    }).join(""):`<div class="media-slide"><img src="assets/colecionaveis.jpg" alt="${attr(item.title)}" loading="lazy"></div>`;
+      return `<div class="media-slide">${isVideo(entry.storage_path)?`<video src="${url}" controls playsinline preload="metadata" aria-label="${attr(title)}"></video>`:`<img src="${url}" alt="${attr(title)}" loading="lazy">`}</div>`;
+    }).join(""):`<div class="media-slide"><img src="assets/colecionaveis.jpg" alt="${attr(title)}" loading="lazy"></div>`;
     const price=item.show_price&&item.price!=null?new Intl.NumberFormat(lang,{style:"currency",currency:"EUR"}).format(item.price):t.quote;
-    const wa=`https://wa.me/${cfg.whatsapp}?text=${encodeURIComponent(t.wa+item.title)}`;
-    return `<article class="creation-card"><div class="card-image"><div class="media-track" tabindex="0" aria-label="${attr(item.title)}">${slides}</div>${media.length>1?`<button type="button" class="media-arrow media-prev" aria-label="Anterior">‹</button><button type="button" class="media-arrow media-next" aria-label="Próximo">›</button><span class="image-count">1/${media.length}</span>`:""}</div><div class="card-content">${item.category?`<span class="category">${safe(item.category)}</span>`:""}<h2>${safe(item.title)}</h2><p>${safe(item.description||"")}</p><div class="card-bottom"><strong class="price">${safe(price)}</strong><a class="card-cta" href="${attr(wa)}" target="_blank" rel="noopener">WhatsApp ↗</a></div></div></article>`;
+    const wa=`https://wa.me/${cfg.whatsapp}?text=${encodeURIComponent(t.wa+title)}`;
+    return `<article class="creation-card"><div class="card-image"><div class="media-track" tabindex="0" aria-label="${attr(title)}">${slides}</div>${media.length>1?`<button type="button" class="media-arrow media-prev" aria-label="Anterior">‹</button><button type="button" class="media-arrow media-next" aria-label="Próximo">›</button><span class="image-count">1/${media.length}</span>`:""}</div><div class="card-content">${category?`<span class="category">${safe(category)}</span>`:""}<h2>${safe(title)}</h2><p>${safe(description)}</p><div class="card-bottom"><strong class="price">${safe(price)}</strong><a class="card-cta" href="${attr(wa)}" target="_blank" rel="noopener">WhatsApp ↗</a></div></div></article>`;
   }).join("");
   grid.querySelectorAll(".card-image").forEach(card=>{
     const track=card.querySelector(".media-track"),count=card.querySelector(".image-count");
@@ -29,7 +31,7 @@ function render(){
   });
 }
 async function load(){
-  const {data,error}=await db.from("creations").select("id,title,description,category,price,show_price,featured,sort_order,created_at,creation_images(storage_path,alt_text,sort_order)").eq("published",true).order("featured",{ascending:false}).order("sort_order").order("created_at",{ascending:false});
+  const {data,error}=await db.from("creations").select("id,title,description,category,translations,price,show_price,featured,sort_order,created_at,creation_images(storage_path,alt_text,sort_order)").eq("published",true).order("featured",{ascending:false}).order("sort_order").order("created_at",{ascending:false});
   if(error){grid.innerHTML=`<div class="state"><p>${(copy[lang]||copy.it).error}</p></div>`;return}
   creations=data||[];
   if(!creations.length){grid.innerHTML=`<div class="state"><p>${(copy[lang]||copy.it).empty}</p></div>`;return}

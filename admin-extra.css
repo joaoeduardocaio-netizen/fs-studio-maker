@@ -10,3 +10,5 @@ select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(23,105,255,.12)}
 .media-type{display:inline-flex;margin-top:5px;padding:3px 7px;border-radius:99px;background:#e8efff;color:#1457c8;font-size:9px;font-weight:800}
 .list-item>video{width:76px;height:76px;border-radius:11px;object-fit:cover;background:#101a3f}
 @media(max-width:560px){.media-heading h2{font-size:28px}.list-item>video{width:62px;height:62px}}
+
+.translations{border:1px solid #dce2e8;border-radius:12px;margin:20px 0;padding:16px}.translations legend{font-weight:800;padding:0 8px}.translations p{color:#667085}.translations details{border-top:1px solid #e5e7eb;padding:12px 0}.translations summary{cursor:pointer;font-weight:700}.translations details label{display:block;margin:12px 0}
