@@ -1,0 +1,29 @@
+FS Studio Maker — contador de visitas
+
+A parte do Supabase já foi configurada.
+
+Para ativar no site, envie os 4 arquivos deste ZIP para a RAIZ do repositório GitHub:
+
+1. supabase-config.js  -> SUBSTITUIR o arquivo atual
+2. site-analytics.js   -> arquivo novo
+3. admin-analytics.js  -> arquivo novo
+4. admin-analytics.css -> arquivo novo
+
+Não precisa alterar index.html, catalogo.html ou admin.html.
+
+Depois que o GitHub Pages publicar a atualização:
+- abra a página inicial do site uma vez;
+- abra o catálogo uma vez;
+- entre na área administrativa;
+- aparecerá a seção "Visitas do site" logo abaixo do cabeçalho do painel.
+
+O painel mostra:
+- visitantes únicos hoje;
+- visitantes únicos no mês;
+- visualizações de páginas no mês;
+- total acumulado de visitantes únicos;
+- gráfico dos últimos 14 dias;
+- páginas mais acessadas do mês.
+
+Observação: o contador começa a registrar somente após estes arquivos serem publicados.
+Visitantes únicos são estimados por navegador/dispositivo. Não são gravados nome, e-mail, IP ou localização do visitante pela tabela de analytics.
