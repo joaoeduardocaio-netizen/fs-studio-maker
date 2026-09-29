@@ -18,10 +18,17 @@ function attr(value){return safe(value).replaceAll('"','&quot;').replaceAll("'",
 function applyLanguage(){const t=copy[lang]||copy.it;document.documentElement.lang=lang;document.querySelectorAll("[data-i18n]").forEach(el=>{if(t[el.dataset.i18n])el.textContent=t[el.dataset.i18n]});if(collection!=="todos"){const key={sensoriais:"sensory",personagens:"characters",letreiros:"signs"}[collection];document.querySelector('[data-i18n="title"]').textContent=t[key];document.querySelector('[data-i18n="intro"]').textContent=t.selectedIntro}document.querySelectorAll("[data-collection]").forEach(button=>button.classList.toggle("active",button.dataset.collection===collection));select.value=lang;localStorage.setItem("fs-language",lang);document.querySelector("#footer-wa").href=`https://wa.me/${cfg.whatsapp}?text=${encodeURIComponent(t.wa)}`;render()}
 function isVideo(path){return /\.(mp4|webm)$/i.test(path||"")}
 function localized(item,field){return item.translations?.[lang]?.[field]?.trim()||item[field]||""}
+function categoryCollection(value){
+  const name=(value||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().trim();
+  if(name.includes("personagen")||name.includes("colecionaveis"))return "personagens";
+  if(name.includes("letreiro"))return "letreiros";
+  if(name.includes("sensoria")||name.includes("articulad"))return "sensoriais";
+  return null;
+}
 function render(){
   if(!creations.length)return;
   const t=copy[lang]||copy.it;
-  const visible=collection==="todos"?creations:creations.filter(item=>item.category?.trim().toLocaleLowerCase("pt-BR")===collections[collection].toLocaleLowerCase("pt-BR"));
+  const visible=collection==="todos"?creations:creations.filter(item=>categoryCollection(item.category)===collection);
   if(!visible.length){grid.innerHTML=`<div class="state"><p>${safe(t.collectionEmpty)}</p></div>`;return}
   grid.innerHTML=visible.map(item=>{
     const title=localized(item,"title"),description=localized(item,"description"),category=localized(item,"category");
