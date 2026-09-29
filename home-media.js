@@ -27,5 +27,5 @@
       });
     }
   }catch(error){console.warn("Não foi possível carregar as mídias administráveis.",error)}
-  const mainScript=document.createElement("script");mainScript.src="script.js?v=15";document.body.appendChild(mainScript);
+  const mainScript=document.createElement("script");mainScript.src="script.js?v=16";document.body.appendChild(mainScript);
 })();

@@ -12,10 +12,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Nunito+Sans:opsz,wght@6..12,700;6..12,800;6..12,900&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23090909'/%3E%3Ctext x='32' y='42' text-anchor='middle' font-family='Arial' font-size='30' font-weight='700' fill='%23c89655'%3EFS%3C/text%3E%3C/svg%3E">
-  <link rel="stylesheet" href="style.css?v=21">
+  <link rel="stylesheet" href="style.css?v=23">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.57.4/dist/umd/supabase.min.js" defer></script>
   <script src="supabase-config.js?v=1" defer></script>
-  <script src="home-media.js?v=2" defer></script>
+  <script src="home-media.js?v=4" defer></script>
 </head>
 <body>
   <svg class="icon-sprite" aria-hidden="true">
@@ -120,9 +120,19 @@
             <span class="kicker" data-i18n="featuredKicker">Collezione speciale</span>
             <h3 data-i18n="featuredTitle">Personaggi in evidenza</h3>
             <p data-i18n="featuredText">Scopri le nostre figure da collezione e scegli il tuo personaggio preferito.</p>
-            <a class="button" href="catalogo.html"><span data-i18n="featuredButton">Scopri i personaggi</span><b aria-hidden="true">→</b></a>
+            <a class="button" href="catalogo.html?colecao=personagens"><span data-i18n="featuredButton">Scopri i personaggi</span><b aria-hidden="true">→</b></a>
           </div>
           <img src="assets/personagens-destaque.jpg" alt="Tre figure da collezione realizzate da FS Studio Maker" loading="lazy">
+        </div>
+        <div class="collection-links reveal">
+          <a class="collection-link" href="catalogo.html?colecao=sensoriais">
+            <img src="assets/sensoriais-destaque.jpg" alt="Brinquedo sensorial articulado" loading="lazy">
+            <span><small data-i18n="collectionSensoryKicker">Esplora la collezione</small><strong data-i18n="collectionSensoryTitle">Giochi sensoriali articolati</strong><b aria-hidden="true">→</b></span>
+          </a>
+          <a class="collection-link collection-link-signs" href="catalogo.html?colecao=letreiros">
+            <span class="collection-lettering" aria-hidden="true">Aa</span>
+            <span><small data-i18n="collectionSignsKicker">Esplora la collezione</small><strong data-i18n="collectionSignsTitle">Scritte per feste</strong><b aria-hidden="true">→</b></span>
+          </a>
         </div>
         <div class="creation-carousel" data-scroll-gallery>
           <article class="category-card category-feature reveal">
