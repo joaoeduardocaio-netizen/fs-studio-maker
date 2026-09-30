@@ -1,0 +1,34 @@
+FS STUDIO MAKER — AVALIAÇÕES (SEM SUBSTITUIR O SUPABASE-CONFIG)
+
+IMPORTANTE:
+- NÃO apague nem substitua o arquivo supabase-config.js que já existe no repositório.
+- Este pacote usa o supabase-config.js atual.
+
+NA RAIZ DO REPOSITÓRIO:
+1. Substitua estes 3 arquivos pelos arquivos deste pacote:
+   - index.html
+   - admin.html
+   - catalogo.html
+
+2. Adicione estes 7 arquivos novos na mesma raiz:
+   - avaliacoes-loader.js
+   - reviews.js
+   - reviews.css
+   - admin-reviews.js
+   - admin-reviews.css
+   - catalog-ratings.js
+   - catalog-ratings.css
+
+3. NÃO mexa em supabase-config.js.
+
+O QUE VAI FUNCIONAR:
+- Página inicial: seção de avaliações e botão “Deixe seu feedback”.
+- Avaliação de Produto, Compra, Atendimento ou Site.
+- 1 a 5 estrelas + comentário.
+- Foto opcional do produto, até 8 MB.
+- Avaliação enviada fica PENDENTE.
+- Painel administrativo: aprovar, ocultar, marcar compra verificada, destacar e excluir.
+- Catálogo: média e quantidade de avaliações por produto.
+- Traduções em IT/PT/EN/ES/DE.
+
+O banco e as regras de segurança das avaliações já foram criados no Supabase.
