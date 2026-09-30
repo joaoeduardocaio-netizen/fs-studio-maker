@@ -1,34 +1,49 @@
-FS STUDIO MAKER — AVALIAÇÕES (SEM SUBSTITUIR O SUPABASE-CONFIG)
+FS STUDIO MAKER ADMIN — VERSÃO INSTALÁVEL (PWA)
 
-IMPORTANTE:
-- NÃO apague nem substitua o arquivo supabase-config.js que já existe no repositório.
-- Este pacote usa o supabase-config.js atual.
+O QUE ESTE PACOTE FAZ
+- Transforma o painel administrativo em um aplicativo instalável.
+- Nome do app: FS Studio Maker Admin.
+- Abre direto em admin.html.
+- Funciona no Android e em computadores com Chrome/Edge.
+- No iPhone/iPad, orienta a usar “Adicionar à Tela de Início”.
+- NÃO substitui e NÃO altera o supabase-config.js.
 
-NA RAIZ DO REPOSITÓRIO:
-1. Substitua estes 3 arquivos pelos arquivos deste pacote:
-   - index.html
-   - admin.html
-   - catalogo.html
+COMO COLOCAR NO GITHUB
+1. Extraia este ZIP.
+2. Entre no repositório fs-studio-maker.
+3. Envie TODOS os arquivos deste pacote para a RAIZ do repositório.
+4. Quando o GitHub avisar que admin.html já existe, SUBSTITUA somente o admin.html.
+5. Os demais arquivos são novos e podem ser adicionados normalmente.
+6. NÃO apague nem substitua supabase-config.js.
+7. Aguarde o GitHub Pages atualizar.
 
-2. Adicione estes 7 arquivos novos na mesma raiz:
-   - avaliacoes-loader.js
-   - reviews.js
-   - reviews.css
-   - admin-reviews.js
-   - admin-reviews.css
-   - catalog-ratings.js
-   - catalog-ratings.css
+ARQUIVOS
+- admin.html                  -> substitui o atual
+- manifest-admin.webmanifest -> novo
+- pwa-admin.js               -> novo
+- pwa-admin.css              -> novo
+- sw-admin.js                -> novo
+- fs-admin-icon-192.png      -> novo
+- fs-admin-icon-512.png      -> novo
 
-3. NÃO mexa em supabase-config.js.
+COMO A FERNANDA INSTALA
+Android / Chrome:
+1. Abra https://fsstudiomaker.com.br/admin.html
+2. Toque em “Instalar aplicativo”.
+3. Confirme a instalação.
+4. O ícone “FS Admin” aparecerá na tela do celular.
 
-O QUE VAI FUNCIONAR:
-- Página inicial: seção de avaliações e botão “Deixe seu feedback”.
-- Avaliação de Produto, Compra, Atendimento ou Site.
-- 1 a 5 estrelas + comentário.
-- Foto opcional do produto, até 8 MB.
-- Avaliação enviada fica PENDENTE.
-- Painel administrativo: aprovar, ocultar, marcar compra verificada, destacar e excluir.
-- Catálogo: média e quantidade de avaliações por produto.
-- Traduções em IT/PT/EN/ES/DE.
+Windows / Chrome ou Edge:
+1. Abra https://fsstudiomaker.com.br/admin.html
+2. Clique em “Instalar aplicativo”.
+3. Confirme.
+4. O FS Studio Maker Admin aparecerá como aplicativo no computador.
 
-O banco e as regras de segurança das avaliações já foram criados no Supabase.
+iPhone / iPad:
+1. Abra admin.html pelo Safari.
+2. Toque em Compartilhar.
+3. “Adicionar à Tela de Início”.
+4. Confirme em “Adicionar”.
+
+IMPORTANTE
+O aplicativo continua usando o site e o Supabase já existentes. Ele não cria um segundo banco nem duplica os dados.
