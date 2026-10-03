@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (path.endsWith("/catalogo.html") || path.endsWith("/catalogo")) {
     addCss("catalog-ratings.css?v=2");
-    addScript("catalog-ratings.js?v=2");
+    addScript("catalog-ratings.js?v=3");
     return;
   }
 

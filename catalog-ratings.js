@@ -8,7 +8,13 @@
   let byTitle={};
   const norm=v=>(v||'').trim().toLocaleLowerCase();
 
+  const observer=new MutationObserver(decorate);
+  const observerOptions={childList:true,subtree:true};
+
   function decorate(){
+    // Ignore mutations caused by our own rating updates.
+    observer.disconnect();
+    try {
     grid.querySelectorAll('.creation-card').forEach(card=>{
       const h=card.querySelector('.card-content h2');
       if(!h)return;
@@ -16,9 +22,13 @@
       if(!s){old?.remove();return;}
       const el=old||document.createElement('div');
       el.className='product-rating';
-      el.innerHTML='<span>★ '+s.avg.toFixed(1)+'</span><small>('+s.count+' '+(label[lang()]||label.it)+')</small>';
+      const html='<span>★ '+s.avg.toFixed(1)+'</span><small>('+s.count+' '+(label[lang()]||label.it)+')</small>';
+      if(el.innerHTML!==html)el.innerHTML=html;
       if(!old)h.before(el);
     });
+    } finally {
+      observer.observe(grid,observerOptions);
+    }
   }
 
   async function load(){
@@ -39,7 +49,7 @@
     decorate();
   }
 
-  new MutationObserver(decorate).observe(grid,{childList:true,subtree:true});
+  observer.observe(grid,observerOptions);
   document.querySelector('#language-select')?.addEventListener('change',()=>setTimeout(decorate,0));
-  load();
+  load().catch(error=>console.warn('Avaliações indisponíveis:',error));
 })();
