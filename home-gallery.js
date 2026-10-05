@@ -64,11 +64,8 @@
     updateLanguage();
     section.hidden = false;
     new IntersectionObserver(entries => { visible = entries[0].isIntersecting; }, { threshold: 0.15 }).observe(section);
-    if (items.length > 1) window.setInterval(() => {
-      if (!visible || interacting || document.hidden || reducedMotion.matches) return;
-      index = (activeIndex() + 1) % items.length;
-      track.scrollTo({ left: track.children[index].offsetLeft, behavior: 'smooth' });
-    }, 4200);
+    // Navegação manual evita baixar toda a galeria automaticamente.
+
   }
 
   track.addEventListener('pointerenter', () => { interacting = true; });

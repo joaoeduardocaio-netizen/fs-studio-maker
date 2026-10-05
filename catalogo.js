@@ -56,7 +56,7 @@ function render(){
     const media=(item.creation_images||[]).sort((a,b)=>Number(isVideo(a.storage_path))-Number(isVideo(b.storage_path))||a.sort_order-b.sort_order);
     const slides=media.length?media.map(entry=>{
       const url=attr(db.storage.from("creations").getPublicUrl(entry.storage_path).data.publicUrl);
-      return `<div class="media-slide">${isVideo(entry.storage_path)?`<video src="${url}" controls playsinline preload="metadata" aria-label="${attr(title)}"></video>`:`<img src="${url}" alt="${attr(title)}" loading="lazy">`}</div>`;
+      return `<div class="media-slide">${isVideo(entry.storage_path)?`<video src="${url}" controls playsinline preload="none" aria-label="${attr(title)}"></video>`:`<img src="${url}" alt="${attr(title)}" loading="lazy">`}</div>`;
     }).join(""):`<div class="media-slide"><img src="assets/colecionaveis.jpg" alt="${attr(title)}" loading="lazy"></div>`;
     const price=item.show_price&&item.price!=null?new Intl.NumberFormat(lang,{style:"currency",currency:"EUR"}).format(item.price):t.quote;
     const wa=`https://wa.me/${cfg.whatsapp}?text=${encodeURIComponent(t.wa+title)}`;

@@ -61,7 +61,7 @@ document.querySelectorAll('[data-carousel]').forEach(carousel=>{
   let current=0;
   slides.forEach((_,index)=>{const dot=document.createElement('button');dot.type='button';dot.setAttribute('aria-label',`Vai al contenuto ${index+1}`);dot.addEventListener('click',()=>goTo(index));dotsBox.appendChild(dot)});
   const dots=[...dotsBox.children];
-  function update(){slides.forEach((slide,index)=>slide.classList.toggle('is-active',index===current));dots.forEach((dot,index)=>dot.classList.toggle('is-active',index===current))}
+  function update(){slides.forEach((slide,index)=>{slide.classList.toggle('is-active',index===current);if(index!==current){const video=slide.querySelector('video');if(video){video.pause();const button=slide.querySelector('.video-control');if(button)button.textContent='▶'}}});dots.forEach((dot,index)=>dot.classList.toggle('is-active',index===current))}
   function goTo(index){current=(index+slides.length)%slides.length;viewport.scrollTo({left:slides[current].offsetLeft,behavior:'smooth'});update()}
   carousel.querySelector('.carousel-prev').addEventListener('click',()=>goTo(current-1));
   carousel.querySelector('.carousel-next').addEventListener('click',()=>goTo(current+1));
@@ -82,3 +82,6 @@ document.querySelectorAll('[data-scroll-gallery]').forEach(gallery=>{
   gallery.addEventListener('scroll',update,{passive:true});update();
 });
 const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));document.querySelector('#year').textContent=new Date().getFullYear();
+
+// Pausa os vídeos quando a página deixa de estar visível.
+document.addEventListener('visibilitychange',()=>{if(document.hidden){document.querySelectorAll('video').forEach(video=>video.pause());document.querySelectorAll('.video-control').forEach(button=>button.textContent='▶')}});

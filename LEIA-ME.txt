@@ -1,29 +1,24 @@
-FS Studio Maker — contador de visitas
+ATUALIZAÇÃO PARA REDUZIR TRÁFEGO — FS STUDIO MAKER
 
-A parte do Supabase já foi configurada.
+Instalação:
+1. Extraia este ZIP.
+2. No repositório joaoeduardocaio-netizen/fs-studio-maker, envie os seis arquivos para a raiz e substitua as versões existentes.
+3. Confirme o commit e aguarde a publicação do GitHub Pages.
+4. Confira a home, o catálogo, a troca de idiomas, o carrinho e a reprodução dos vídeos após tocar em Play.
 
-Para ativar no site, envie os 4 arquivos deste ZIP para a RAIZ do repositório GitHub:
+Mudanças:
+- Vídeos sem reprodução automática na home.
+- Vídeos da home e do catálogo configurados com preload=none.
+- Botão Play também no primeiro vídeo da home.
+- Vídeos pausados ao sair do slide principal ou ocultar a página.
+- Galeria de fotos da home passa a ter navegação manual por arraste, sem avanço automático.
 
-1. supabase-config.js  -> SUBSTITUIR o arquivo atual
-2. site-analytics.js   -> arquivo novo
-3. admin-analytics.js  -> arquivo novo
-4. admin-analytics.css -> arquivo novo
+Verificação realizada: sintaxe dos quatro arquivos JavaScript e git diff --check.
+Não publicado pelo assistente. Não foram modificados plano, dados, login, produtos ou mídias no Supabase.
 
-Não precisa alterar index.html, catalogo.html ou admin.html.
-
-Depois que o GitHub Pages publicar a atualização:
-- abra a página inicial do site uma vez;
-- abra o catálogo uma vez;
-- entre na área administrativa;
-- aparecerá a seção "Visitas do site" logo abaixo do cabeçalho do painel.
-
-O painel mostra:
-- visitantes únicos hoje;
-- visitantes únicos no mês;
-- visualizações de páginas no mês;
-- total acumulado de visitantes únicos;
-- gráfico dos últimos 14 dias;
-- páginas mais acessadas do mês.
-
-Observação: o contador começa a registrar somente após estes arquivos serem publicados.
-Visitantes únicos são estimados por navegador/dispositivo. Não são gravados nome, e-mail, IP ou localização do visitante pela tabela de analytics.
+Limitações:
+- Reduz carregamentos futuros; não reduz os 7,434 GB já registrados para FS Studio Maker.
+- preload=none é uma indicação ao navegador, não uma garantia absoluta de zero requisições.
+- Não garante ficar abaixo de 5 GB: visitas e reproduções reais continuam consumindo tráfego.
+- A conta foi confirmada como Free. Nesse plano, excesso pode causar restrições, não cobrança automática.
+- Após publicar, acompanhe o consumo diário no painel. Se ainda superar a cota, será necessário otimizar as mídias ou avaliar outra hospedagem gratuita para elas, antes de contratar um plano.
