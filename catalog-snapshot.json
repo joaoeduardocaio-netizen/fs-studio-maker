@@ -1,0 +1,2761 @@
+{
+  "exported_at": "2026-10-21",
+  "products": [
+    {
+      "id": "cd55e721-a800-476c-bf6b-939264e1f244",
+      "title": "Super Buu — Dragon Ball",
+      "description": "Figura do Super Buu com sua expressão ameaçadora, corpo rosa e traje característico. Uma peça de destaque para fãs e colecionadores de Dragon Ball.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Super Buu — Dragon Ball",
+          "category": "Personenverzeichnis",
+          "description": "Figur des Super Buu mit bedrohlichem Ausdruck, rosa Körper und charakteristischem Kostüm. Ein herausragendes Stück für Dragon Ball-Fans und Sammler."
+        },
+        "en": {
+          "title": "Super Buu — Dragon Ball",
+          "category": "Characters",
+          "description": "Figure of the Super Buu with its threatening expression, pink body and characteristic costume. A standout piece for Dragon Ball fans and collectors."
+        },
+        "es": {
+          "title": "Super Buu — Dragon Ball",
+          "category": "Personajes",
+          "description": "Figura del Super Buu con su expresión amenazante, cuerpo rosado y traje característico. Una pieza destacada para los fans y coleccionistas de Dragon Ball."
+        },
+        "it": {
+          "title": "Super Buu — Dragon Ball",
+          "category": "Caratteri",
+          "description": "Figura del Super Buu con la sua espressione minacciosa, il corpo rosa e il costume caratteristico. Un pezzo eccezionale per fan e collezionisti di Dragon Ball."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": true,
+      "sort_order": 0,
+      "created_at": "2026-09-29 02:44:14.968457+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/cd55e721-a800-476c-bf6b-939264e1f244/978ab23c-70c4-4a8a-8854-9c2deadaaa40.png",
+          "sort_order": 0,
+          "alt_text": "Super Buu — Dragon Ball"
+        },
+        {
+          "storage_path": "assets/catalog/cd55e721-a800-476c-bf6b-939264e1f244/267a537e-01aa-4256-8315-24dae370c9d4.png",
+          "sort_order": 1,
+          "alt_text": "Super Buu — Dragon Ball"
+        }
+      ]
+    },
+    {
+      "id": "2884f083-07d2-43a8-8160-02defc6c82b1",
+      "title": "Arraia Articulada",
+      "description": "Uma arraia de corpo flexível, formado por pequenas partes que se movimentam nas mãos. As asas largas e a cauda articulada dão vida à peça.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Gelenkiger Stachelrochen",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Ein flexibler Rochen, der aus kleinen Teilen besteht, die sich in den Händen bewegen. Die breiten Flügel und der klappbare Schwanz erwecken das Stück zum Leben."
+        },
+        "en": {
+          "title": "Articulated Stingray",
+          "category": "Articulated sensory toys",
+          "description": "A flexible body stingray, formed by small parts that move in the hands. The wide wings and hinged tail bring the piece to life."
+        },
+        "es": {
+          "title": "Rayas articuladas",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Una raya de cuerpo flexible, formada por pequeñas partes que se mueven en las manos. Las alas anchas y la cola con bisagras dan vida a la pieza."
+        },
+        "it": {
+          "title": "Pastinaca articolata",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Una pastinaca flessibile per il corpo, formata da piccole parti che si muovono nelle mani. Le ampie ali e la coda incernierata danno vita al pezzo."
+        }
+      },
+      "price": "5.00",
+      "show_price": true,
+      "featured": true,
+      "sort_order": 0,
+      "created_at": "2026-09-28 23:02:39.83701+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/2884f083-07d2-43a8-8160-02defc6c82b1/e628b31d-9c56-441a-8437-5e8dddff5b51.jpg",
+          "sort_order": 0,
+          "alt_text": "Arraia Articulada"
+        }
+      ]
+    },
+    {
+      "id": "3efaf822-4b80-406a-950a-2a412323250f",
+      "title": "Dinossauro articulados",
+      "description": "Dinossauro Articulado\nCom visual inspirado em um esqueleto de dinossauro, corpo segmentado e cauda flexível, essa peça pode ser posicionada de diferentes formas. Disponível em várias cores.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Bewegliche Dinosaurier",
+          "category": "Bewegliches Sensorikspielzeug",
+          "description": "Vom Dinosaurierskelett inspiriert, mit gegliedertem Körper und flexiblem Schwanz. Sie lassen sich in verschiedene Positionen bringen und sind in mehreren Farben erhältlich."
+        },
+        "en": {
+          "title": "Articulated Dinosaurs",
+          "category": "Articulated sensory toy",
+          "description": "Inspired by a dinosaur skeleton, these pieces have segmented bodies and flexible tails that can be posed in different ways. Available in various colors."
+        },
+        "es": {
+          "title": "Dinosaurios articulados",
+          "category": "Juguete sensorial articulado",
+          "description": "Inspirados en el esqueleto de un dinosaurio, tienen el cuerpo segmentado y la cola flexible para colocarlos en distintas posiciones. Disponibles en varios colores."
+        },
+        "it": {
+          "title": "Dinosauri articolati",
+          "category": "Giocattolo sensoriale articolato",
+          "description": "Ispirati allo scheletro di un dinosauro, con corpo segmentato e coda flessibile, possono essere sistemati in diverse posizioni. Disponibili in vari colori."
+        }
+      },
+      "price": "8.00",
+      "show_price": true,
+      "featured": true,
+      "sort_order": 3,
+      "created_at": "2026-09-28 19:53:33.586973+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/3efaf822-4b80-406a-950a-2a412323250f/77aeee68-bd07-47e2-a8a4-9b99b26f3912.jpg",
+          "sort_order": 0,
+          "alt_text": "Dinossauro articulados"
+        },
+        {
+          "storage_path": "assets/catalog/3efaf822-4b80-406a-950a-2a412323250f/d8e92970-e98d-4c69-8a8d-c95f4e8b09e6.png",
+          "sort_order": 1,
+          "alt_text": "Dinossauro articulados"
+        }
+      ]
+    },
+    {
+      "id": "2a536f2e-88d4-48b2-b52f-ff934f900b50",
+      "title": "Bola de Natal Decorativa 3D – Vermelho, Rosa e Verde",
+      "description": "Bola de Natal decorativa produzida em impressão 3D, com um cenário natalino cheio de detalhes em seu interior. Uma peça diferenciada para decorar árvores de Natal, prateleiras e outros ambientes, trazendo um toque especial à decoração natalina.\n\nCores disponíveis: vermelho, rosa e verde.",
+      "category": "Decoração de Natal",
+      "translations": {
+        "de": {
+          "title": "3D Deko-Weihnachtsball - Rot, Pink und Grün",
+          "category": "Weihnachtsdekoration",
+          "description": "Dekorative Weihnachtskugel im 3D-Druck hergestellt, mit einer weihnachtlichen Kulisse voller Details im Inneren. Ein differenziertes Stück zur Dekoration von Weihnachtsbäumen, Regalen und anderen Umgebungen, das der Weihnachtsdekoration eine besondere Note verleiht.\n\nVerfügbare Farben: rot, rosa und grün."
+        },
+        "en": {
+          "title": "3D Decorative Christmas Ball – Red, Pink and Green",
+          "category": " underpants and this year’s range of Christmas",
+          "description": "Decorative Christmas ball produced in 3D printing, with a Christmas setting full of details inside. A differentiated piece to decorate Christmas trees, shelves and other environments, bringing a special touch to the Christmas decoration.\n\nAvailable colors: red, pink and green."
+        },
+        "es": {
+          "title": "Bola de Navidad decorativa en 3D – Rojo, rosa y verde",
+          "category": "Decoración navideña",
+          "description": "Bola de Navidad decorativa producida en impresión 3D, con un escenario navideño lleno de detalles en su interior. Una pieza diferenciada para decorar árboles de Navidad, estanterías y otros ambientes, aportando un toque especial a la decoración navideña.\n\nColores disponibles: rojo, rosa y verde."
+        },
+        "it": {
+          "title": "Palla di Natale Decorativa 3D – Rosso, Rosa e Verde",
+          "category": "Decorazione natalizia",
+          "description": "Palla natalizia decorativa prodotta in stampa 3D, con all'interno un'ambientazione natalizia ricca di dettagli. Un pezzo differenziato per decorare alberi di Natale, mensole e altri ambienti, dando un tocco speciale alla decorazione natalizia.\n\nColori disponibili: rosso, rosa e verde."
+        }
+      },
+      "price": "28.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 17:32:35.648262+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/2a536f2e-88d4-48b2-b52f-ff934f900b50/d4b2ba6e-4d6d-4b14-863b-9b9124d88f43.png",
+          "sort_order": 0,
+          "alt_text": "Bola de Natal Decorativa 3D – Vermelho, Rosa e Verde"
+        },
+        {
+          "storage_path": "assets/catalog/2a536f2e-88d4-48b2-b52f-ff934f900b50/2f17a34b-b8c6-436b-92d2-e05760bda04a.png",
+          "sort_order": 1,
+          "alt_text": "Bola de Natal Decorativa 3D – Vermelho, Rosa e Verde"
+        },
+        {
+          "storage_path": "assets/catalog/2a536f2e-88d4-48b2-b52f-ff934f900b50/2fb9faf1-22c5-4de9-a696-4c2dfc9d26a2.png",
+          "sort_order": 2,
+          "alt_text": "Bola de Natal Decorativa 3D – Vermelho, Rosa e Verde"
+        }
+      ]
+    },
+    {
+      "id": "fd771cf7-2737-4f31-81ff-d977cbea36be",
+      "title": "Caixa Organizadora Ondulada Preto e Branco",
+      "description": "Caixa organizadora produzida em impressão 3D nas cores preto e branco, com design moderno e acabamento ondulado. Possui tampa com puxador e amplo espaço interno, ideal para guardar acessórios, maquiagens, itens de higiene e pequenos objetos.",
+      "category": "Organização & Decoração",
+      "translations": {
+        "de": {
+          "title": "Schwarz-weiße, gewellte Organizer-Box",
+          "category": "Organisation & Dekoration",
+          "description": "Organizer-Box im 3D-Druck in Schwarz-Weiß-Farben, mit modernem Design und gewellter Oberfläche. Es hat einen Deckel mit Griff und viel Innenraum, ideal zur Aufbewahrung von Accessoires, Make-up, Hygieneartikeln und kleinen Gegenständen."
+        },
+        "en": {
+          "title": "Black and White Corrugated Organizer Box",
+          "category": "Organization & Decoration",
+          "description": "Organizer box produced in 3D printing in black and white colors, with modern design and corrugated finish. It has a lid with a handle and ample internal space, ideal for storing accessories, makeup, hygiene items and small objects."
+        },
+        "es": {
+          "title": "Caja organizadora corrugada en blanco y negro",
+          "category": "Organización y decoración",
+          "description": "Caja organizadora producida en impresión 3D en colores blanco y negro, con diseño moderno y acabado corrugado. Cuenta con tapa con asa y amplio espacio interior, ideal para guardar accesorios, maquillaje, artículos de higiene y objetos pequeños."
+        },
+        "it": {
+          "title": "Scatola organizer ondulata bianca e nera",
+          "category": "Organizzazione e decorazione",
+          "description": "Scatola organizer prodotta in stampa 3D in bianco e nero, con design moderno e finitura ondulata. Ha un coperchio con maniglia e ampio spazio interno, ideale per riporre accessori, trucco, articoli per l'igiene e piccoli oggetti."
+        }
+      },
+      "price": "10.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 17:27:20.805552+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/fd771cf7-2737-4f31-81ff-d977cbea36be/7512e6d0-7df2-476e-b75d-599a3e444d86.png",
+          "sort_order": 0,
+          "alt_text": "Caixa Organizadora Ondulada Preto e Branco"
+        }
+      ]
+    },
+    {
+      "id": "4e57c7c0-8c2c-4f49-9adb-6a47209695ed",
+      "title": "Porta-Objetos Multifuncional com Tampa",
+      "description": "Organizador produzido em impressão 3D, com dois compartimentos para guardar maquiagens, cotonetes, acessórios e diversos pequenos objetos. Possui um espaço aberto para acesso rápido e outro com tampa, mantendo os itens protegidos e organizados.",
+      "category": "Organização & Decoração",
+      "translations": {
+        "de": {
+          "title": "Multifunktions-Objekthalter mit Abdeckung",
+          "category": "Organisation & Dekoration",
+          "description": "Organizer im 3D-Druck hergestellt, mit zwei Fächern zur Aufbewahrung von Make-up, Wattestäbchen, Accessoires und verschiedenen kleinen Objekten. Es verfügt über einen offenen Raum für den schnellen Zugang und einen weiteren mit einem Deckel, der die Gegenstände geschützt und organisiert hält."
+        },
+        "en": {
+          "title": "Multifunction Object Holder with Cover",
+          "category": "Organization & Decoration",
+          "description": "Organizer produced in 3D printing, with two compartments to store makeup, cotton swabs, accessories and various small objects. It has an open space for quick access and another with a lid, keeping the items protected and organized."
+        },
+        "es": {
+          "title": "Portaobjetos multifunción con cubierta",
+          "category": "Organización y decoración",
+          "description": "Organizador producido en impresión 3D, con dos compartimentos para guardar maquillaje, bastoncillos de algodón, accesorios y varios objetos pequeños. Cuenta con un espacio abierto de acceso rápido y otro con tapa, manteniendo los elementos protegidos y organizados."
+        },
+        "it": {
+          "title": "Porta Oggetti Multifunzione con Cover",
+          "category": "Organizzazione e decorazione",
+          "description": "Organizer prodotto in stampa 3D, con due scomparti per riporre trucco, batuffoli di cotone, accessori e piccoli oggetti vari. Ha uno spazio aperto per un rapido accesso e un altro con un coperchio, mantenendo gli oggetti protetti e organizzati."
+        }
+      },
+      "price": "6.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 17:23:58.76682+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/4e57c7c0-8c2c-4f49-9adb-6a47209695ed/f6e59b10-c78f-491e-ad6c-f53cd466530e.png",
+          "sort_order": 0,
+          "alt_text": "Porta-Objetos Multifuncional com Tampa"
+        }
+      ]
+    },
+    {
+      "id": "64f56835-1b54-4ecc-8555-d7ff3f2d8198",
+      "title": "Organizador de Maquiagem com Laço",
+      "description": "Organizador produzido em impressão 3D, com divisórias para pincéis, maquiagens e pequenos acessórios. Possui um lindo laço em destaque, trazendo um toque delicado e elegante para penteadeiras, bancadas e espaços de beleza.",
+      "category": "Organização & Decoração",
+      "translations": {
+        "de": {
+          "title": "Make-up-Organizer mit Spitze",
+          "category": "Organisation & Dekoration",
+          "description": "Organizer im 3D-Druck hergestellt, mit Trennwänden für Pinsel, Make-up und kleine Accessoires. Es hat eine schöne hervorgehobene Schleife, die Schminktischen, Arbeitsplatten und Schönheitsräumen eine zarte und elegante Note verleiht."
+        },
+        "en": {
+          "title": "Lace Makeup Organizer",
+          "category": "Organization & Decoration",
+          "description": "Organizer produced in 3D printing, with dividers for brushes, makeup and small accessories. It has a beautiful highlighted bow, bringing a delicate and elegant touch to dressing tables, countertops and beauty spaces."
+        },
+        "es": {
+          "title": "Organizador de maquillaje de encaje",
+          "category": "Organización y decoración",
+          "description": "Organizador producido en impresión 3D, con separadores para pinceles, maquillaje y pequeños accesorios. Cuenta con un precioso lazo resaltado, aportando un toque delicado y elegante a los tocadores, encimeras y espacios de belleza."
+        },
+        "it": {
+          "title": "Organizer per trucco in pizzo",
+          "category": "Organizzazione e decorazione",
+          "description": "Organizer prodotto in stampa 3D, con divisori per pennelli, trucco e piccoli accessori. Ha un bellissimo fiocco evidenziato, che dona un tocco delicato ed elegante a toelette, ripiani e spazi beauty."
+        }
+      },
+      "price": "10.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 17:19:41.148673+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/64f56835-1b54-4ecc-8555-d7ff3f2d8198/81b1aa2a-213a-4e5d-825d-62a3a9f392e0.png",
+          "sort_order": 0,
+          "alt_text": "Organizador de Maquiagem com Laço"
+        }
+      ]
+    },
+    {
+      "id": "ad2d09d1-dc75-405d-b917-8cad0e171f0a",
+      "title": "Organizador Multifuncional Floral",
+      "description": "Organizador prático e delicado, produzido em impressão 3D com detalhes florais em relevo. Possui diferentes compartimentos para guardar cotonetes, lenços de maquiagem, algodão e outros acessórios de higiene e beleza. Ideal para deixar a penteadeira ou o banheiro mais bonito, organizado e funcional.",
+      "category": "Organização & Decoração",
+      "translations": {
+        "de": {
+          "title": "Multifunktionaler Blumen-Organizer",
+          "category": "Organisation & Dekoration",
+          "description": "Praktischer und filigraner Organizer, hergestellt im 3D-Druck mit geprägten floralen Details. Es verfügt über verschiedene Fächer zur Aufbewahrung von Wattestäbchen, Make-up-Tüchern, Baumwolle und anderen Hygiene- und Schönheitsaccessoires. Ideal, um den Schminktisch oder das Badezimmer schöner, organisierter und funktionaler zu gestalten."
+        },
+        "en": {
+          "title": "Floral Multifunctional Organizer",
+          "category": "Organization & Decoration",
+          "description": "Practical and delicate organizer, produced in 3D printing with embossed floral details. It has different compartments for storing cotton swabs, makeup wipes, cotton and other hygiene and beauty accessories. Ideal to make the dressing table or bathroom more beautiful, organized and functional."
+        },
+        "es": {
+          "title": "Organizador multifuncional floral",
+          "category": "Organización y decoración",
+          "description": "Práctico y delicado organizador, producido en impresión 3D con detalles florales en relieve. Cuenta con diferentes compartimentos para guardar bastoncillos de algodón, toallitas de maquillaje, algodón y otros accesorios de higiene y belleza. Ideal para hacer el tocador o baño más bonito, organizado y funcional."
+        },
+        "it": {
+          "title": "Organizer multifunzione floreale",
+          "category": "Organizzazione e decorazione",
+          "description": "Pratico e delicato organizer, realizzato in stampa 3D con dettagli floreali in rilievo. Dispone di diversi scomparti per riporre batuffoli di cotone, salviette per il trucco, cotone e altri accessori per l'igiene e la bellezza. Ideale per rendere la toeletta o il bagno più bello, organizzato e funzionale."
+        }
+      },
+      "price": "20.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 17:05:42.79366+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/ad2d09d1-dc75-405d-b917-8cad0e171f0a/33b3f30e-5a4c-4b61-949d-d1363e02f3e4.png",
+          "sort_order": 0,
+          "alt_text": "Organizador Multifuncional Floral"
+        },
+        {
+          "storage_path": "assets/catalog/ad2d09d1-dc75-405d-b917-8cad0e171f0a/3bae2d29-00e3-4016-b1c0-112c02c84d32.png",
+          "sort_order": 1,
+          "alt_text": "Organizador Multifuncional Floral"
+        }
+      ]
+    },
+    {
+      "id": "1f2df75d-7b33-4b40-ab48-22eed39ff5c6",
+      "title": "Kit Organizador Decorativo",
+      "description": "Um kit completo para deixar seus espaços mais bonitos e organizados! Produzido em impressão 3D, reúne potes e organizadores com diferentes formatos e detalhes delicados, ideais para guardar acessórios, itens pessoais e pequenos objetos. Perfeito para prateleiras, penteadeiras, banheiros, quartos ou onde sua criatividade mandar",
+      "category": "Organização & Decoração",
+      "translations": {
+        "de": {
+          "title": "Dekoratives Organizer-Set",
+          "category": "Organisation & Dekoration",
+          "description": "Ein komplettes Set, um deine Räume schöner und organisierter zu gestalten! Im 3D-Druck hergestellt, vereint es Töpfe und Organizer mit verschiedenen Formaten und filigranen Details, ideal für die Aufbewahrung von Accessoires, persönlichen Gegenständen und kleinen Gegenständen. Perfekt für Regale, Kommoden, Badezimmer, Schlafzimmer oder wo immer Ihre Kreativität es vorschreibt"
+        },
+        "en": {
+          "title": "Decorative Organizer Kit",
+          "category": "Organization & Decoration",
+          "description": "A complete kit to make your spaces more beautiful and organized! Produced in 3D printing, it brings together pots and organizers with different formats and delicate details, ideal for storing accessories, personal items and small objects. Perfect for shelves, dressers, bathrooms, bedrooms or wherever your creativity dictates"
+        },
+        "es": {
+          "title": "Kit organizador decorativo",
+          "category": "Organización y decoración",
+          "description": "¡Un kit completo para que tus espacios sean más bonitos y organizados! Producido en impresión 3D, reúne ollas y organizadores con diferentes formatos y detalles delicados, ideales para guardar accesorios, objetos personales y objetos pequeños. Perfecto para estantes, tocadores, baños, dormitorios o donde tu creatividad te dicte"
+        },
+        "it": {
+          "title": "Kit organizer decorativo",
+          "category": "Organizzazione e decorazione",
+          "description": "Un kit completo per rendere i tuoi spazi più belli e organizzati! Prodotta in stampa 3D, riunisce vasi e organizer con formati diversi e dettagli delicati, ideali per riporre accessori, oggetti personali e piccoli oggetti. Perfetto per ripiani, cassettiere, bagni, camere da letto o ovunque la tua creatività lo richieda"
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 17:03:04.785821+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/1f2df75d-7b33-4b40-ab48-22eed39ff5c6/690d76d3-b482-4ff7-8ed9-9c706c3d4b3c.png",
+          "sort_order": 0,
+          "alt_text": "Kit Organizador Decorativo"
+        }
+      ]
+    },
+    {
+      "id": "89df04af-b7f1-4f6e-8253-85cc08365874",
+      "title": "Caixa Organizadora com Laços",
+      "description": "Uma caixa decorativa com tampa, produzida em impressão 3D e revestida por delicados laços em relevo. Ideal para guardar acessórios, maquiagens, bijuterias ou pequenos objetos, além de decorar o ambiente.",
+      "category": "Organização & Decoração",
+      "translations": {
+        "de": {
+          "title": "Organizer-Box mit Krawatten",
+          "category": "Organisation & Dekoration",
+          "description": "Eine dekorative Schachtel mit Deckel, die im 3D-Druck hergestellt und mit zarten geprägten Schlaufen beschichtet wurde. Ideal zur Aufbewahrung von Accessoires, Make-up, Schmuck oder kleinen Gegenständen sowie zur Dekoration der Umgebung."
+        },
+        "en": {
+          "title": "Organizer Box with Ties",
+          "category": "Organization & Decoration",
+          "description": "A decorative box with a lid, produced in 3D printing and coated with delicate embossed loops. Ideal for storing accessories, makeup, jewelry or small objects, as well as decorating the environment."
+        },
+        "es": {
+          "title": "Caja organizadora con corbatas",
+          "category": "Organización y decoración",
+          "description": "Una caja decorativa con tapa, producida en impresión 3D y recubierta con delicados bucles en relieve. Ideal para guardar accesorios, maquillaje, joyas u objetos pequeños, así como para decorar el ambiente."
+        },
+        "it": {
+          "title": "Scatola organizer con cravatte",
+          "category": "Organizzazione e decorazione",
+          "description": "Una scatola decorativa con coperchio, realizzata in stampa 3D e rivestita con delicati passanti in rilievo. Ideale per riporre accessori, trucchi, gioielli o piccoli oggetti, oltre che per decorare l'ambiente."
+        }
+      },
+      "price": "12.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 16:57:33.60126+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/89df04af-b7f1-4f6e-8253-85cc08365874/68baa998-8697-4c22-a6b2-3ad4ddefe4ce.png",
+          "sort_order": 0,
+          "alt_text": "Caixa Organizadora com Laços"
+        },
+        {
+          "storage_path": "assets/catalog/89df04af-b7f1-4f6e-8253-85cc08365874/a17f351a-fd03-44f0-9713-8ee82451abbd.png",
+          "sort_order": 1,
+          "alt_text": "Caixa Organizadora com Laços"
+        }
+      ]
+    },
+    {
+      "id": "2bdec0de-1a32-4a46-b110-db12c10a1e6d",
+      "title": "Organizador de Cabo Retrátil",
+      "description": "Uma solução prática para guardar e organizar cabos sem deixar fios espalhados. O formato compacto permite enrolar o cabo dentro do organizador, facilitando o transporte e ajudando a manter bolsas, gavetas e mesas organizadas.",
+      "category": "Acessórios e utilidades",
+      "translations": {
+        "de": {
+          "title": "Einziehbarer Kabel-Organizer",
+          "category": "Zubehör und Nebenkosten",
+          "description": "Eine praktische Lösung, um Kabel zu lagern und zu organisieren, ohne dass Drähte verstreut bleiben. Die kompakte Form ermöglicht es Ihnen, das Kabel in den Organizer zu wickeln, so dass es leicht zu tragen ist und hilft, Taschen, Schubladen und Tische zu organisieren."
+        },
+        "en": {
+          "title": "Retractable Cable Organizer",
+          "category": "Accessories and utilities",
+          "description": "A practical solution to store and organize cables without leaving wires scattered. The compact shape allows you to wrap the cable inside the organizer, making it easy to carry and helping to keep bags, drawers and tables organized."
+        },
+        "es": {
+          "title": "Organizador de cable retráctil",
+          "category": "Accesorios y utilidades",
+          "description": "Una solución práctica para almacenar y organizar cables sin dejar cables dispersos. La forma compacta le permite envolver el cable dentro del organizador, lo que facilita su transporte y ayuda a mantener organizados los bolsos, cajones y mesas."
+        },
+        "it": {
+          "title": "Organizer per cavi retrattile",
+          "category": "Accessori e utenze",
+          "description": "Una soluzione pratica per riporre e organizzare i cavi senza lasciare fili sparsi. La forma compatta permette di avvolgere il cavo all'interno dell'organizer, facilitandone il trasporto e aiutando a tenere in ordine borse, cassetti e tavoli."
+        }
+      },
+      "price": "5.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 16:54:28.102654+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/2bdec0de-1a32-4a46-b110-db12c10a1e6d/7ddbebd3-3d03-4fea-b1da-fff9a37872d3.png",
+          "sort_order": 0,
+          "alt_text": "Organizador de Cabo Retrátil"
+        },
+        {
+          "storage_path": "assets/catalog/2bdec0de-1a32-4a46-b110-db12c10a1e6d/10a5c148-06b0-4d22-a8b6-b854d32118e4.png",
+          "sort_order": 1,
+          "alt_text": "Organizador de Cabo Retrátil"
+        }
+      ]
+    },
+    {
+      "id": "25680193-0f56-412f-baf8-50476fdfcc6f",
+      "title": "Caixa Organizadora Ondulada",
+      "description": "Caixa decorativa produzida em impressão 3D, com acabamento ondulado moderno e tampa. Ideal para organizar pequenos objetos, acessórios e itens do dia a dia, deixando o ambiente organizado e elegante.",
+      "category": "Organização & Decoração",
+      "translations": {
+        "de": {
+          "title": "Organizerbox aus Wellpappe",
+          "category": "Organisation & Dekoration",
+          "description": "Dekorative Schachtel im 3D-Druck hergestellt, mit modernem Wellpappe-Finish und Deckel. Ideal zum Organisieren von kleinen Gegenständen, Accessoires und Alltagsgegenständen, so dass die Umgebung organisiert und elegant ist."
+        },
+        "en": {
+          "title": "Corrugated Organizer Box",
+          "category": "Organization & Decoration",
+          "description": "Decorative box produced in 3D printing, with modern corrugated finish and lid. Ideal for organizing small objects, accessories and everyday items, leaving the environment organized and elegant."
+        },
+        "es": {
+          "title": "Caja organizadora corrugada",
+          "category": "Organización y decoración",
+          "description": "Caja decorativa producida en impresión 3D, con moderno acabado ondulado y tapa. Ideal para organizar objetos pequeños, accesorios y artículos de uso diario, dejando el ambiente organizado y elegante."
+        },
+        "it": {
+          "title": "Scatola organizer ondulata",
+          "category": "Organizzazione e decorazione",
+          "description": "Scatola decorativa prodotta in stampa 3D, con moderna finitura ondulata e coperchio. Ideale per organizzare piccoli oggetti, accessori e oggetti di uso quotidiano, lasciando l'ambiente organizzato ed elegante."
+        }
+      },
+      "price": "30.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 16:52:55.725648+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/25680193-0f56-412f-baf8-50476fdfcc6f/f947ae46-7264-4511-98db-524683ec3538.png",
+          "sort_order": 0,
+          "alt_text": "Caixa Organizadora Ondulada"
+        },
+        {
+          "storage_path": "assets/catalog/25680193-0f56-412f-baf8-50476fdfcc6f/351c4d43-5e5a-419a-a75b-5d9a58a7687a.png",
+          "sort_order": 1,
+          "alt_text": "Caixa Organizadora Ondulada"
+        },
+        {
+          "storage_path": "assets/catalog/25680193-0f56-412f-baf8-50476fdfcc6f/8816bc70-313e-4b0c-a580-53efc0e61354.png",
+          "sort_order": 2,
+          "alt_text": "Caixa Organizadora Ondulada"
+        }
+      ]
+    },
+    {
+      "id": "90f39538-358f-43fe-8552-8a0d67f915bd",
+      "title": "Suporte para Celular - Banguela",
+      "description": "Direto do universo de Como Treinar o Seu Dragão, o Banguela virou um suporte para celular cheio de personalidade! 🐉📱 Produzido em impressão 3D, combina decoração e funcionalidade, mantendo o celular apoiado enquanto o dragão completa o visual. Uma peça incrível para fãs do personagem e para quem quer deixar a mesa ou o ambiente muito mais divertido.",
+      "category": "Acessórios e utilidades",
+      "translations": {
+        "de": {
+          "title": "Handyhalter - zahnlos",
+          "category": "Zubehör und Nebenkosten",
+          "description": "Direkt aus dem Universum von How to Train Your Dragon ist Toothless zu einem Handyhalter voller Persönlichkeit geworden! Im 3D-Druck 🐉📱 hergestellt, kombiniert es Dekoration und Funktionalität, wobei das Telefon unterstützt wird, während der Drache den Look vervollständigt. Ein tolles Stück für Fans des Charakters und für diejenigen, die den Tisch oder die Umgebung viel mehr Spaß machen wollen."
+        },
+        "en": {
+          "title": "Mobile Phone Holder - Toothless",
+          "category": "Accessories and utilities",
+          "description": "Straight from the universe of How to Train Your Dragon, Toothless has become a mobile phone holder full of personality! 🐉📱 Produced in 3D printing, it combines decoration and functionality, keeping the phone supported while the dragon completes the look. An amazing piece for fans of the character and for those who want to make the table or the environment much more fun."
+        },
+        "es": {
+          "title": "Soporte para teléfono móvil - sin dientes",
+          "category": "Accesorios y utilidades",
+          "description": "Directamente del universo de Cómo entrenar a tu dragón, ¡Toothless se ha convertido en un soporte para teléfono móvil lleno de personalidad! 🐉📱 Producido en impresión 3D, combina decoración y funcionalidad, manteniendo el teléfono apoyado mientras el dragón completa el look. Una pieza increíble para los fanáticos del personaje y para aquellos que quieren hacer que la mesa o el entorno sean mucho más divertidos."
+        },
+        "it": {
+          "title": "Supporto per telefono cellulare - Sdentato",
+          "category": "Accessori e utenze",
+          "description": "Direttamente dall'universo di How to Train Your Dragon, Sdentato è diventato un porta cellulare pieno di personalità! 🐉📱 Prodotto in stampa 3D, unisce decorazione e funzionalità, mantenendo il telefono supportato mentre il drago completa il look. Un pezzo straordinario per gli appassionati del personaggio e per chi vuole rendere la tavola o l'ambiente molto più divertente."
+        }
+      },
+      "price": "8.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-07 16:33:15.598103+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/90f39538-358f-43fe-8552-8a0d67f915bd/cc091e18-11d7-4a9e-8486-c20bad286308.png",
+          "sort_order": 0,
+          "alt_text": "Suporte para Celular - Banguela"
+        },
+        {
+          "storage_path": "assets/catalog/90f39538-358f-43fe-8552-8a0d67f915bd/1a59ad53-fcb8-49ec-adbe-d4cdd695822e.png",
+          "sort_order": 1,
+          "alt_text": "Suporte para Celular - Banguela"
+        }
+      ]
+    },
+    {
+      "id": "47a537ab-b20d-4099-8191-66fda6d90848",
+      "title": "Estrela-do-Mar Articulada",
+      "description": "Uma estrela-do-mar com segmentos articulados que permitem movimentos flexíveis e divertidos. Impressa em 3D, combina tons de rosa e verde perolado em um visual cheio de detalhes. Ideal para brincar, decorar ou presentear!",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Artikulierter Seestern",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Ein Seestern mit gelenkigen Segmenten, die flexible und lustige Bewegungen ermöglichen. 3D-gedruckt, kombiniert es Rosatöne und Perlgrün in einem Look voller Details. Ideal zum Spielen, Dekorieren oder Verschenken!"
+        },
+        "en": {
+          "title": "Articulated Starfish",
+          "category": "Articulated sensory toys",
+          "description": "A starfish with articulated segments that allow for flexible and fun movements. 3D printed, it combines shades of pink and pearly green in a look full of details. Ideal for playing, decorating or gifting!"
+        },
+        "es": {
+          "title": "Estrella de mar articulada",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Una estrella de mar con segmentos articulados que permiten movimientos flexibles y divertidos. Impreso en 3D, combina tonos de rosa y verde perlado en un look lleno de detalles. ¡Ideal para jugar, decorar o regalar!"
+        },
+        "it": {
+          "title": "Stella marina articolata",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Una stella marina con segmenti articolati che permettono movimenti flessibili e divertenti. Stampato in 3D, combina sfumature di rosa e verde perlato in un look ricco di dettagli. Ideale per giocare, decorare o fare regali!"
+        }
+      },
+      "price": "15.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-04 17:20:07.170993+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/47a537ab-b20d-4099-8191-66fda6d90848/51125bfb-c0c6-4686-a394-d85e8a8f173f.png",
+          "sort_order": 0,
+          "alt_text": "Estrela-do-Mar Articulada"
+        }
+      ]
+    },
+    {
+      "id": "d2b25399-c8e4-478a-8b6d-6864075e3e63",
+      "title": "Tiranossauro Rex esqueleto articulado",
+      "description": "O famoso T-Rex em uma versão de esqueleto articulado! Com cabeça grande, dentes em destaque, braços curtos e cauda segmentada, essa peça em tom creme combina detalhes e movimento. Ideal para decorar e completar sua coleção de dinossauros.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Tyrannosaurus-Rex-Gelenkskelett",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Der berühmte T-Rex in einer artikulierten Skelettversion! Mit einem großen Kopf, hervorgehobenen Zähnen, kurzen Armen und segmentiertem Schwanz vereint dieses cremefarbene Stück Details und Bewegung. Ideal zum Dekorieren und Vervollständigen Ihrer Dinosauriersammlung."
+        },
+        "en": {
+          "title": "Tyrannosaurus rex articulated skeleton",
+          "category": "Articulated sensory toys",
+          "description": "The famous T-Rex in an articulated skeleton version! With a large head, highlighted teeth, short arms and segmented tail, this cream-tone piece combines details and movement. Ideal for decorating and completing your dinosaur collection."
+        },
+        "es": {
+          "title": "Esqueleto articulado de Tyrannosaurus rex",
+          "category": "Juguetes sensoriales articulados",
+          "description": "¡El famoso T-Rex en una versión de esqueleto articulado! Con una cabeza grande, dientes resaltados, brazos cortos y cola segmentada, esta pieza de tono crema combina detalles y movimiento. Ideal para decorar y completar tu colección de dinosaurios."
+        },
+        "it": {
+          "title": "Scheletro articolato di Tyrannosaurus rex",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Il famoso T-Rex in versione scheletro articolato! Con una grande testa, denti evidenziati, braccia corte e coda segmentata, questo capo color crema combina dettagli e movimento. Ideale per decorare e completare la tua collezione di dinosauri."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:43:44.646634+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/d2b25399-c8e4-478a-8b6d-6864075e3e63/7579569d-bbf4-4927-a6a3-69a8d501b53c.png",
+          "sort_order": 0,
+          "alt_text": "Tiranossauro Rex esqueleto articulado"
+        }
+      ]
+    },
+    {
+      "id": "0b187946-7de2-412b-8506-2f3f68b1a795",
+      "title": "Tricerátops esqueleto articulado",
+      "description": "Com três chifres e uma grande gola ao redor da cabeça, esse tricerátops apresenta um esqueleto detalhado em tom creme. Suas partes articuladas permitem variar a posição da peça. Uma opção cheia de charme para quem gosta de dinossauros.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Gelenkiger Skelett-Triceratops",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Mit drei Hörnern und einem großen Kragen um den Kopf verfügt dieser Triceratops über ein detailliertes Skelett in Cremeton. Seine schwenkbaren Teile ermöglichen es Ihnen, die Position des Teils zu variieren. Eine charmante Option für alle, die Dinosaurier mögen."
+        },
+        "en": {
+          "title": "Articulated skeleton triceratops",
+          "category": "Articulated sensory toys",
+          "description": "With three horns and a large collar around its head, this triceratops features a detailed skeleton in cream tone. Its hinged parts allow you to vary the position of the part. A charming option for those who like dinosaurs."
+        },
+        "es": {
+          "title": "Triceratops de esqueleto articulado",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Con tres cuernos y un gran cuello alrededor de la cabeza, este triceratops presenta un esqueleto detallado en tono crema. Sus partes articuladas permiten variar la posición de la pieza. Una opción encantadora para los amantes de los dinosaurios."
+        },
+        "it": {
+          "title": "Triceratopo scheletrico articolato",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Con tre corna e un grande collare intorno alla testa, questo triceratopo presenta uno scheletro dettagliato in tonalità crema. Le sue parti incernierate consentono di variare la posizione della parte. Un'opzione affascinante per chi ama i dinosauri."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:42:36.606596+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/0b187946-7de2-412b-8506-2f3f68b1a795/28b72330-ed29-4aed-8c98-94905f888f15.png",
+          "sort_order": 0,
+          "alt_text": "Tricerátops esqueleto articulado"
+        }
+      ]
+    },
+    {
+      "id": "8ee11000-59cb-425a-b950-2b1027c3331d",
+      "title": "Parassaurolofo esqueleto articulado verde",
+      "description": "Uma peça marcante, com a crista alongada característica do parassaurolofo e acabamento em tons de verde. O esqueleto detalhado e as partes articuladas permitem mudar sua posição, trazendo movimento e personalidade à coleção.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Grüner artikulierter Skelettparasaurolphus",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Ein auffälliges Stück mit dem länglichen Kamm, der für den Parasaurolophus charakteristisch ist und in Grüntönen endet. Das detaillierte Skelett und die artikulierten Teile ermöglichen es Ihnen, Ihre Position zu ändern und Bewegung und Persönlichkeit in die Kollektion zu bringen."
+        },
+        "en": {
+          "title": "Green articulated skeletal parasaurolphus",
+          "category": "Articulated sensory toys",
+          "description": "A striking piece, with the elongated crest characteristic of the parasaurolophus and finishing in shades of green. The detailed skeleton and articulated parts allow you to change your position, bringing movement and personality to the collection."
+        },
+        "es": {
+          "title": "Parasaurolfo esquelético articulado verde",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Una pieza llamativa, con la cresta alargada característica del parasaurolophus y acabado en tonos verdes. El esqueleto detallado y las partes articuladas te permiten cambiar de posición, aportando movimiento y personalidad a la colección."
+        },
+        "it": {
+          "title": "Parasaurolfo scheletrico articolato verde",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Un pezzo suggestivo, con la cresta allungata caratteristica del parasaurolofo e rifinitura nei toni del verde. Lo scheletro dettagliato e le parti articolate permettono di cambiare posizione, portando movimento e personalità alla collezione."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:41:16.809027+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/8ee11000-59cb-425a-b950-2b1027c3331d/e24823f5-f97f-48c6-8310-e3447380aa41.png",
+          "sort_order": 0,
+          "alt_text": "Parassaurolofo esqueleto articulado verde"
+        }
+      ]
+    },
+    {
+      "id": "7ec4c35b-b402-4b09-86f5-433695db9afa",
+      "title": "Anquilossauro esqueleto articulado multicolorido",
+      "description": "Com uma cauda com ponta em formato de clava e um esqueleto cheio de detalhes, esse anquilossauro chama atenção pelo acabamento multicolorido. Suas articulações permitem variar a posição da peça, tornando-a uma opção divertida para explorar, decorar e colecionar.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Mehrfarbiger artikulierter Skelett-Ankylosaurier",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Mit einem Keulenschwanz und einem Skelett voller Details lenkt dieser Ankylosaurier die Aufmerksamkeit auf sein mehrfarbiges Finish. Seine Gelenke ermöglichen es Ihnen, die Position des Stücks zu variieren, was es zu einer unterhaltsamen Option zum Erkunden, Dekorieren und Sammeln macht."
+        },
+        "en": {
+          "title": "Multicolored articulated skeleton ankylosaur",
+          "category": "Articulated sensory toys",
+          "description": "With a club-tipped tail and a skeleton full of details, this ankylosaur draws attention for its multicolored finish. Its joints allow you to vary the position of the piece, making it a fun option to explore, decorate and collect."
+        },
+        "es": {
+          "title": "Anquilosaurio multicolor de esqueleto articulado",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Con una cola con punta de garrote y un esqueleto lleno de detalles, este anquilosaurio llama la atención por su acabado multicolor. Sus juntas permiten variar la posición de la pieza, por lo que es una opción divertida para explorar, decorar y coleccionar."
+        },
+        "it": {
+          "title": "Scheletro articolato multicolore anchilosauro",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Con una coda a forma di clava e uno scheletro ricco di dettagli, questo anchilosauro attira l'attenzione per la sua finitura multicolore. Le sue articolazioni consentono di variare la posizione del pezzo, rendendolo un'opzione divertente da esplorare, decorare e collezionare."
+        }
+      },
+      "price": "5.00",
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:39:32.31692+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/7ec4c35b-b402-4b09-86f5-433695db9afa/3e7df0ff-47f7-4159-b9cc-69990488840c.png",
+          "sort_order": 0,
+          "alt_text": "Anquilossauro esqueleto articulado multicolorido"
+        }
+      ]
+    },
+    {
+      "id": "5f06e029-f3df-4b4c-8045-e995c64db520",
+      "title": "Espada retrátil com spinner giratório",
+      "description": "Uma espada cheia de movimento e estilo! A lâmina fica recolhida dentro do cabo e se estende com um movimento. O spinner com pontas ao redor do cabo gira, deixando a peça ainda mais divertida. Seu acabamento multicolorido combina tons de azul, rosa e roxo.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Einziehbares Schwert mit Spinnvorrichtung",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Ein Schwert voller Bewegung und Stil! Die Klinge wird in den Griff eingeklappt und mit einer Bewegung ausgefahren. Der Spinner mit Spitzen um das Kabel dreht sich, wodurch das Stück noch mehr Spaß macht. Sein mehrfarbiges Finish kombiniert Blautöne, Rosa und Violett."
+        },
+        "en": {
+          "title": "Retractable sword with spinning spinner",
+          "category": "Articulated sensory toys",
+          "description": "A sword full of movement and style! The blade is collapsed inside the handle and extends with one motion. The spinner with tips around the cable rotates, making the piece even more fun. Its multicolored finish combines shades of blue, pink and purple."
+        },
+        "es": {
+          "title": "Espada retráctil con hilandero giratorio",
+          "category": "Juguetes sensoriales articulados",
+          "description": "¡Una espada llena de movimiento y estilo! La cuchilla se pliega dentro del mango y se extiende con un solo movimiento. La ruleta con puntas alrededor del cable gira, haciendo que la pieza sea aún más divertida. Su acabado multicolor combina tonos de azul, rosa y morado."
+        },
+        "it": {
+          "title": "Spada retrattile con spinner",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Una spada piena di movimento e stile! La lama viene ripiegata all'interno del manico e si estende con un solo movimento. La centrifuga con le punte intorno al cavo ruota, rendendo il pezzo ancora più divertente. La sua finitura multicolore combina sfumature di blu, rosa e viola."
+        }
+      },
+      "price": "15.00",
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:37:23.677517+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/5f06e029-f3df-4b4c-8045-e995c64db520/e3882eaf-6176-4bf3-b1aa-570e54f1a57e.png",
+          "sort_order": 0,
+          "alt_text": "Espada retrátil com spinner giratório"
+        },
+        {
+          "storage_path": "assets/catalog/5f06e029-f3df-4b4c-8045-e995c64db520/1c2a4947-44de-4883-ade5-867ed7910848.png",
+          "sort_order": 1,
+          "alt_text": "Espada retrátil com spinner giratório"
+        }
+      ]
+    },
+    {
+      "id": "bfad78db-77fa-4461-870b-62d4cc9d9177",
+      "title": "Pokébola decorativa Gyarados Vermelho",
+      "description": "Inspirada no Gyarados vermelho, essa Pokébola se destaca pelas cristas, pelos detalhes laterais e pelo contraste entre vermelho e creme. Uma peça fixa, sem abertura ou compartimento interno, perfeita para decorar e dar destaque à sua coleção.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Dekorativer Pokéball Red Gyarados",
+          "category": "Funktionelle Pokébälle",
+          "description": "Inspiriert von den roten Gyarados zeichnet sich dieser Pokéball durch die Wappen, die Seitendetails und den Kontrast zwischen Rot und Creme aus. Ein festes Stück, ohne Öffnung oder Innenfach, perfekt zum Dekorieren und Hervorheben Ihrer Kollektion."
+        },
+        "en": {
+          "title": "Decorative Poké Ball Red Gyarados",
+          "category": "Functional Poké Balls",
+          "description": "Inspired by the red Gyarados, this Poké Ball stands out for the crests, the side details and the contrast between red and cream. A fixed piece, with no opening or internal compartment, perfect for decorating and highlighting your collection."
+        },
+        "es": {
+          "title": "Poké Ball Decorativo Rojo Gyarados",
+          "category": "Poké Balls funcionales",
+          "description": "Inspirada en los Gyarados rojos, esta Poké Ball destaca por las crestas, los detalles laterales y el contraste entre rojo y crema. Una pieza fija, sin abertura ni compartimento interior, perfecta para decorar y destacar tu colección."
+        },
+        "it": {
+          "title": "Poké Ball Decorativa Rosso Gyarados",
+          "category": "Poké Ball funzionali",
+          "description": "Ispirata ai Gyarados rossi, questa Poké Ball si distingue per gli stemmi, i dettagli laterali e il contrasto tra rosso e crema. Un pezzo fisso, senza apertura o scomparto interno, perfetto per decorare ed evidenziare la tua collezione."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:28:55.153706+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/bfad78db-77fa-4461-870b-62d4cc9d9177/bf0c5e49-878c-40d7-adb8-072832759ea4.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola decorativa Gyarados Vermelho"
+        },
+        {
+          "storage_path": "assets/catalog/bfad78db-77fa-4461-870b-62d4cc9d9177/d455514e-db02-46e6-83c1-67436d15fa31.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola decorativa Gyarados Vermelho"
+        }
+      ]
+    },
+    {
+      "id": "0a02f89c-125f-47e1-bddc-1d76e58b94cc",
+      "title": "Pokébola funcional Jigglypuff",
+      "description": "Delicada e cheia de personalidade, essa Pokébola é inspirada no Jigglypuff. O corpo rosa, as orelhinhas e o topete enrolado dão um toque divertido à peça. Abre e fecha, revelando um compartimento interno para pequenos objetos.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Jigglypuff Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Zart und voller Persönlichkeit ist dieser Pokéball von Jigglypuff inspiriert. Der rosa Körper, die kleinen Ohren und der gekräuselte Topknot verleihen dem Stück eine lustige Note. Öffnet und schließt sich und gibt ein Innenfach für kleine Gegenstände frei."
+        },
+        "en": {
+          "title": "Jigglypuff Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "Delicate and full of personality, this Poké Ball is inspired by Jigglypuff. The pink body, the little ears and the curled topknot give a fun touch to the piece. Opens and closes, revealing an internal compartment for small objects."
+        },
+        "es": {
+          "title": "Poké Ball funcional Jigglypuff",
+          "category": "Poké Balls funcionales",
+          "description": "Delicada y llena de personalidad, esta Poké Ball está inspirada en Jigglypuff. El cuerpo rosado, las orejitas y el topknot rizado le dan un toque divertido a la pieza. Abre y cierra, dejando al descubierto un compartimento interno para objetos pequeños."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Jigglypuff",
+          "category": "Poké Ball funzionali",
+          "description": "Delicata e piena di personalità, questa Poké Ball è ispirata a Jigglypuff. Il corpo rosa, le piccole orecchie e il nodo arricciato danno un tocco divertente al capo. Si apre e si chiude, rivelando un vano interno per piccoli oggetti."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:26:50.638154+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/0a02f89c-125f-47e1-bddc-1d76e58b94cc/dc873572-92f9-4ee4-b0fd-5ad666cec225.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola funcional Jigglypuff"
+        },
+        {
+          "storage_path": "assets/catalog/0a02f89c-125f-47e1-bddc-1d76e58b94cc/1bfd599d-0ce8-464f-a0e2-ea392d6d6020.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola funcional Jigglypuff"
+        },
+        {
+          "storage_path": "assets/catalog/0a02f89c-125f-47e1-bddc-1d76e58b94cc/105564b6-e41d-4508-a88c-dbe645d63cd7.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola funcional Jigglypuff"
+        }
+      ]
+    },
+    {
+      "id": "1a0a9123-ff50-4028-a3f9-709a56a8ac65",
+      "title": "Pokébola funcional Pikachu",
+      "description": "O Pikachu ganhou uma versão em Pokébola! Com o amarelo característico, bochechas vermelhas, orelhas com pontas pretas e cauda em formato de raio, essa peça é cheia de charme. Possui abertura e espaço interno para guardar pequenos objetos.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Pikachu Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Pikachu hat eine Pokéball-Version gewonnen! Mit seinen markanten gelben, roten Wangen, Ohren mit schwarzer Spitze und dem strahlenförmigen Schwanz ist dieses Stück voller Charme. Es verfügt über eine Öffnung und einen Innenraum zur Aufbewahrung kleiner Gegenstände."
+        },
+        "en": {
+          "title": "Pikachu Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "Pikachu won a Poké Ball version! With its distinctive yellow, red cheeks, black-tipped ears, and ray-shaped tail, this piece is full of charm. It has an opening and internal space for storing small objects."
+        },
+        "es": {
+          "title": "Poké Ball funcional de Pikachu",
+          "category": "Poké Balls funcionales",
+          "description": "¡Pikachu ganó una versión de Poké Ball! Con sus distintivas mejillas amarillas y rojas, orejas de punta negra y cola en forma de rayo, esta pieza está llena de encanto. Dispone de una abertura y espacio interno para guardar objetos pequeños."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Pikachu",
+          "category": "Poké Ball funzionali",
+          "description": "Pikachu ha vinto una versione Poké Ball! Con le sue caratteristiche guance gialle e rosse, le orecchie dalla punta nera e la coda a forma di raggio, questo pezzo è pieno di fascino. Dispone di un'apertura e di uno spazio interno per riporre piccoli oggetti."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:25:39.589085+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/1a0a9123-ff50-4028-a3f9-709a56a8ac65/8d1333f9-ca61-4122-9f44-f2a707e2c561.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola funcional Pikachu"
+        },
+        {
+          "storage_path": "assets/catalog/1a0a9123-ff50-4028-a3f9-709a56a8ac65/9a40ea3d-aaa9-4ad5-bf7d-a3b3e82e1348.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola funcional Pikachu"
+        },
+        {
+          "storage_path": "assets/catalog/1a0a9123-ff50-4028-a3f9-709a56a8ac65/154112f9-aa1f-488d-af8b-b720405c70ce.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola funcional Pikachu"
+        }
+      ]
+    },
+    {
+      "id": "7e51e588-1ff5-4e02-865d-35b2a09a8b2e",
+      "title": "Pokébola funcional Charizard",
+      "description": "Uma peça que chama atenção pelas asas abertas e pela cauda com detalhes de chama! Inspirada no Charizard, essa Pokébola combina tons de laranja com o interior das asas em azul-esverdeado. Abre e fecha, oferecendo um compartimento interno para pequenos objetos.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Funktioneller Pokéball des Zauberers",
+          "category": "Funktionelle Pokébälle",
+          "description": "Ein Stück, das durch die offenen Flügel und den Schwanz mit Flammen-Details auffällt! Inspiriert von Charizard kombiniert dieser Pokéball Orangetöne mit der Innenseite der Flügel in Blaugrün. Öffnet und schließt und bietet ein Innenfach für kleine Gegenstände."
+        },
+        "en": {
+          "title": "Charizard Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "A piece that draws attention by the open wings and the tail with flame details! Inspired by Charizard, this Poké Ball combines shades of orange with the inside of the wings in blue-green. Opens and closes, offering an internal compartment for small objects."
+        },
+        "es": {
+          "title": "Poké Ball funcional Charizard",
+          "category": "Poké Balls funcionales",
+          "description": "¡Una pieza que llama la atención por las alas abiertas y la cola con detalles de llama! Inspirada en Charizard, esta Poké Ball combina tonos de naranja con el interior de las alas en azul verdoso. Abre y cierra, ofreciendo un compartimento interno para objetos pequeños."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale di Charizard",
+          "category": "Poké Ball funzionali",
+          "description": "Un pezzo che attira l'attenzione dalle ali aperte e dalla coda con dettagli fiammeggianti! Ispirata a Charizard, questa Poké Ball combina sfumature di arancione con l'interno delle ali in blu-verde. Si apre e si chiude, offrendo uno scomparto interno per piccoli oggetti."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:23:53.738662+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/7e51e588-1ff5-4e02-865d-35b2a09a8b2e/f0701356-9e82-420d-be4d-20f5e5afd67c.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola funcional Charizard"
+        },
+        {
+          "storage_path": "assets/catalog/7e51e588-1ff5-4e02-865d-35b2a09a8b2e/037c6e67-f1f0-4553-a169-d3408f8d2df3.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola funcional Charizard"
+        },
+        {
+          "storage_path": "assets/catalog/7e51e588-1ff5-4e02-865d-35b2a09a8b2e/ce2cf8cc-9c4e-4d55-847e-6faf977d62f8.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola funcional Charizard"
+        }
+      ]
+    },
+    {
+      "id": "4bd17c08-7119-4abf-9150-72a7230e42a7",
+      "title": "Pokébola funcional Umbreon",
+      "description": "Com o preto e os anéis amarelos característicos do Umbreon, essa Pokébola apresenta um visual marcante. As orelhas e a cauda completam o desenho, enquanto a abertura revela um compartimento para pequenos objetos. Perfeita para dar personalidade à sua coleção.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Schirm Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Mit den schwarzen und gelben Ringen, die für den Regenschirm charakteristisch sind, hat dieser Pokéball einen markanten Look. Die Ohren und der Schwanz vervollständigen das Design, während die Öffnung ein Fach für kleine Gegenstände freilegt. Perfekt, um Ihrer Kollektion Persönlichkeit zu verleihen."
+        },
+        "en": {
+          "title": "Umbreon Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "With the black and yellow rings characteristic of the Umbreon, this Poké Ball features a striking look. The ears and tail complete the design, while the opening reveals a compartment for small objects. Perfect to give personality to your collection."
+        },
+        "es": {
+          "title": "Poké Ball funcional de Umbreon",
+          "category": "Poké Balls funcionales",
+          "description": "Con los anillos negros y amarillos característicos del Paraguas, esta Poké Ball presenta un aspecto llamativo. Las orejas y la cola completan el diseño, mientras que la abertura revela un compartimento para objetos pequeños. Perfecta para dar personalidad a tu colección."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Umbreon",
+          "category": "Poké Ball funzionali",
+          "description": "Con gli anelli neri e gialli caratteristici dell'Umbreon, questa Poké Ball ha un aspetto sorprendente. Le orecchie e la coda completano il disegno, mentre l'apertura rivela uno scomparto per piccoli oggetti. Perfetto per dare personalità alla tua collezione."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:22:34.176626+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/4bd17c08-7119-4abf-9150-72a7230e42a7/e1c0ee97-d5f8-4fc1-a723-26e13af3e749.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola funcional Umbreon"
+        },
+        {
+          "storage_path": "assets/catalog/4bd17c08-7119-4abf-9150-72a7230e42a7/d01f4484-eebf-4e0f-8c82-9fd9cdd150f1.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola funcional Umbreon"
+        },
+        {
+          "storage_path": "assets/catalog/4bd17c08-7119-4abf-9150-72a7230e42a7/35d717b0-9f27-4b27-89e8-1a7c622f347d.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola funcional Umbreon"
+        }
+      ]
+    },
+    {
+      "id": "b6ad58bd-3005-4190-90aa-1cdd7369793c",
+      "title": "Pokébola funcional Flareon",
+      "description": "O charme do Flareon em uma Pokébola especial! Com corpo laranja, orelhas alongadas e detalhes claros no topete e na cauda, essa peça se destaca na coleção. Abre e fecha e conta com espaço interno para guardar pequenos objetos.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Flareon Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Flareons Charme in einem speziellen Pokéball! Mit einem orangefarbenen Körper, langgestreckten Ohren und leichten Details an Knoten und Schwanz sticht dieses Stück in der Kollektion hervor. Es öffnet und schließt sich und verfügt über einen Innenraum, in dem kleine Gegenstände aufbewahrt werden können."
+        },
+        "en": {
+          "title": "Flareon Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "Flareon's charm in a special Poké Ball! With an orange body, elongated ears and light details on the topknot and tail, this piece stands out in the collection. It opens and closes and has internal space to store small objects."
+        },
+        "es": {
+          "title": "Poké Ball funcional Flareon",
+          "category": "Poké Balls funcionales",
+          "description": "¡El encanto de Flareon en una Poké Ball especial! Con un cuerpo naranja, orejas alargadas y detalles ligeros en el nudo superior y la cola, esta pieza destaca en la colección. Se abre y se cierra y tiene espacio interno para almacenar objetos pequeños."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Flareon",
+          "category": "Poké Ball funzionali",
+          "description": "Il fascino di Flareon in una Poké Ball speciale! Con corpo arancione, orecchie allungate e dettagli leggeri su topknot e coda, questo capo si distingue nella collezione. Si apre e si chiude e ha uno spazio interno per riporre piccoli oggetti."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:20:56.794736+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/b6ad58bd-3005-4190-90aa-1cdd7369793c/21b77ebf-eb58-4681-9a81-3eb1ae4e929d.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola funcional Flareon"
+        },
+        {
+          "storage_path": "assets/catalog/b6ad58bd-3005-4190-90aa-1cdd7369793c/acccb6d3-f568-4812-87f2-00763f3843ff.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola funcional Flareon"
+        },
+        {
+          "storage_path": "assets/catalog/b6ad58bd-3005-4190-90aa-1cdd7369793c/849e0a61-2aa6-49b3-b96f-54aebcb84b30.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola funcional Flareon"
+        }
+      ]
+    },
+    {
+      "id": "7aa7734c-1af2-42bc-863f-ae08b02efcdd",
+      "title": "Pokébola funcional Bulbasaur",
+      "description": "Inspirada no Bulbasaur, essa Pokébola traz tons de verde, o bulbo nas costas e cipós que deixam o visual encantador. Possui abertura e compartimento interno para pequenos objetos, combinando utilidade e decoração em uma peça cheia de detalhes.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Bulbasaur Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Inspiriert vom Bulbasaurus, bringt dieser Pokéball Grüntöne, die Glühbirne auf dem Rücken und Reben, die das Aussehen charmant machen. Es verfügt über eine Öffnung und ein Innenfach für kleine Objekte, die Zweckmäßigkeit und Dekoration in einem Stück voller Details kombinieren."
+        },
+        "en": {
+          "title": "Bulbasaur Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "Inspired by the Bulbasaur, this Poké Ball brings shades of green, the bulb on the back and vines that make the look charming. It has an opening and internal compartment for small objects, combining utility and decoration in one piece full of details."
+        },
+        "es": {
+          "title": "Bola de poké funcional de Bulbasaur",
+          "category": "Poké Balls funcionales",
+          "description": "Inspirado en el Bulbasaur, este Poké Ball trae tonos de verde, el bulbo en la parte posterior y enredaderas que hacen que el aspecto sea encantador. Cuenta con una abertura y compartimento interno para objetos pequeños, combinando utilidad y decoración en una sola pieza llena de detalles."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Bulbasaur",
+          "category": "Poké Ball funzionali",
+          "description": "Ispirata al Bulbasaur, questa Poké Ball porta sfumature di verde, la lampadina sul retro e viti che rendono il look affascinante. Ha un'apertura e uno scomparto interno per piccoli oggetti, combinando utilità e decorazione in un unico pezzo ricco di dettagli."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:19:42.196179+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/7aa7734c-1af2-42bc-863f-ae08b02efcdd/1f12da2b-2c64-4505-8d5a-cc106c56aec4.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola funcional Bulbasaur"
+        },
+        {
+          "storage_path": "assets/catalog/7aa7734c-1af2-42bc-863f-ae08b02efcdd/6e1b882b-ebcd-4be9-887a-cb4fabc16f9e.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola funcional Bulbasaur"
+        },
+        {
+          "storage_path": "assets/catalog/7aa7734c-1af2-42bc-863f-ae08b02efcdd/a1ff3bb3-0c2f-4429-9cde-0f79188e2e9a.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola funcional Bulbasaur"
+        }
+      ]
+    },
+    {
+      "id": "efc3703a-5819-46c3-8a55-2ca2ea0b2034",
+      "title": "Pokébola funcional Gengar",
+      "description": "Uma Pokébola cheia de personalidade! Inspirada no Gengar, combina a cor roxa com detalhes pontiagudos e um olhar marcante. Abre e fecha, revelando um compartimento interno para guardar pequenos objetos. Uma peça especial para decorar e colecionar.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Gengar Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Ein Pokéball voller Persönlichkeit! Inspiriert von Gengar, kombiniert es die Farbe Lila mit scharfen Details und einem markanten Look. Es öffnet und schließt sich und enthüllt ein inneres Fach für die Aufbewahrung kleiner Gegenstände. Ein besonderes Stück zum Dekorieren und Sammeln."
+        },
+        "en": {
+          "title": "Gengar Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "A Poké Ball full of personality! Inspired by Gengar, it combines the color purple with sharp details and a striking look. It opens and closes, revealing an internal compartment for storing small objects. A special piece to decorate and collect."
+        },
+        "es": {
+          "title": "Poké Ball funcional Gengar",
+          "category": "Poké Balls funcionales",
+          "description": "¡Una Poké Ball llena de personalidad! Inspirado en Gengar, combina el color púrpura con detalles nítidos y un aspecto llamativo. Se abre y se cierra, dejando al descubierto un compartimento interno para guardar objetos pequeños. Una pieza especial para decorar y coleccionar."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Gengar",
+          "category": "Poké Ball funzionali",
+          "description": "Una Poké Ball piena di personalità! Ispirata a Gengar, combina il colore viola con dettagli nitidi e un look accattivante. Si apre e si chiude, rivelando uno scomparto interno per riporre piccoli oggetti. Un pezzo speciale da decorare e collezionare."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 19:18:29.077245+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/efc3703a-5819-46c3-8a55-2ca2ea0b2034/b9fba82a-c5e0-4b04-b935-86dcea266e3e.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola funcional Gengar"
+        },
+        {
+          "storage_path": "assets/catalog/efc3703a-5819-46c3-8a55-2ca2ea0b2034/b1020623-842b-4c88-8cb2-6f1b8fa67c0f.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola funcional Gengar"
+        },
+        {
+          "storage_path": "assets/catalog/efc3703a-5819-46c3-8a55-2ca2ea0b2034/4b88a93f-2f91-4424-a38a-11990c8ca367.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola funcional Gengar"
+        }
+      ]
+    },
+    {
+      "id": "d6a151bc-0f56-4fb1-9509-137a72e31a5a",
+      "title": "Pokébola Funcional Leafeon",
+      "description": "Inspirada no Leafeon, combina tons suaves com orelhas e folhas verdes. Uma peça impressa em 3D com abertura e espaço interno para pequenos objetos, perfeita para dar um toque Pokémon à decoração.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Leafeon Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Inspiriert von Leafeon, kombiniert es sanfte Töne mit Ohren und grünen Blättern. Ein 3D-gedrucktes Stück mit Öffnung und Innenraum für kleine Objekte, perfekt, um dem Dekor einen Pokémon-Touch zu verleihen."
+        },
+        "en": {
+          "title": "Leafeon Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "Inspired by Leafeon, it combines soft tones with ears and green leaves. A 3D printed piece with opening and internal space for small objects, perfect to add a Pokémon touch to the decor."
+        },
+        "es": {
+          "title": "Poké Ball funcional Leafeon",
+          "category": "Poké Balls funcionales",
+          "description": "Inspirado en Leafeon, combina tonos suaves con orejas y hojas verdes. Una pieza impresa en 3D con abertura y espacio interior para objetos pequeños, perfecta para añadir un toque Pokémon a la decoración."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Leafeon",
+          "category": "Poké Ball funzionali",
+          "description": "Ispirata a Leafeon, combina toni morbidi con orecchie e foglie verdi. Un pezzo stampato in 3D con apertura e spazio interno per piccoli oggetti, perfetto per aggiungere un tocco Pokémon all'arredamento."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 15:48:07.454646+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/d6a151bc-0f56-4fb1-9509-137a72e31a5a/ccceb8db-d0de-41d8-a5b3-a4d9861fb1c0.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola Funcional Leafeon"
+        },
+        {
+          "storage_path": "assets/catalog/d6a151bc-0f56-4fb1-9509-137a72e31a5a/071405c9-bb47-46ae-bf22-2dbe85177389.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola Funcional Leafeon"
+        },
+        {
+          "storage_path": "assets/catalog/d6a151bc-0f56-4fb1-9509-137a72e31a5a/81356a83-df03-40be-9dc5-764b8454158c.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola Funcional Leafeon"
+        }
+      ]
+    },
+    {
+      "id": "1597b7f5-9b9a-4553-8762-15d7c686b1f8",
+      "title": "Pokébola Funcional Sylveon",
+      "description": "Inspirada no Sylveon, traz orelhas, laços e detalhes em rosa, branco e azul. Impressa em 3D, abre e fecha e pode ser usada como pequeno porta-objetos ou peça decorativa.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Sylveon-Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Inspiriert von Sylveon, verfügt es über rosa, weiße und blaue Ohren, Schleifen und Details. 3D-gedruckt, lässt es sich öffnen und schließen und kann als kleines Wechselfach oder Dekorationsstück verwendet werden."
+        },
+        "en": {
+          "title": "Sylveon Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "Inspired by Sylveon, it features pink, white and blue ears, bows and details. 3D printed, it opens and closes and can be used as a small change tray or decorative piece."
+        },
+        "es": {
+          "title": "Poké Ball funcional de Sylveon",
+          "category": "Poké Balls funcionales",
+          "description": "Inspirado en Sylveon, presenta orejas, arcos y detalles de color rosa, blanco y azul. Impreso en 3D, se abre y se cierra y se puede utilizar como una pequeña bandeja de cambio o pieza decorativa."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Sylveon",
+          "category": "Poké Ball funzionali",
+          "description": "Ispirato a Sylveon, presenta orecchie, fiocchi e dettagli rosa, bianchi e blu. Stampato in 3D, si apre e si chiude e può essere utilizzato come un piccolo vassoio per il cambio o un pezzo decorativo."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 15:46:55.872527+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/1597b7f5-9b9a-4553-8762-15d7c686b1f8/1409847e-ec19-42bb-8ec9-f28f8179db55.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola Funcional Sylveon"
+        },
+        {
+          "storage_path": "assets/catalog/1597b7f5-9b9a-4553-8762-15d7c686b1f8/8718f007-f1eb-4cc9-b57b-315af4d83550.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola Funcional Sylveon"
+        },
+        {
+          "storage_path": "assets/catalog/1597b7f5-9b9a-4553-8762-15d7c686b1f8/1cf2b5cf-4442-4e6f-a656-90aa037d1449.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola Funcional Sylveon"
+        }
+      ]
+    },
+    {
+      "id": "9dd3762e-f04c-47bb-8c98-e99c8083ba63",
+      "title": "Pokébola Funcional Lucario",
+      "description": "Inspirada no Lucario, combina azul, preto e branco em uma peça impressa em 3D. Possui tampa que abre e fecha e espaço interno para guardar pequenos objetos. Ideal para decorar ou presentear fãs de Pokémon.",
+      "category": "Pokébolas Funcionais",
+      "translations": {
+        "de": {
+          "title": "Lucario Funktionaler Pokéball",
+          "category": "Funktionelle Pokébälle",
+          "description": "Inspiriert von Lucario kombiniert es Blau, Schwarz und Weiß in einem 3D-gedruckten Teil. Es hat einen Deckel, der sich öffnet und schließt, und einen Innenraum, in dem kleine Gegenstände aufbewahrt werden können. Ideal zum Dekorieren oder Verschenken von Pokémon-Fans."
+        },
+        "en": {
+          "title": "Lucario Functional Poké Ball",
+          "category": "Functional Poké Balls",
+          "description": "Inspired by Lucario, it combines blue, black and white in a 3D printed part. It has a lid that opens and closes and internal space for storing small objects. Ideal for decorating or gifting Pokémon fans."
+        },
+        "es": {
+          "title": "Poké Ball funcional de Lucario",
+          "category": "Poké Balls funcionales",
+          "description": "Inspirado en Lucario, combina azul, blanco y negro en una pieza impresa en 3D. Tiene una tapa que se abre y se cierra y espacio interno para guardar objetos pequeños. Ideal para decorar o regalar a los fans de Pokémon."
+        },
+        "it": {
+          "title": "Poké Ball Funzionale Lucario",
+          "category": "Poké Ball funzionali",
+          "description": "Ispirato a Lucario, combina blu, nero e bianco in una parte stampata in 3D. Ha un coperchio che si apre e si chiude e uno spazio interno per riporre piccoli oggetti. Ideale per decorare o regalare i fan dei Pokémon."
+        }
+      },
+      "price": null,
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 15:45:42.654639+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/9dd3762e-f04c-47bb-8c98-e99c8083ba63/973ea565-447f-4c77-ba4c-e327f947eecf.jpg",
+          "sort_order": 0,
+          "alt_text": "Pokébola Funcional Lucario"
+        },
+        {
+          "storage_path": "assets/catalog/9dd3762e-f04c-47bb-8c98-e99c8083ba63/062b7297-b1aa-4248-9778-8d716eb63d2d.jpg",
+          "sort_order": 1,
+          "alt_text": "Pokébola Funcional Lucario"
+        },
+        {
+          "storage_path": "assets/catalog/9dd3762e-f04c-47bb-8c98-e99c8083ba63/98ce044d-f47e-4d31-a992-11d673257465.jpg",
+          "sort_order": 2,
+          "alt_text": "Pokébola Funcional Lucario"
+        }
+      ]
+    },
+    {
+      "id": "347a6ebd-21a4-4217-bc7a-1e06741866ad",
+      "title": "Leroy Vermelho",
+      "description": "Com quatro braços, antenas e um sorriso cheio de personalidade, Leroy ganha forma nesta peça impressa em 3D. Ideal para quem gosta dos personagens do universo Lilo & Stitch.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Roter Leroy",
+          "category": "Personenverzeichnis",
+          "description": "Mit vier Armen, Antennen und einem Lächeln voller Persönlichkeit nimmt Leroy in diesem 3D-Druckstück Gestalt an. Ideal für diejenigen, die die Charaktere des Lilo & Stitch-Universums mögen."
+        },
+        "en": {
+          "title": "Red Leroy",
+          "category": "Characters",
+          "description": "With four arms, antennas and a smile full of personality, Leroy takes shape in this 3D printed piece. Ideal for those who like the characters of the Lilo & Stitch universe."
+        },
+        "es": {
+          "title": "Red Leroy",
+          "category": "Personajes",
+          "description": "Con cuatro brazos, antenas y una sonrisa llena de personalidad, Leroy toma forma en esta pieza impresa en 3D. Ideal para aquellos a los que les gustan los personajes del universo Lilo & Stitch."
+        },
+        "it": {
+          "title": "Red Leroy",
+          "category": "Caratteri",
+          "description": "Con quattro braccia, antenne e un sorriso pieno di personalità, Leroy prende forma in questo pezzo stampato in 3D. Ideale per chi ama i personaggi dell'universo Lilo & Stitch."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 15:19:30.708522+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/347a6ebd-21a4-4217-bc7a-1e06741866ad/replacement-00.jpg",
+          "sort_order": 0,
+          "alt_text": "Leroy Vermelho"
+        }
+      ]
+    },
+    {
+      "id": "252a1bfd-114a-4b9d-b9df-c6a6c0518ecd",
+      "title": "Angel Rosa",
+      "description": "A charmosa Angel em uma peça impressa em 3D, com tons de rosa e detalhes roxos. Uma opção delicada para decorar e completar a coleção dos fãs do universo Lilo & Stitch.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Angel Rosa",
+          "category": "Personenverzeichnis",
+          "description": "Der charmante Engel im 3D-Druck, mit rosa und violetten Details. Eine filigrane Option, um die Sammlung von Fans des Lilo & Stitch-Universums zu dekorieren und zu vervollständigen."
+        },
+        "en": {
+          "title": "Angel Rosa",
+          "category": "Characters",
+          "description": "The charming Angel in a 3D printed piece, with shades of pink and purple details. A delicate option to decorate and complete the collection of fans of the Lilo & Stitch universe."
+        },
+        "es": {
+          "title": "Angel Rosa",
+          "category": "Personajes",
+          "description": "El encantador Ángel en una pieza impresa en 3D, con detalles en tonos rosa y morado. Una delicada opción para decorar y completar la colección de fans del universo Lilo & Stitch."
+        },
+        "it": {
+          "title": "Angel rosa",
+          "category": "Caratteri",
+          "description": "L'affascinante Angelo in un pezzo stampato in 3D, con sfumature di rosa e viola. Un'opzione delicata per decorare e completare la collezione dei fan dell'universo Lilo & Stitch."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 15:17:46.053715+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/252a1bfd-114a-4b9d-b9df-c6a6c0518ecd/replacement-00.jpg",
+          "sort_order": 0,
+          "alt_text": "Angel Rosa"
+        }
+      ]
+    },
+    {
+      "id": "d94c8039-878b-4aca-9d23-0c632f354e0a",
+      "title": "Stitch Azul",
+      "description": "O querido Stitch, de Lilo & Stitch, em uma peça impressa em 3D, com suas grandes orelhas e expressão encantadora. Ideal para decorar ou presentear fãs do personagem. Disponível em azul claro e azul escuro.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Blauer Stich",
+          "category": "Personenverzeichnis",
+          "description": "Dear Stitch, von Lilo & Stitch, im 3D-Druck, mit seinen großen Ohren und seinem charmanten Ausdruck. Ideal zum Dekorieren oder Verschenken von Fans des Charakters. Erhältlich in Hellblau und Dunkelblau."
+        },
+        "en": {
+          "title": "Blue Stitch",
+          "category": "Characters",
+          "description": "Dear Stitch, by Lilo & Stitch, in a 3D printed piece, with his large ears and charming expression. Ideal for decorating or gifting fans of the character. Available in light blue and dark blue."
+        },
+        "es": {
+          "title": "Puntada azul",
+          "category": "Personajes",
+          "description": "Dear Stitch, de Lilo & Stitch, en una pieza impresa en 3D, con sus grandes orejas y su expresión encantadora. Ideal para decorar o regalar a los fans del personaje. Disponible en azul claro y azul oscuro."
+        },
+        "it": {
+          "title": "Punto blu",
+          "category": "Caratteri",
+          "description": "Dear Stitch, di Lilo & Stitch, in un pezzo stampato in 3D, con le sue grandi orecchie e l'espressione affascinante. Ideale per decorare o regalare fan del personaggio. Disponibile in azzurro e blu scuro."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 15:16:03.342553+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/d94c8039-878b-4aca-9d23-0c632f354e0a/replacement-00.jpg",
+          "sort_order": 0,
+          "alt_text": "Stitch Azul"
+        },
+        {
+          "storage_path": "assets/catalog/d94c8039-878b-4aca-9d23-0c632f354e0a/replacement-01.jpg",
+          "sort_order": 1,
+          "alt_text": "Stitch Azul"
+        }
+      ]
+    },
+    {
+      "id": "e19b003f-0fc4-4589-a713-330686e717d4",
+      "title": "Caneca do Grêmio",
+      "description": "O orgulho tricolor sempre com você! Caneca com acabamento externo impresso em 3D, escudo em relevo, alça lateral e interior metálico. Design azul com detalhes em preto e branco.",
+      "category": "Canecas Personalizadas",
+      "translations": {
+        "de": {
+          "title": "Gremio Tasse",
+          "category": "Benutzerdefinierte Tassen",
+          "description": "Der Trikolore Stolz immer bei dir! Tasse mit 3D-gedruckter Außenbeschichtung, geprägtem Schild, Seitengriff und metallischem Innenraum. Blaues Design mit schwarz-weißen Details."
+        },
+        "en": {
+          "title": "Gremio Mug",
+          "category": "Custom Mugs",
+          "description": "The tricolor pride always with you! Mug with 3D printed exterior finish, embossed shield, side handle and metallic interior. Blue design with black and white details."
+        },
+        "es": {
+          "title": "Taza \"Gremio\"",
+          "category": "Tazas personalizadas",
+          "description": "¡El orgullo tricolor siempre está contigo! Taza con acabado exterior impreso en 3D, escudo en relieve, asa lateral e interior metálico. Diseño en color azul con detalles en blanco y negro."
+        },
+        "it": {
+          "title": "Tazza Gremio",
+          "category": "Tazze personalizzate",
+          "description": "L'orgoglio tricolore sempre con te! Tazza con finitura esterna stampata in 3D, scudo in rilievo, maniglia laterale e interno metallico. Design blu con dettagli in bianco e nero."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 05:01:02.586029+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/e19b003f-0fc4-4589-a713-330686e717d4/e7c25053-4860-4e1d-87e5-75a1dfb5cb4c.png",
+          "sort_order": 0,
+          "alt_text": "Caneca do Grêmio"
+        },
+        {
+          "storage_path": "assets/catalog/e19b003f-0fc4-4589-a713-330686e717d4/25b2e798-e4a3-44e6-a57f-8a6a9f231ea6.mp4",
+          "sort_order": 1,
+          "alt_text": "Caneca do Grêmio"
+        }
+      ]
+    },
+    {
+      "id": "e8a7d964-55dc-4763-abcd-9da2e8cb3fc5",
+      "title": "Caneca do Palmeiras",
+      "description": "A paixão pelo Verdão em cada detalhe! Caneca com acabamento externo impresso em 3D, escudo em relevo, alça lateral e interior metálico. Design verde com detalhes brancos.",
+      "category": "Canecas Personalizadas",
+      "translations": {
+        "de": {
+          "title": "Palmeiras Tasse",
+          "category": "Benutzerdefinierte Tassen",
+          "description": "Die Leidenschaft für Verdão in jedem Detail! Tasse mit 3D-gedruckter Außenbeschichtung, geprägtem Schild, Seitengriff und metallischem Innenraum. Grünes Design mit weißen Details."
+        },
+        "en": {
+          "title": "Palmeiras Mug",
+          "category": "Custom Mugs",
+          "description": "The passion for Verdão in every detail! Mug with 3D printed exterior finish, embossed shield, side handle and metallic interior. Green design with white details."
+        },
+        "es": {
+          "title": "Taza \"Palmeiras\"",
+          "category": "Tazas personalizadas",
+          "description": "¡La pasión por Verdão en cada detalle! Taza con acabado exterior impreso en 3D, escudo en relieve, asa lateral e interior metálico. Diseño en color verde con detalles en color blanco."
+        },
+        "it": {
+          "title": "Tazza Palmeiras",
+          "category": "Tazze personalizzate",
+          "description": "La passione per Verdão in ogni dettaglio! Tazza con finitura esterna stampata in 3D, scudo in rilievo, maniglia laterale e interno metallico. Design verde con dettagli bianchi."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 04:59:58.683137+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/e8a7d964-55dc-4763-abcd-9da2e8cb3fc5/b5be0652-6b05-4240-8f1b-be5de1284b5d.png",
+          "sort_order": 0,
+          "alt_text": "Caneca do Palmeiras"
+        },
+        {
+          "storage_path": "assets/catalog/e8a7d964-55dc-4763-abcd-9da2e8cb3fc5/284dd17f-e629-4d90-8d70-da10f6c7f610.mp4",
+          "sort_order": 1,
+          "alt_text": "Caneca do Palmeiras"
+        }
+      ]
+    },
+    {
+      "id": "dd5a0aba-48d5-48fa-9ab4-fc4eb92bcdc0",
+      "title": "Caneca Flamengo — Modelo Clássico",
+      "description": "O orgulho rubro-negro em cada detalhe! Design com corpo preto, faixas vermelhas, alça lateral e escudo do Flamengo em relevo.",
+      "category": "Canecas Personalizadas",
+      "translations": {
+        "de": {
+          "title": "Flämische Tasse — Klassisches Modell",
+          "category": "Benutzerdefinierte Tassen",
+          "description": "Der rot-schwarze Stolz in jedem Detail! Design mit schwarzem Korpus, roten Streifen, Seitengriff und geprägtem Flamengo-Schild."
+        },
+        "en": {
+          "title": "Flemish Mug — Classic Model",
+          "category": "Custom Mugs",
+          "description": "The red-black pride in every detail! Design with black body, red stripes, side handle and embossed Flamengo shield."
+        },
+        "es": {
+          "title": "Taza flamenca — Modelo clásico",
+          "category": "Tazas personalizadas",
+          "description": "¡El orgullo rojo-negro en cada detalle! Diseño con cuerpo negro, rayas rojas, asa lateral y escudo Flamengo repujado."
+        },
+        "it": {
+          "title": "Tazza Fiamminga — Modello Classico",
+          "category": "Tazze personalizzate",
+          "description": "L'orgoglio rosso-nero in ogni dettaglio! Design con corpo nero, strisce rosse, maniglia laterale e scudo Flamengo in rilievo."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 04:48:52.271248+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/dd5a0aba-48d5-48fa-9ab4-fc4eb92bcdc0/95d86255-17e3-46e4-a50c-f652018ab3ed.png",
+          "sort_order": 0,
+          "alt_text": "Caneca Flamengo — Modelo Clássico"
+        }
+      ]
+    },
+    {
+      "id": "80dee5f1-c4f6-4664-aa1f-46090a3c531f",
+      "title": "Caneca Flamengo — Modelo Texturizado",
+      "description": "Para demonstrar sua paixão pelo Mengão! Modelo com escudo em destaque, corpo texturizado e alça trabalhada, combinando preto e vermelho.",
+      "category": "Canecas Personalizadas",
+      "translations": {
+        "de": {
+          "title": "Flamengo Tasse — Strukturiertes Modell",
+          "category": "Benutzerdefinierte Tassen",
+          "description": "Um Ihre Leidenschaft für den Igel zu demonstrieren! Modell mit hervorgehobenem Schild, strukturiertem Gehäuse und gefertigtem Griff, kombiniert in Schwarz und Rot."
+        },
+        "en": {
+          "title": "Flamengo Mug — Textured Model",
+          "category": "Custom Mugs",
+          "description": "To demonstrate your passion for the Hedgehog! Model with highlighted shield, textured body and crafted handle, combining black and red."
+        },
+        "es": {
+          "title": "Taza Flamengo — Modelo con textura",
+          "category": "Tazas personalizadas",
+          "description": "¡Para demostrar tu pasión por el erizo! Modelo con escudo resaltado, cuerpo texturizado y asa artesanal, combinando negro y rojo."
+        },
+        "it": {
+          "title": "Tazza Flamengo — Modello Texture",
+          "category": "Tazze personalizzate",
+          "description": "Per dimostrare la tua passione per il Riccio! Modello con scudo in evidenza, corpo strutturato e manico realizzato artigianalmente, che combina nero e rosso."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 04:47:20.329418+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/80dee5f1-c4f6-4664-aa1f-46090a3c531f/7ba5abc0-feb6-4518-a77e-3be57856a037.png",
+          "sort_order": 0,
+          "alt_text": "Caneca Flamengo — Modelo Texturizado"
+        }
+      ]
+    },
+    {
+      "id": "39ba682a-1768-48cc-a48b-e3cae38a4732",
+      "title": "Caneca Moletom Monster",
+      "description": "Estilo em cada detalhe! Caneca impressa em 3D em formato de moletom, com capuz, bolsos, cordões, zíper e logo da Monster em relevo. Disponível em roxo brilhante e rosa vibrante.",
+      "category": "Canecas Personalizadas",
+      "translations": {
+        "de": {
+          "title": "Monster-Sweatshirt-Tasse",
+          "category": "Benutzerdefinierte Tassen",
+          "description": "Stil bis ins kleinste Detail! 3D-gedruckte Tasse in Sweatshirtform mit Kapuze, Taschen, Kordelzug, Reißverschluss und geprägtem Monster-Logo. Erhältlich in leuchtendem Violett und leuchtendem Pink."
+        },
+        "en": {
+          "title": "Monster Sweatshirt Mug",
+          "category": "Custom Mugs",
+          "description": "Style in every detail! 3D printed mug in sweatshirt shape, with hoodie, pockets, drawstrings, zipper and embossed Monster logo. Available in bright purple and vibrant pink."
+        },
+        "es": {
+          "title": "Taza \"Monster\"",
+          "category": "Tazas personalizadas",
+          "description": "¡Estilo en cada detalle! Taza estampada en 3D en forma de sudadera, con capucha, bolsillos, cordones, cremallera y logo Monster en relieve. Disponible en púrpura brillante y rosa vibrante."
+        },
+        "it": {
+          "title": "Tazza con felpa Monster",
+          "category": "Tazze personalizzate",
+          "description": "Stile in ogni dettaglio! Tazza stampata in 3D a forma di felpa, con cappuccio, tasche, coulisse, zip e logo Monster in rilievo. Disponibile in viola brillante e rosa vivace."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 04:45:20.043564+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/39ba682a-1768-48cc-a48b-e3cae38a4732/27c3d396-655b-4533-8615-cacf3da601ec.png",
+          "sort_order": 0,
+          "alt_text": "Caneca Moletom Monster"
+        }
+      ]
+    },
+    {
+      "id": "52cbf687-1397-48db-96eb-e3c02113c3ab",
+      "title": "Caneca Monster — Cores Variadas",
+      "description": "Seu energético com mais estilo! Modelo impresso em 3D, com alça e recortes do símbolo da Monster. Disponível em verde, turquesa, rosa, roxo, azul e preto.",
+      "category": "Canecas Personalizadas",
+      "translations": {
+        "de": {
+          "title": "Monstertasse - verschiedene Farben",
+          "category": "Benutzerdefinierte Tassen",
+          "description": "Deine Energie mit mehr Stil! 3D-gedrucktes Modell mit Griff und Ausschnitten des Monster-Symbols. Erhältlich in Grün, Türkis, Pink, Lila, Blau und Schwarz."
+        },
+        "en": {
+          "title": "Monster Mug — Varied Colors",
+          "category": "Custom Mugs",
+          "description": "Your energetic with more style! 3D printed model, with handle and cutouts of the Monster symbol. Available in green, turquoise, pink, purple, blue and black."
+        },
+        "es": {
+          "title": "Taza Monster — Colores variados",
+          "category": "Tazas personalizadas",
+          "description": "¡Tu energía con más estilo! Modelo impreso en 3D, con asa y recortes del símbolo del Monstruo. Disponible en verde, turquesa, rosa, morado, azul y negro."
+        },
+        "it": {
+          "title": "Tazza Mostro — Colori Vari",
+          "category": "Tazze personalizzate",
+          "description": "Il tuo energico con più stile! Modello stampato in 3D, con manico e ritagli del simbolo del Mostro. Disponibile nei colori verde, turchese, rosa, viola, blu e nero."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-10-03 04:42:29.038278+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/52cbf687-1397-48db-96eb-e3c02113c3ab/32d37750-8e7d-498c-a81f-1ce07120f18a.png",
+          "sort_order": 0,
+          "alt_text": "Caneca Monster — Cores Variadas"
+        },
+        {
+          "storage_path": "assets/catalog/52cbf687-1397-48db-96eb-e3c02113c3ab/f5c78130-891a-4382-bdd5-318fae8158ee.png",
+          "sort_order": 1,
+          "alt_text": "Caneca Monster — Cores Variadas"
+        },
+        {
+          "storage_path": "assets/catalog/52cbf687-1397-48db-96eb-e3c02113c3ab/93fa292a-4241-4457-b412-7aac8218e291.png",
+          "sort_order": 2,
+          "alt_text": "Caneca Monster — Cores Variadas"
+        },
+        {
+          "storage_path": "assets/catalog/52cbf687-1397-48db-96eb-e3c02113c3ab/6f1918b1-5a2a-46ed-b507-fa44028f0612.png",
+          "sort_order": 3,
+          "alt_text": "Caneca Monster — Cores Variadas"
+        }
+      ]
+    },
+    {
+      "id": "121175f2-86f7-4d5e-b5ec-425993f3b477",
+      "title": "Mascote Juventus",
+      "description": "Mascote inspirado na Juventus, representado por uma zebra em preto e branco, com visual forte e esportivo. A peça possui detalhes da camisa, bola de futebol e base personalizada, sendo uma ótima opção para decoração, presente ou coleção de apaixonados por futebol.",
+      "category": "Mascotes de time",
+      "translations": {
+        "de": {
+          "title": "Juventus Maskottchen",
+          "category": "Team-Maskottchen",
+          "description": "Juventus-inspiriertes Maskottchen, dargestellt durch ein Zebra in Schwarz-Weiß, mit starker und sportlicher Optik. Das Stück hat Details des Hemdes, des Fußballs und der personalisierten Basis und ist eine großartige Option für Dekoration, Geschenk oder Sammlung von Fußballliebhabern."
+        },
+        "en": {
+          "title": "Juventus Mascot",
+          "category": "Team mascots",
+          "description": "Juventus-inspired mascot, represented by a zebra in black and white, with a strong and sporty look. The piece has details of the shirt, soccer ball and personalized base, being a great option for decoration, gift or collection of football lovers."
+        },
+        "es": {
+          "title": "Mascota de la Juventus",
+          "category": "Mascotas del equipo",
+          "description": "Mascota inspirada en la Juventus, representada por una cebra en blanco y negro, con un aspecto fuerte y deportivo. La pieza cuenta con detalles de la camiseta, balón de fútbol y base personalizada, siendo una gran opción para decoración, regalo o colección de los amantes del fútbol."
+        },
+        "it": {
+          "title": "Juventus Mascot",
+          "category": "Mascotte del team",
+          "description": "Mascotte ispirata alla Juventus, rappresentata da una zebra in bianco e nero, dal look deciso e sportivo. Il pezzo ha dettagli della maglia, del pallone da calcio e della base personalizzata, essendo un'ottima opzione per la decorazione, il regalo o la collezione di amanti del calcio."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 20:32:42.129504+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/121175f2-86f7-4d5e-b5ec-425993f3b477/b237de0f-7846-4e7a-a282-c96e66ffe01c.png",
+          "sort_order": 0,
+          "alt_text": "Mascote Juventus"
+        },
+        {
+          "storage_path": "assets/catalog/121175f2-86f7-4d5e-b5ec-425993f3b477/94a834a0-60b8-42e6-b223-0e119c4d12b0.png",
+          "sort_order": 1,
+          "alt_text": "Mascote Juventus"
+        }
+      ]
+    },
+    {
+      "id": "29c29d10-a646-4818-bbd9-dab8572e711f",
+      "title": "Mascote Inter de Milão",
+      "description": "Mascote inspirado na Inter de Milão, com visual marcante em azul e preto, corpo musculoso e estilo cheio de personalidade. A peça traz detalhes da camisa, bola de futebol e base temática, ideal para torcedores e colecionadores.",
+      "category": "Mascotes de time",
+      "translations": {
+        "de": {
+          "title": "Maskottchen von Inter Mailand",
+          "category": "Team-Maskottchen",
+          "description": "Von Inter Mailand inspiriertes Maskottchen mit auffälliger blau-schwarzer Optik, muskulösem Körper und Stil voller Persönlichkeit. Das Stück zeigt Details des Hemdes, des Fußballs und der thematischen Basis, ideal für Fans und Sammler."
+        },
+        "en": {
+          "title": "Inter Milan Mascot",
+          "category": "Team mascots",
+          "description": "Inter Milan-inspired mascot, with striking blue and black look, muscular body and style full of personality. The piece features details of the shirt, soccer ball and thematic base, ideal for fans and collectors."
+        },
+        "es": {
+          "title": "Mascota del Inter de Milán",
+          "category": "Mascotas del equipo",
+          "description": "Mascota inspirada en el Inter de Milán, con un llamativo aspecto azul y negro, cuerpo musculoso y estilo lleno de personalidad. La pieza presenta detalles de la camiseta, balón de fútbol y base temática, ideal para aficionados y coleccionistas."
+        },
+        "it": {
+          "title": "Mascotte Inter Milan",
+          "category": "Mascotte del team",
+          "description": "Mascotte ispirata all'Inter Milan, con un look blu e nero sorprendente, corpo muscoloso e stile pieno di personalità. Il capo presenta dettagli della maglia, del pallone da calcio e della base tematica, ideali per appassionati e collezionisti."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 20:31:39.719062+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/29c29d10-a646-4818-bbd9-dab8572e711f/52af8b5b-6c3d-4023-a53f-937772a0c769.png",
+          "sort_order": 0,
+          "alt_text": "Mascote Inter de Milão"
+        },
+        {
+          "storage_path": "assets/catalog/29c29d10-a646-4818-bbd9-dab8572e711f/587d4dc0-75ca-47a8-ba93-392b8eeae32a.png",
+          "sort_order": 1,
+          "alt_text": "Mascote Inter de Milão"
+        }
+      ]
+    },
+    {
+      "id": "7d97ca20-ae85-4ef0-9753-2b03b42502c7",
+      "title": "Android 21 na sua forma majin",
+      "description": "Figura da Android 21 em sua forma Majin, com pele rosa, cabelos prateados e cauda. Os detalhes do visual fazem dela uma peça marcante para a coleção.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Android 21 in seiner majestätischen Form",
+          "category": "Personenverzeichnis",
+          "description": "Figur von Android 21 in seiner Majin-Form, mit rosa Haut, silbernem Haar und Schwanz. Die Details des Looks machen ihn zu einem auffälligen Stück für die Kollektion."
+        },
+        "en": {
+          "title": "Android 21 in its majin form",
+          "category": "Characters",
+          "description": "Figure of Android 21 in its Majin form, with pink skin, silver hair and tail. The details of the look make it a striking piece for the collection."
+        },
+        "es": {
+          "title": "Android 21 en su forma majin",
+          "category": "Personajes",
+          "description": "Figura de Android 21 en su forma Majin, con piel rosada, pelo plateado y cola. Los detalles del look la convierten en una pieza llamativa para la colección."
+        },
+        "it": {
+          "title": "Android 21 nella sua forma majin",
+          "category": "Caratteri",
+          "description": "Figura di Android 21 nella sua forma Majin, con pelle rosa, capelli argentati e coda. I dettagli del look lo rendono un pezzo d'effetto per la collezione."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 02:43:14.397546+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/7d97ca20-ae85-4ef0-9753-2b03b42502c7/8ec8c78e-6965-4d11-8569-4c6558c648ee.png",
+          "sort_order": 0,
+          "alt_text": "Android 21 na sua forma majin"
+        },
+        {
+          "storage_path": "assets/catalog/7d97ca20-ae85-4ef0-9753-2b03b42502c7/f7017b08-1b72-4593-938a-54be574c5e71.png",
+          "sort_order": 1,
+          "alt_text": "Android 21 na sua forma majin"
+        }
+      ]
+    },
+    {
+      "id": "9a866467-5212-4cb6-adae-15927ea3a59f",
+      "title": "Homem Aranha",
+      "description": "Homem-Aranha em pose de ação, com o clássico traje vermelho e azul. Uma peça cheia de detalhes para decorar e completar a coleção de quem é fã do personagem.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Ragnarok",
+          "category": "Personenverzeichnis",
+          "description": "Spider-Man in Action-Pose im klassischen rot-blauen Anzug. Ein Stück voller Details, um die Sammlung derer, die Fans des Charakters sind, zu schmücken und zu vervollständigen."
+        },
+        "en": {
+          "title": "Spiderman",
+          "category": "Characters",
+          "description": "Spider-Man in action pose, wearing the classic red and blue suit. A piece full of details to decorate and complete the collection of those who are fans of the character."
+        },
+        "es": {
+          "title": "Spider-Man",
+          "category": "Personajes",
+          "description": "Posición de Spider-Man en acción, vistiendo el clásico traje rojo y azul. Una pieza llena de detalles para decorar y completar la colección de los que son fans del personaje."
+        },
+        "it": {
+          "title": "Uomo Ragno",
+          "category": "Caratteri",
+          "description": "L'Uomo Ragno in posa d'azione, indossa il classico completo rosso e blu. Un pezzo ricco di dettagli per decorare e completare la collezione di chi è appassionato del personaggio."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 02:41:55.597487+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/9a866467-5212-4cb6-adae-15927ea3a59f/bad280e4-19e6-4bc8-ad8b-e3d757338dc9.jpg",
+          "sort_order": 0,
+          "alt_text": "Homem Aranha"
+        }
+      ]
+    },
+    {
+      "id": "f1212d41-a293-40c3-8396-dcf583c613dc",
+      "title": "Letreiro Aranha",
+      "description": "Letreiro personalizado com o número 6 em azul, nome em vermelho e detalhes de teias e aranha em branco. Uma peça para decorar a festa de aniversário e guardar de lembrança.",
+      "category": "Letreiros para festa",
+      "translations": {
+        "de": {
+          "title": "Spinnenschild",
+          "category": "Schilder",
+          "description": "Individuelles Schild mit der Nummer 6 in Blau, Name in Rot und Netz und Spinnendetails in Weiß. Ein Stück, um die Geburtstagsfeier zu schmücken und als Souvenir aufzubewahren."
+        },
+        "en": {
+          "title": "Spider Sign",
+          "category": "Display codes",
+          "description": "Custom sign with the number 6 in blue, name in red and web and spider details in white. A piece to decorate the birthday party and keep as a souvenir."
+        },
+        "es": {
+          "title": "Letrero de araña",
+          "category": "Letreiros",
+          "description": "Signo personalizado con el número 6 en azul, nombre en rojo y telaraña y detalles de araña en blanco. Una pieza para decorar la fiesta de cumpleaños y guardarla como recuerdo."
+        },
+        "it": {
+          "title": "Segno del Ragno",
+          "category": "Segnaletica",
+          "description": "Segno personalizzato con il numero 6 in blu, nome in rosso e dettagli a ragnatela in bianco. Un pezzo per decorare la festa di compleanno e conservarlo come souvenir."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 02:06:47.473325+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/f1212d41-a293-40c3-8396-dcf583c613dc/526255d3-98cc-48a1-9e75-6b7482886851.png",
+          "sort_order": 0,
+          "alt_text": "Letreiro Aranha"
+        }
+      ]
+    },
+    {
+      "id": "c79f7410-5058-4076-a6cb-0a1ea9904fce",
+      "title": "Letreiro Palmeiras",
+      "description": "Letreiro personalizado com a inicial verde, o nome Nathan em branco e o escudo do Palmeiras. Uma peça para decorar a festa e guardar como lembrança.",
+      "category": "Letreiros para festa",
+      "translations": {
+        "de": {
+          "title": "Palmeiras-Zeichen",
+          "category": "Schilder",
+          "description": "Personalisiertes Schild mit der grünen Initiale, dem Namen Nathan in Weiß und dem Palmeiras-Schild. Ein Stück, um die Party zu dekorieren und als Souvenir aufzubewahren."
+        },
+        "en": {
+          "title": "Palmeiras Sign",
+          "category": "Display codes",
+          "description": "Personalized sign with the green initial, the name Nathan in white and the Palmeiras shield. A piece to decorate the party and keep as a souvenir."
+        },
+        "es": {
+          "title": "Signo de Palmeiras",
+          "category": "Letreiros",
+          "description": "Signo personalizado con la inicial verde, el nombre Nathan en blanco y el escudo de Palmeiras. Una pieza para decorar la fiesta y guardar como recuerdo."
+        },
+        "it": {
+          "title": "Cartello Palmeiras",
+          "category": "Segnaletica",
+          "description": "Segno personalizzato con l'iniziale verde, il nome Nathan in bianco e lo scudo Palmeiras. Un pezzo per decorare la festa e conservarlo come souvenir."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 02:04:59.567825+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/c79f7410-5058-4076-a6cb-0a1ea9904fce/8e13335a-fef1-4dc8-8857-842865857902.png",
+          "sort_order": 0,
+          "alt_text": "Letreiro Palmeiras"
+        }
+      ]
+    },
+    {
+      "id": "160d7837-d695-4b57-a057-5ab91bfd847d",
+      "title": "Letreiros para festas",
+      "description": "Oliver: Letreiro personalizado com inicial azul, nome vermelho e detalhes inspirados no Homem-Aranha. Uma peça para decorar a festa e guardar de lembrança.",
+      "category": "Letreiros para festa",
+      "translations": {
+        "de": {
+          "title": "Partyschilder",
+          "category": "Schilder",
+          "description": "Oliver: Individuelles Schild mit blauer Initiale, rotem Namen und von Spider-Man inspirierten Details. Ein Stück, um die Party zu dekorieren und als Souvenir aufzubewahren."
+        },
+        "en": {
+          "title": "Party Signs",
+          "category": "Display codes",
+          "description": "Oliver: Custom sign with blue initial, red name, and Spider-Man-inspired details. A piece to decorate the party and keep as a souvenir."
+        },
+        "es": {
+          "title": "Letreros de fiestas",
+          "category": "Letreiros",
+          "description": "Oliver: Letrero personalizado con inicial azul, nombre rojo y detalles inspirados en Spider-Man. Una pieza para decorar la fiesta y guardar como recuerdo."
+        },
+        "it": {
+          "title": "Cartelli per feste",
+          "category": "Segnaletica",
+          "description": "Oliver: Cartello personalizzato con iniziali blu, nome rosso e dettagli ispirati all'Uomo Ragno. Un pezzo per decorare la festa e conservarlo come souvenir."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 02:01:28.295375+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/160d7837-d695-4b57-a057-5ab91bfd847d/8a46924d-4834-463e-8f8f-15a07653887f.jpg",
+          "sort_order": 0,
+          "alt_text": "Letreiros para festas"
+        }
+      ]
+    },
+    {
+      "id": "29ceb9ad-c8b8-431f-8669-7160197a560b",
+      "title": "Guerreiro Saiyajin Azul com Cauda Vermelha",
+      "description": "Guerreiro Saiyajin Azul com cabelo volumoso, traje azul e cauda vermelha. Os detalhes da peça chamam atenção de frente e de costas, tornando ela uma ótima escolha para decorar ou completar uma coleção de personagens.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Blauer Saiyajin-Krieger mit rotem Schwanz",
+          "category": "Personenverzeichnis",
+          "description": "Blauer Saiyajin-Krieger mit voluminösem Haar, blauem Kostüm und rotem Schwanz. Die Details des Stücks ziehen die Aufmerksamkeit von vorne und hinten auf sich, was es zu einer großartigen Wahl macht, um eine Sammlung von Charakteren zu dekorieren oder zu vervollständigen."
+        },
+        "en": {
+          "title": "Blue Saiyan Warrior with Red Tail",
+          "category": "Characters",
+          "description": "Blue Saiyan warrior with voluminous hair, blue costume, and red tail. The details of the piece draw attention from the front and back, making it a great choice to decorate or complete a collection of characters."
+        },
+        "es": {
+          "title": "Guerrero Saiyajin Azul con Cola Roja",
+          "category": "Personajes",
+          "description": "Guerrero Saiyajin Azul con cabello voluminoso, disfraz azul y cola roja. Los detalles de la pieza llaman la atención por delante y por detrás, por lo que es una gran opción para decorar o completar una colección de personajes."
+        },
+        "it": {
+          "title": "Guerriero Saiyan blu con coda rossa",
+          "category": "Caratteri",
+          "description": "Guerriero Saiyan blu con capelli voluminosi, costume blu e coda rossa. I dettagli del pezzo attirano l'attenzione dalla parte anteriore e posteriore, rendendolo un'ottima scelta per decorare o completare una collezione di personaggi."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 01:37:46.680455+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/29ceb9ad-c8b8-431f-8669-7160197a560b/6795a6db-06df-4637-86ec-700a9ef1198e.png",
+          "sort_order": 0,
+          "alt_text": "Guerreiro Saiyajin Azul com Cauda Vermelha"
+        },
+        {
+          "storage_path": "assets/catalog/29ceb9ad-c8b8-431f-8669-7160197a560b/d420047a-febb-4d7d-bbca-cb1c06649671.png",
+          "sort_order": 1,
+          "alt_text": "Guerreiro Saiyajin Azul com Cauda Vermelha"
+        }
+      ]
+    },
+    {
+      "id": "ef8de1af-3543-4e17-bd93-02a307b0cbc8",
+      "title": "Super Saiyajin",
+      "description": "Boneco Super Saiyajin com cabelo dourado, traje laranja e detalhes que destacam a força do personagem. Uma peça para decorar o ambiente ou completar a coleção de quem é fã de anime.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Super Saiyajin",
+          "category": "Personenverzeichnis",
+          "description": "Super Saiyajin-Puppe mit goldenem Haar, orangefarbenem Kostüm und Details, die die Stärke des Charakters unterstreichen. Ein Stück, um die Umgebung zu dekorieren oder die Sammlung derjenigen zu vervollständigen, die Anime-Fans sind."
+        },
+        "en": {
+          "title": "Super Saiyan",
+          "category": "Characters",
+          "description": "Super Saiyan doll with golden hair, orange costume and details that highlight the strength of the character. A piece to decorate the environment or complete the collection of those who are fans of anime."
+        },
+        "es": {
+          "title": "Super Saiyajin",
+          "category": "Personajes",
+          "description": "Muñeca Super Saiyajin con pelo dorado, disfraz naranja y detalles que resaltan la fuerza del personaje. Una pieza para decorar el ambiente o completar la colección de aquellos que son fans del anime."
+        },
+        "it": {
+          "title": "Super Saiyan",
+          "category": "Caratteri",
+          "description": "Bambola Super Saiyan con capelli dorati, costume arancione e dettagli che mettono in risalto la forza del personaggio. Un pezzo per decorare l'ambiente o completare la collezione di chi è appassionato di anime."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-29 01:24:00.106733+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/ef8de1af-3543-4e17-bd93-02a307b0cbc8/61855e20-d746-4f96-9946-31f8eddc92d9.png",
+          "sort_order": 0,
+          "alt_text": "Super Saiyajin"
+        },
+        {
+          "storage_path": "assets/catalog/ef8de1af-3543-4e17-bd93-02a307b0cbc8/20ddedde-77e5-4625-a66a-59489c314f9d.png",
+          "sort_order": 1,
+          "alt_text": "Super Saiyajin"
+        }
+      ]
+    },
+    {
+      "id": "eae9c777-4a55-40ff-8b2a-5a20ad1b0880",
+      "title": "Corrente articulada",
+      "description": "Uma corrente flexível formada por elos articulados, que pode ser dobrada, enrolada e movimentada de várias formas. Os detalhes em relevo deixam a peça interessante de explorar com as mãos.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Gelenkkette",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Eine flexible Kette, die aus Gelenkgliedern besteht, die auf verschiedene Weise gefaltet, gerollt und bewegt werden können. Die geprägten Details machen das Stück interessant, um es mit den Händen zu erkunden."
+        },
+        "en": {
+          "title": "Articulated chain",
+          "category": "Articulated sensory toys",
+          "description": "A flexible chain formed by articulated links, which can be folded, rolled and moved in various ways. The embossed details make the piece interesting to explore with your hands."
+        },
+        "es": {
+          "title": "Cadena articulada",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Una cadena flexible formada por eslabones articulados, que se puede plegar, enrollar y mover de varias maneras. Los detalles en relieve hacen que la pieza sea interesante para explorar con las manos."
+        },
+        "it": {
+          "title": "Catena articolata",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Una catena flessibile formata da maglie articolate, che possono essere piegate, arrotolate e movimentate in vari modi. I dettagli in rilievo rendono il pezzo interessante da esplorare con le mani."
+        }
+      },
+      "price": "5.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 23:04:46.928187+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/eae9c777-4a55-40ff-8b2a-5a20ad1b0880/0a453b6d-f26b-4b58-b49c-a6bed9789f3e.jpg",
+          "sort_order": 0,
+          "alt_text": "Corrente articulada"
+        }
+      ]
+    },
+    {
+      "id": "5d8568d9-956b-4e3e-8517-9602b5a343d8",
+      "title": "Sapinhos Articulados",
+      "description": "Sapinhos com olhos expressivos e partes móveis, feitos para brincar, movimentar e criar diferentes posições.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Knickdrossel",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Drosseln mit ausdrucksstarken Augen und beweglichen Teilen, die zum Spielen, Bewegen und Erstellen verschiedener Positionen gemacht sind."
+        },
+        "en": {
+          "title": "Articulated Thrush",
+          "category": "Articulated sensory toys",
+          "description": "Thrush with expressive eyes and moving parts, made to play, move and create different positions."
+        },
+        "es": {
+          "title": "Zorzal articulado",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Zorzal con ojos expresivos y partes móviles, hecho para jugar, moverse y crear diferentes posiciones."
+        },
+        "it": {
+          "title": "Mughetto articolato",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Mughetto con occhi espressivi e parti in movimento, fatto per giocare, muoversi e creare posizioni diverse."
+        }
+      },
+      "price": "5.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 23:03:22.3278+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/5d8568d9-956b-4e3e-8517-9602b5a343d8/cd3c1122-c244-4715-9df1-50bc9f29aa57.jpg",
+          "sort_order": 0,
+          "alt_text": "Sapinhos Articulados"
+        }
+      ]
+    },
+    {
+      "id": "459a24ba-51b7-4b5f-ab53-9d25492bc8de",
+      "title": "Bolinha Sensorial Giratória",
+      "description": "Uma bolinha colorida com botão na parte de cima: ao apertá-lo, suas partes giram, criando um movimento divertido de observar e explorar com as mãos.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Drehender sensorischer Ball",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Ein farbiger Ball mit einem Knopf oben: Wenn Sie ihn drücken, drehen sich seine Teile und erzeugen eine lustige Bewegung, die Sie mit Ihren Händen beobachten und erkunden können."
+        },
+        "en": {
+          "title": "Spinning Sensory Ball",
+          "category": "Articulated sensory toys",
+          "description": "A colored ball with a button on top: when you press it, its parts rotate, creating a fun movement to observe and explore with your hands."
+        },
+        "es": {
+          "title": "Pelota sensorial giratoria",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Una bola de color con un botón en la parte superior: al pulsarla, sus partes giran, creando un movimiento divertido para observar y explorar con las manos."
+        },
+        "it": {
+          "title": "Palla Sensoriale Rotante",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Una pallina colorata con un bottone in cima: quando la premi, le sue parti ruotano, creando un movimento divertente da osservare ed esplorare con le mani."
+        }
+      },
+      "price": "8.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 22:57:44.41677+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/459a24ba-51b7-4b5f-ab53-9d25492bc8de/73cdd5b2-0b42-4790-b25f-08f1adc03d84.jpg",
+          "sort_order": 0,
+          "alt_text": "Bolinha Sensorial Giratória"
+        }
+      ]
+    },
+    {
+      "id": "88a7bc8e-5c40-4be3-9679-40e477df01ab",
+      "title": "Esfera Sensorial Transformável",
+      "description": "Uma peça que muda de forma nas mãos: fechada, parece uma bolinha; ao movimentá-la, abre suas partes e revela um formato parecido com uma flor. Suas cores e texturas convidam a explorar cada movimento.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Transformierbare sensorische Sphäre",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Ein Stück, das in den Händen seine Form ändert: geschlossen sieht es aus wie eine Kugel; beim Bewegen öffnet es seine Teile und zeigt eine blütenartige Form. Seine Farben und Texturen laden Sie ein, jede Bewegung zu erkunden."
+        },
+        "en": {
+          "title": "Transformable Sensory Sphere",
+          "category": "Articulated sensory toys",
+          "description": "A piece that changes shape in the hands: closed, it looks like a ball; when moving it, it opens its parts and reveals a flower-like shape. Its colors and textures invite you to explore every movement."
+        },
+        "es": {
+          "title": "Esfera sensorial transformable",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Una pieza que cambia de forma en las manos: cerrada, parece una bola; al moverla, abre sus partes y revela una forma de flor. Sus colores y texturas invitan a explorar cada movimiento."
+        },
+        "it": {
+          "title": "Sfera sensoriale trasformabile",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Un pezzo che cambia forma nelle mani: chiuso, sembra una palla; quando lo muove, apre le sue parti e rivela una forma simile a un fiore. I suoi colori e le sue texture invitano a esplorare ogni movimento."
+        }
+      },
+      "price": "10.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 22:51:59.549515+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/88a7bc8e-5c40-4be3-9679-40e477df01ab/351aaf7a-ef78-4b7d-97ba-021c61dc62e1.jpg",
+          "sort_order": 0,
+          "alt_text": "Esfera Sensorial Transformável"
+        }
+      ]
+    },
+    {
+      "id": "c1d6a875-df0d-4f20-9c28-b3a9537dd409",
+      "title": "Dragões articulados",
+      "description": "Dragões com corpo articulado que se movimenta ao toque, permitindo criar diferentes poses e explorar os detalhes da peça. Uma opção divertida para brincar, colecionar ou decorar.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Artikulierte Drachen",
+          "category": "Gelenkiges sensorisches Spielzeug",
+          "description": "Drachen mit einem artikulierten Körper, der sich zur Berührung bewegt, so dass Sie verschiedene Posen erstellen und die Details des Stücks erkunden können. Eine lustige Option zum Spielen, Sammeln oder Dekorieren."
+        },
+        "en": {
+          "title": "Articulated dragons",
+          "category": "Articulated sensory toys",
+          "description": "Dragons with an articulated body that moves to the touch, allowing you to create different poses and explore the details of the piece. A fun option to play, collect or decorate."
+        },
+        "es": {
+          "title": "Dragones articulados",
+          "category": "Juguetes sensoriales articulados",
+          "description": "Dragones con un cuerpo articulado que se mueve al tacto, permitiéndote crear diferentes poses y explorar los detalles de la pieza. Una opción divertida para jugar, coleccionar o decorar."
+        },
+        "it": {
+          "title": "Draghi articolati",
+          "category": "Giocattoli sensoriali articolati",
+          "description": "Draghi dal corpo articolato che si muove al tatto, permettendo di creare diverse pose ed esplorare i dettagli del pezzo. Un'opzione divertente per giocare, collezionare o decorare."
+        }
+      },
+      "price": "15.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 22:47:30.882336+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/c1d6a875-df0d-4f20-9c28-b3a9537dd409/10f5c51c-1d3b-4703-9da0-3e8ec59b4f90.png",
+          "sort_order": 0,
+          "alt_text": "Dragões articulados"
+        }
+      ]
+    },
+    {
+      "id": "81d25903-1b31-4275-aba0-5a911c1e1f0c",
+      "title": "Bolinha sensorial transformável",
+      "description": "Uma bolinha articulada que se abre e muda de formato conforme você movimenta as peças. Dá para girar, dobrar e explorar diferentes posições, tornando cada movimento uma nova descoberta. Divertida para manter as mãos ocupadas e brincar com as formas.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Verwandelbarer Sensorikball",
+          "category": "Bewegliches Spielzeug",
+          "description": "Ein beweglicher Ball, der sich öffnen und seine Form verändern lässt. Drehe und falte die Teile und entdecke verschiedene Positionen. Ein schönes Spiel mit Formen für beschäftigte Hände."
+        },
+        "en": {
+          "title": "Transforming Sensory Ball",
+          "category": "Articulated toy",
+          "description": "An articulated ball that opens and changes shape as you move its parts. Twist, fold and explore different positions. A fun way to keep your hands busy and play with shapes."
+        },
+        "es": {
+          "title": "Pelota sensorial transformable",
+          "category": "Juguete articulado",
+          "description": "Una pelota articulada que se abre y cambia de forma al mover sus piezas. Puedes girarla, doblarla y explorar distintas posiciones. Divertida para mantener las manos ocupadas y jugar con las formas."
+        },
+        "it": {
+          "title": "Pallina sensoriale trasformabile",
+          "category": "Giocattolo articolato",
+          "description": "Una pallina articolata che si apre e cambia forma mentre muovi le sue parti. Puoi ruotarla, piegarla ed esplorare diverse posizioni. Divertente da tenere tra le mani e per giocare con le forme."
+        }
+      },
+      "price": "10.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 21:36:58.678533+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/81d25903-1b31-4275-aba0-5a911c1e1f0c/acc1b735-9743-4e0f-8868-42a7f8914e53.jpg",
+          "sort_order": 0,
+          "alt_text": "Bolinha sensorial transformável"
+        },
+        {
+          "storage_path": "assets/catalog/81d25903-1b31-4275-aba0-5a911c1e1f0c/8bf2fc2c-50bf-4f9b-9625-485bed46aef0.mp4",
+          "sort_order": 1,
+          "alt_text": "Bolinha sensorial transformável"
+        }
+      ]
+    },
+    {
+      "id": "824186e4-eacd-4c16-b916-9d88604f9258",
+      "title": "Bolinhas Sensoriais Geométricas",
+      "description": "Coloridas e cheias de detalhes, essas bolinhas combinam peças de diferentes formas, relevos e cores em um formato fácil de segurar. São divertidas de explorar com as mãos e de observar de vários ângulos.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Geometrische Sensorikbälle",
+          "category": "Bewegliches Spielzeug",
+          "description": "Diese bunten Bälle verbinden Elemente mit verschiedenen Formen, Oberflächen und Farben und liegen gut in der Hand. Sie laden zum Fühlen und Betrachten aus verschiedenen Blickwinkeln ein."
+        },
+        "en": {
+          "title": "Geometric Sensory Balls",
+          "category": "Articulated toy",
+          "description": "Colorful and full of detail, these balls combine pieces with different shapes, textures and colors in an easy-to-hold form. Fun to explore by hand and look at from every angle."
+        },
+        "es": {
+          "title": "Pelotas sensoriales geométricas",
+          "category": "Juguete articulado",
+          "description": "Coloridas y llenas de detalles, combinan piezas de distintas formas, texturas y colores en un formato fácil de sujetar. Divertidas para explorar con las manos y observar desde varios ángulos."
+        },
+        "it": {
+          "title": "Palline sensoriali geometriche",
+          "category": "Giocattolo articolato",
+          "description": "Colorate e ricche di dettagli, queste palline combinano elementi con forme, superfici e colori diversi in un formato facile da impugnare. Divertenti da esplorare con le mani e osservare da ogni angolazione."
+        }
+      },
+      "price": "6.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 21:32:50.773717+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/824186e4-eacd-4c16-b916-9d88604f9258/a97611fa-31e1-4bcc-8dce-3b9d0b0b38f0.jpg",
+          "sort_order": 0,
+          "alt_text": "Bolinhas Sensoriais Geométricas"
+        }
+      ]
+    },
+    {
+      "id": "55ab341d-d94d-459e-b324-08cb3502b51f",
+      "title": "Estrela articulada",
+      "description": "Uma peça interativa que se levanta pela haste e pode ser inclinada de um lado para o outro. Suas camadas acompanham o movimento, criando um efeito visual diferente a cada posição.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Beweglicher Stern",
+          "category": "Bewegliches Spielzeug",
+          "description": "Dieses interaktive Stück lässt sich am Stiel anheben und von einer Seite zur anderen neigen. Seine Schichten folgen der Bewegung und erzeugen in jeder Position einen anderen visuellen Effekt."
+        },
+        "en": {
+          "title": "Articulated Star",
+          "category": "Articulated toy",
+          "description": "An interactive piece that rises by its stem and tilts from side to side. Its layers follow the movement, creating a different visual effect in each position."
+        },
+        "es": {
+          "title": "Estrella articulada",
+          "category": "Juguete articulado",
+          "description": "Una pieza interactiva que se eleva por el eje y puede inclinarse de un lado a otro. Sus capas siguen el movimiento y crean un efecto visual diferente en cada posición."
+        },
+        "it": {
+          "title": "Stella articolata",
+          "category": "Giocattolo articolato",
+          "description": "Una creazione interattiva che si solleva tramite il perno e può inclinarsi da un lato all'altro. I suoi strati seguono il movimento e creano un effetto visivo diverso in ogni posizione."
+        }
+      },
+      "price": "10.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 21:26:41.683765+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/55ab341d-d94d-459e-b324-08cb3502b51f/5528b5c2-f8a4-47fb-b140-e77521c23c69.jpg",
+          "sort_order": 0,
+          "alt_text": "Estrela articulada"
+        },
+        {
+          "storage_path": "assets/catalog/55ab341d-d94d-459e-b324-08cb3502b51f/72e0a715-a518-49b8-a87f-923febe5cb30.mp4",
+          "sort_order": 1,
+          "alt_text": "Estrela articulada"
+        }
+      ]
+    },
+    {
+      "id": "1b6cc283-914e-4bcf-863b-69f978e4ab60",
+      "title": "Cubo infinito sensorial.",
+      "description": "Formados por blocos unidos por dobradiças, esses cubos podem ser abertos e dobrados repetidamente, criando diferentes posições nas mãos. O movimento é simples e envolvente, ideal para quem gosta de manter as mãos ocupadas.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Sensorischer Infinity-Würfel",
+          "category": "Bewegliches Spielzeug",
+          "description": "Die durch Scharniere verbundenen Blöcke lassen sich immer wieder öffnen und falten. So entstehen verschiedene Formen in der Hand. Die einfache Bewegung hält die Hände beschäftigt."
+        },
+        "en": {
+          "title": "Sensory Infinity Cube",
+          "category": "Articulated toy",
+          "description": "Made of hinged blocks, this cube can be opened and folded again and again into different positions. Its simple, engaging movement is ideal for keeping hands busy."
+        },
+        "es": {
+          "title": "Cubo infinito sensorial",
+          "category": "Juguete articulado",
+          "description": "Formado por bloques unidos con bisagras, se abre y se dobla una y otra vez para crear distintas posiciones. Su movimiento sencillo y entretenido es ideal para mantener las manos ocupadas."
+        },
+        "it": {
+          "title": "Cubo infinito sensoriale",
+          "category": "Giocattolo articolato",
+          "description": "Composto da blocchi uniti da cerniere, si apre e si ripiega ripetutamente assumendo forme diverse tra le mani. Il movimento è semplice e coinvolgente, ideale per tenere le mani occupate."
+        }
+      },
+      "price": "5.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 20:09:09.788362+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/1b6cc283-914e-4bcf-863b-69f978e4ab60/3121a99a-d6a7-4601-b876-266a74ec3c30.jpg",
+          "sort_order": 0,
+          "alt_text": "Cubo infinito sensorial."
+        }
+      ]
+    },
+    {
+      "id": "19bdf5de-0b72-4f68-810b-131769ca96ec",
+      "title": "Árvore em Espiral Interativa",
+      "description": "As partes da árvore se entrelaçam e deslizam, passando uma por dentro da outra em um movimento contínuo. Além do visual colorido em espiral, é uma peça gostosa de manusear e interessante de observar em movimento.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Interaktiver Spiralbaum",
+          "category": "Bewegliches Sensorikspielzeug",
+          "description": "Die Teile des Baums greifen ineinander und gleiten in einer durchgehenden Bewegung aneinander vorbei. Die bunte Spirale macht das Stück angenehm zum Spielen und spannend zum Anschauen."
+        },
+        "en": {
+          "title": "Interactive Spiral Tree",
+          "category": "Articulated sensory toy",
+          "description": "The tree's parts weave and slide through one another in a continuous motion. With its colorful spiral design, it is fun to handle and fascinating to watch in motion."
+        },
+        "es": {
+          "title": "Árbol espiral interactivo",
+          "category": "Juguete sensorial articulado",
+          "description": "Las partes del árbol se entrelazan y se deslizan unas dentro de otras en un movimiento continuo. Su diseño colorido en espiral resulta agradable de manipular y observar."
+        },
+        "it": {
+          "title": "Albero a spirale interattivo",
+          "category": "Giocattolo sensoriale articolato",
+          "description": "Le parti dell'albero si intrecciano e scorrono una dentro l'altra in un movimento continuo. Con il suo aspetto colorato a spirale, è piacevole da maneggiare e da osservare in movimento."
+        }
+      },
+      "price": "6.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 20:04:44.184356+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/19bdf5de-0b72-4f68-810b-131769ca96ec/88099c73-374e-4ee9-8921-8fbe756c406b.jpg",
+          "sort_order": 0,
+          "alt_text": "Árvore em Espiral Interativa"
+        }
+      ]
+    },
+    {
+      "id": "d69f028f-ae1b-4946-858f-0bfedbae9fc9",
+      "title": "Potinho Sensorial de Apertar",
+      "description": "Um personagem fixo dentro do potinho, feito para ser pressionado com o dedo. O movimento lembra o clique de um botão e oferece uma experiência tátil repetitiva para quem gosta de manter as mãos ocupadas. Uma opção divertida de brinquedo sensorial e antistress.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Sensorischer Drücktopf",
+          "category": "Sensorikspielzeug",
+          "description": "Eine feste Figur im kleinen Topf lässt sich mit dem Finger drücken. Die Bewegung erinnert an einen Knopfdruck und bietet ein wiederholtes Tastgefühl. Ein unterhaltsames Spielzeug für beschäftigte Hände."
+        },
+        "en": {
+          "title": "Pressable Sensory Pot",
+          "category": "Sensory toy",
+          "description": "A character fixed inside the little pot can be pressed with a finger. The motion feels like clicking a button and offers a repeated tactile experience for anyone who likes to keep their hands busy. A fun sensory fidget toy."
+        },
+        "es": {
+          "title": "Tarrito sensorial para presionar",
+          "category": "Juguete sensorial",
+          "description": "Un personaje fijo dentro del tarrito se presiona con el dedo. El movimiento recuerda al clic de un botón y ofrece una experiencia táctil repetitiva para quienes disfrutan mantener las manos ocupadas. Un juguete sensorial divertido y antiestrés."
+        },
+        "it": {
+          "title": "Vasetto sensoriale da premere",
+          "category": "Giocattolo sensoriale",
+          "description": "Un personaggio fisso all'interno del vasetto può essere premuto con un dito. Il movimento ricorda il clic di un pulsante e offre una sensazione tattile ripetitiva per chi ama tenere le mani occupate. Un giocattolo sensoriale divertente e antistress."
+        }
+      },
+      "price": "8.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 20:01:29.076147+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/d69f028f-ae1b-4946-858f-0bfedbae9fc9/f6fa7774-429f-40a2-bd8c-54e5a9fd6ff0.png",
+          "sort_order": 0,
+          "alt_text": "Potinho Sensorial de Apertar"
+        },
+        {
+          "storage_path": "assets/catalog/d69f028f-ae1b-4946-858f-0bfedbae9fc9/20fb920f-59d4-4168-8bb9-b677af93dfe3.png",
+          "sort_order": 1,
+          "alt_text": "Potinho Sensorial de Apertar"
+        }
+      ]
+    },
+    {
+      "id": "c00cd511-0f81-464a-abfb-a71dc5acf450",
+      "title": "Bailarina Giratória",
+      "description": "Uma peça decorativa e interativa: ao girar a bailarina, a saia em camadas cria um efeito visual de movimento, como se ela estivesse dançando. Disponível em diferentes cores, fica bonita tanto em uma prateleira quanto sobre a mesa.",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Drehende Ballerina",
+          "category": "Bewegliches Spielzeug",
+          "description": "Ein dekoratives und interaktives Stück: Beim Drehen erweckt der mehrlagige Rock den Eindruck, als würde die Ballerina tanzen. In verschiedenen Farben erhältlich und schön auf Regal oder Tisch."
+        },
+        "en": {
+          "title": "Spinning Ballerina",
+          "category": "Articulated toy",
+          "description": "A decorative and interactive piece: when the ballerina spins, her layered skirt creates the impression of dancing. Available in different colors, it looks lovely on a shelf or table."
+        },
+        "es": {
+          "title": "Bailarina giratoria",
+          "category": "Juguete articulado",
+          "description": "Una pieza decorativa e interactiva: al girar la bailarina, su falda de capas crea un efecto de movimiento, como si estuviera bailando. Disponible en varios colores, queda bonita en una estantería o mesa."
+        },
+        "it": {
+          "title": "Ballerina girevole",
+          "category": "Giocattolo articolato",
+          "description": "Una creazione decorativa e interattiva: facendo ruotare la ballerina, la gonna a strati crea un effetto di movimento, come se stesse danzando. Disponibile in diversi colori, sta bene su una mensola o su un tavolo."
+        }
+      },
+      "price": "10.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 0,
+      "created_at": "2026-09-28 19:55:42.346132+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/c00cd511-0f81-464a-abfb-a71dc5acf450/5e5e24cf-59a5-4f64-8a36-f4959d6ae151.jpg",
+          "sort_order": 0,
+          "alt_text": "Bailarina Giratória"
+        },
+        {
+          "storage_path": "assets/catalog/c00cd511-0f81-464a-abfb-a71dc5acf450/76d25ce0-986f-4da8-bf34-3b75045b453d.jpg",
+          "sort_order": 1,
+          "alt_text": "Bailarina Giratória"
+        }
+      ]
+    },
+    {
+      "id": "10be8c2b-9f67-401c-bfbe-9318739761db",
+      "title": "Goku Instinto Superior",
+      "description": "Figura colecionável do Goku em sua forma Instinto Superior, com cabelos prateados, expressão concentrada e traje laranja. Uma peça cheia de detalhes para os fãs de Dragon Ball exibirem na coleção.",
+      "category": "Personagens",
+      "translations": {
+        "de": {
+          "title": "Goku Überlegener Instinkt",
+          "category": "Personenverzeichnis",
+          "description": "Gokus Sammlerfigur in seiner Form des Höheren Instinkts, mit silbernen Haaren, konzentriertem Ausdruck und orangefarbener Kleidung. Ein Stück voller Details, das Dragon Ball-Fans in der Kollektion zeigen können."
+        },
+        "en": {
+          "title": "Goku Superior Instinct",
+          "category": "Characters",
+          "description": "Goku's collectible figure in his Higher Instinct form, with silver hair, concentrated expression, and orange attire. A piece full of details for Dragon Ball fans to display in the collection."
+        },
+        "es": {
+          "title": "Instinto superior de Goku",
+          "category": "Personajes",
+          "description": "La figura coleccionable de Goku en su forma de Instinto Superior, con cabello plateado, expresión concentrada y atuendo naranja. Una pieza llena de detalles para que los fans de Dragon Ball la muestren en la colección."
+        },
+        "it": {
+          "title": "Goku Istinto Superiore",
+          "category": "Caratteri",
+          "description": "La figura da collezione di Goku nella sua forma di Istinto Superiore, con capelli argentati, espressione concentrata e abbigliamento arancione. Un pezzo pieno di dettagli per i fan di Dragon Ball da mostrare nella collezione."
+        }
+      },
+      "price": null,
+      "show_price": false,
+      "featured": false,
+      "sort_order": 1,
+      "created_at": "2026-09-29 01:40:59.67027+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/10be8c2b-9f67-401c-bfbe-9318739761db/554c3467-ca34-48eb-b3cb-40e6f16fc17c.png",
+          "sort_order": 0,
+          "alt_text": "Goku Instinto Superior"
+        }
+      ]
+    },
+    {
+      "id": "15b7ccdd-671f-47cb-b1c3-42c7491e3e48",
+      "title": "Estrela geométrica giratória",
+      "description": "“Estrela geométrica interativa 3D — uma peça de camadas móveis que cria um efeito visual de espiral ao ser manusea",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Drehender geometrischer Stern",
+          "category": "Bewegliches Sensorikspielzeug",
+          "description": "Ein interaktiver geometrischer Stern mit beweglichen Schichten, die beim Spielen einen spiralförmigen visuellen Effekt erzeugen."
+        },
+        "en": {
+          "title": "Spinning Geometric Star",
+          "category": "Articulated sensory toy",
+          "description": "An interactive geometric star with moving layers that create a spiral visual effect as you handle it."
+        },
+        "es": {
+          "title": "Estrella geométrica giratoria",
+          "category": "Juguete sensorial articulado",
+          "description": "Una estrella geométrica interactiva con capas móviles que crean un efecto visual en espiral al manipularla."
+        },
+        "it": {
+          "title": "Stella geometrica girevole",
+          "category": "Giocattolo sensoriale articolato",
+          "description": "Una stella geometrica interattiva con strati mobili che creano un effetto visivo a spirale quando viene maneggiata."
+        }
+      },
+      "price": "10.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 1,
+      "created_at": "2026-09-28 19:44:34.284013+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/15b7ccdd-671f-47cb-b1c3-42c7491e3e48/3d88c84a-973a-454a-abe0-a7b17ce831a3.png",
+          "sort_order": 0,
+          "alt_text": "Estrela geométrica giratória"
+        }
+      ]
+    },
+    {
+      "id": "425ecec3-e393-4f15-b1a2-7d4877cd6886",
+      "title": "Polvos articulados",
+      "description": "Polvo Articulado \nUm personagem divertido para manusear e colecionar. Seus tentáculos articulados se dobram em diferentes posições. Disponível em cores variadas",
+      "category": "Brinquedos sensoriais articulados",
+      "translations": {
+        "de": {
+          "title": "Bewegliche Kraken",
+          "category": "Bewegliches Sensorikspielzeug",
+          "description": "Unterhaltsame Figuren zum Spielen und Sammeln. Ihre beweglichen Tentakel lassen sich in verschiedene Positionen biegen. In mehreren Farben erhältlich."
+        },
+        "en": {
+          "title": "Articulated Octopuses",
+          "category": "Articulated sensory toy",
+          "description": "Fun characters to handle and collect. Their articulated tentacles bend into different positions. Available in a variety of colors."
+        },
+        "es": {
+          "title": "Pulpos articulados",
+          "category": "Juguete sensorial articulado",
+          "description": "Personajes divertidos para manipular y coleccionar. Sus tentáculos articulados se doblan en distintas posiciones. Disponibles en varios colores."
+        },
+        "it": {
+          "title": "Polpi articolati",
+          "category": "Giocattolo sensoriale articolato",
+          "description": "Personaggi divertenti da maneggiare e collezionare. I loro tentacoli articolati si piegano in diverse posizioni. Disponibili in vari colori."
+        }
+      },
+      "price": "12.00",
+      "show_price": true,
+      "featured": false,
+      "sort_order": 2,
+      "created_at": "2026-09-28 19:48:16.970266+00",
+      "creation_images": [
+        {
+          "storage_path": "assets/catalog/425ecec3-e393-4f15-b1a2-7d4877cd6886/616bf0cc-4209-4434-a6f1-92ba549f6b3b.jpg",
+          "sort_order": 0,
+          "alt_text": "Polvos articulados"
+        }
+      ]
+    }
+  ],
+  "media_source": "local"
+}

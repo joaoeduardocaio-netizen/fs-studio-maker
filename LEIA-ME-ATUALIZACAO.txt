@@ -1,0 +1,11 @@
+FS Studio Maker — atualização do catálogo com fotos
+
+Este pacote complementa o site existente: não é um site completo para criar uma nova hospedagem.
+
+Copie os seis arquivos da raiz e a pasta assets/catalog para a raiz do repositório fs-studio-maker, preservando a estrutura de pastas. Substitua os arquivos de mesmo nome; mantenha o restante do site. Não basta enviar este ZIP como arquivo ao GitHub.
+
+O catálogo passa a carregar os 63 produtos com 106 fotos e 4 vídeos recuperados, sem consultar o Supabase. Mantém textos, preços, traduções, categorias e carrinho. Os 15 vídeos não recuperados ficam fora desta atualização.
+
+O painel administrativo continua dependendo do Supabase. As edições feitas nele não alteram automaticamente esta cópia fixa do catálogo. Esta atualização restaura a vitrine; a migração do painel é uma etapa separada. Avaliações do catálogo estão indisponíveis nesta versão, pois ainda dependem do serviço bloqueado.
+
+Testes realizados: 63 produtos com foto, arquivos locais presentes, cinco idiomas, nove categorias, carrinho e link de WhatsApp. Nenhuma chamada de dados do catálogo ao Supabase. Não foi realizada conferência visual em navegador.

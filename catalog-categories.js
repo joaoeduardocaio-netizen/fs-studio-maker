@@ -38,9 +38,12 @@
   };
 
   async function loadDynamicCategories(){
-    const {data,error}=await db.from("catalog_categories").select("name,slug,translations,sort_order,published").eq("published",true).order("sort_order").order("name");
-    if(error){console.warn("Categorias dinâmicas indisponíveis:",error.message);return}
-    dynamicCategories=data||[];
+    try{
+      const response=await fetch("catalog-categories-snapshot.json?v=20261021-photos");
+      if(!response.ok)throw new Error("Categories unavailable");
+      dynamicCategories=await response.json();
+      if(!Array.isArray(dynamicCategories))throw new Error("Invalid categories");
+    }catch(error){return}
     const requested=new URLSearchParams(location.search).get("colecao");
     collection=requested&&findBySlug(requested)?requested:"todos";
     applyLanguage();

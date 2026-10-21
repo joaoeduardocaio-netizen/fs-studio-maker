@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Decoração de Natal",
+    "slug": "decoracao-de-natal",
+    "translations": {
+      "de": {
+        "category": "Weihnachtsdekoration"
+      },
+      "en": {
+        "category": "underpants and this year’s range of Christmas"
+      },
+      "es": {
+        "category": "Decoración navideña"
+      },
+      "it": {
+        "category": "Decorazione natalizia"
+      }
+    },
+    "sort_order": 0,
+    "published": true
+  },
+  {
+    "name": "Mascotes de time",
+    "slug": "mascotes-de-time",
+    "translations": {
+      "de": {
+        "category": "Team-Maskottchen"
+      },
+      "en": {
+        "category": "Team mascots"
+      },
+      "es": {
+        "category": "Mascotas del equipo"
+      },
+      "it": {
+        "category": "Mascotte del team"
+      }
+    },
+    "sort_order": 0,
+    "published": true
+  },
+  {
+    "name": "Canecas Personalizadas",
+    "slug": "canecas-personalizadas",
+    "translations": {
+      "de": {
+        "category": "Benutzerdefinierte Tassen"
+      },
+      "en": {
+        "category": "Custom Mugs"
+      },
+      "es": {
+        "category": "Tazas personalizadas"
+      },
+      "it": {
+        "category": "Tazze personalizzate"
+      }
+    },
+    "sort_order": 4,
+    "published": true
+  },
+  {
+    "name": "Pokébolas Funcionais",
+    "slug": "pokebolas-funcionais",
+    "translations": {
+      "de": {
+        "category": "Funktionelle Pokébälle"
+      },
+      "en": {
+        "category": "Functional Poké Balls"
+      },
+      "es": {
+        "category": "Poké Balls funcionales"
+      },
+      "it": {
+        "category": "Poké Ball funzionali"
+      }
+    },
+    "sort_order": 8,
+    "published": true
+  },
+  {
+    "name": "Brinquedos sensoriais articulados",
+    "slug": "brinquedos-sensoriais-articulados",
+    "translations": {
+      "de": {
+        "category": "Bewegliche Sinnesspielzeuge"
+      },
+      "en": {
+        "category": "Articulated sensory toys"
+      },
+      "es": {
+        "category": "Juguetes sensoriales articulados"
+      },
+      "it": {
+        "category": "Giochi sensoriali articolati"
+      }
+    },
+    "sort_order": 10,
+    "published": true
+  },
+  {
+    "name": "Acessórios e utilidades",
+    "slug": "acessorios-e-utilidades",
+    "translations": {
+      "de": {
+        "category": "Zubehör und Nebenkosten"
+      },
+      "en": {
+        "category": "Accessories and utilities"
+      },
+      "es": {
+        "category": "Accesorios y utilidades"
+      },
+      "it": {
+        "category": "Accessori e utenze"
+      }
+    },
+    "sort_order": 12,
+    "published": true
+  },
+  {
+    "name": "Organização & Decoração",
+    "slug": "organizacao-decoracao",
+    "translations": {
+      "de": {
+        "category": "Organisation & Dekoration"
+      },
+      "en": {
+        "category": "Organization & Decoration"
+      },
+      "es": {
+        "category": "Organización y decoración"
+      },
+      "it": {
+        "category": "Organizzazione e decorazione"
+      }
+    },
+    "sort_order": 13,
+    "published": true
+  },
+  {
+    "name": "Personagens",
+    "slug": "personagens",
+    "translations": {
+      "de": {
+        "category": "Figuren"
+      },
+      "en": {
+        "category": "Characters"
+      },
+      "es": {
+        "category": "Personajes"
+      },
+      "it": {
+        "category": "Personaggi"
+      }
+    },
+    "sort_order": 20,
+    "published": true
+  },
+  {
+    "name": "Letreiros para festa",
+    "slug": "letreiros-para-festa",
+    "translations": {
+      "de": {
+        "category": "Schriftzüge für Feiern"
+      },
+      "en": {
+        "category": "Party signs"
+      },
+      "es": {
+        "category": "Letreros para fiestas"
+      },
+      "it": {
+        "category": "Scritte per feste"
+      }
+    },
+    "sort_order": 30,
+    "published": true
+  }
+]
