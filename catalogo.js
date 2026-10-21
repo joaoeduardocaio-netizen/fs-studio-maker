@@ -72,7 +72,7 @@ function render(){
 }
 async function load(){
   try{
-    const response=await fetch("catalog-snapshot.json?v=20261021-photos");
+    const response=await fetch("catalog-snapshot.json?v=20261021-leve");
     if(!response.ok)throw new Error("Catalog unavailable");
     const snapshot=await response.json();
     if(!Array.isArray(snapshot.products))throw new Error("Invalid catalog");
