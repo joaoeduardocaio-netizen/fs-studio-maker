@@ -39,7 +39,9 @@
 
   async function loadDynamicCategories(){
     try{
-      const response=await fetch("catalog-categories-snapshot.json?v=20261021-photos");
+      let response;
+      try {response=await fetch('https://fs-studio-maker.pages.dev/api/public/categories',{cache:'no-store'});if(!response.ok)throw new Error('pending');}
+      catch {response=await fetch('catalog-categories-snapshot.json?v=20261021-photos');}
       if(!response.ok)throw new Error("Categories unavailable");
       dynamicCategories=await response.json();
       if(!Array.isArray(dynamicCategories))throw new Error("Invalid categories");

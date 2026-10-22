@@ -69,11 +69,7 @@
     rows=data||[];populateProductSelect();renderList();
   }
 
-  async function translateName(name){
-    const {data,error}=await db.functions.invoke("translate-creation",{body:{title:name,description:"",category:name}});
-    if(error||!data?.translations){let detail=data?.error||error?.message||"Serviço de tradução indisponível.";if(error?.context?.json){try{detail=(await error.context.json()).error||detail}catch{}}throw new Error(detail)}
-    const out={};for(const code of langs){const value=data.translations?.[code]?.category?.trim();if(value)out[code]={category:value}}return out;
-  }
+  async function translateName(name){return {}}
 
   function resetCategoryForm(){
     const form=document.querySelector("#category-form");if(!form)return;form.reset();
@@ -109,7 +105,7 @@
       const existing=rows.find(r=>r.id===id);const translations=(existing&&existing.name===name&&existing.translations&&Object.keys(existing.translations).length)?existing.translations:await translateName(name);
       const payload={name,slug:uniqueSlug(name,id),translations,sort_order,published,updated_at:new Date().toISOString()};
       setBusy(button,true,"Salvando…");
-      if(id){const result=await db.from(table).update(payload).eq("id",id);if(result.error)throw result.error;await updateLinkedProducts(oldName,name,translations)}
+      if(id){const result=await db.from(table).update(payload).eq("id",id);if(result.error)throw result.error;/* linked products updated atomically by the server */}
       else{const result=await db.from(table).insert(payload);if(result.error)throw result.error}
       resetCategoryForm();await loadCategories();if(typeof loadCreations==="function")await loadCreations();msg(messageEl,"Categoria salva com sucesso!","success");
     }catch(error){msg(messageEl,"Não foi possível salvar: "+error.message,"error")}

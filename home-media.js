@@ -3,13 +3,13 @@
   function safe(value){const node=document.createElement("span");node.textContent=value||"";return node.innerHTML}
   function publicUrl(path){return window.supabase.createClient(cfg.url,cfg.publishableKey).storage.from("site-media").getPublicUrl(path).data.publicUrl}
   try{
-    const client=window.supabase.createClient(cfg.url,cfg.publishableKey);
-    const {data,error}=await client.from("site_media").select("*").eq("published",true).order("sort_order").order("created_at");
-    if(error)throw error;
+    const response=await fetch('https://fs-studio-maker.pages.dev/api/public/media',{cache:'no-store'});
+    if(!response.ok)throw new Error('Mídias ainda não importadas.');
+    const data=await response.json();
     const items=data||[];
     if(items.length){
-      const url=item=>item.storage_path?publicUrl(item.storage_path):item.fallback_media_url;
-      const poster=item=>item.poster_path?publicUrl(item.poster_path):item.fallback_poster_url;
+      const url=item=>item.storage_path||item.fallback_media_url;
+      const poster=item=>item.poster_path||item.fallback_poster_url;
       const track=document.querySelector(".carousel-track");
       track.innerHTML=items.map((item,index)=>{
         const media=item.media_type==="video"?`<video muted loop playsinline preload="none" ${poster(item)?`poster="${safe(poster(item))}"`:""}><source src="${safe(url(item))}"></video>`:`<img src="${safe(url(item))}" alt="${safe(item.alt_text||item.title)}" loading="lazy">`;
@@ -29,3 +29,4 @@
   }catch(error){console.warn("Não foi possível carregar as mídias administráveis.",error)}
   const mainScript=document.createElement("script");mainScript.src="script.js?v=17";document.body.appendChild(mainScript);
 })();
+

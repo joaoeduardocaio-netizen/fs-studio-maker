@@ -2,7 +2,7 @@
   const section = document.getElementById('home-gallery');
   const track = document.getElementById('home-gallery-track');
   const picker = document.getElementById('language-select');
-  if (!section || !track || !window.supabase || !window.FS_SUPABASE) return;
+  if (!section || !track) return;
 
   const labels = {
     it: ['ALTRE CREAZIONI', 'Scopri le nostre creazioni'],
@@ -12,7 +12,7 @@
     de: ['WEITERE KREATIONEN', 'Entdecke unsere Kreationen']
   };
   const language = () => picker?.value || localStorage.getItem('fs-language') || 'it';
-  const db = window.supabase.createClient(window.FS_SUPABASE.url, window.FS_SUPABASE.publishableKey);
+
   const items = [];
   let index = 0;
   let visible = false;
@@ -39,12 +39,11 @@
   }
 
   async function load() {
-    const { data, error } = await db.from('creations')
-      .select('id,title,translations,creation_images(storage_path,alt_text,sort_order)')
-      .eq('published', true)
-      .order('sort_order')
-      .order('created_at', { ascending: false });
-    if (error) { console.warn('Não foi possível carregar a galeria:', error); return; }
+    let response;
+    try {response=await fetch('https://fs-studio-maker.pages.dev/api/public/catalog',{cache:'no-store'});if(!response.ok)throw new Error('pending');}
+    catch {response=await fetch('catalog-snapshot.json?v=20261021-leve');}
+    if(!response.ok)return;
+    const {products:data}=await response.json();
     for (const product of data || []) {
       for (const image of (product.creation_images || []).sort((a, b) => (a.sort_order || 0) - (b.sort_order || 0))) {
         if (!image.storage_path || /\.(mp4|webm)(?:$|\?)/i.test(image.storage_path)) continue;
@@ -52,7 +51,7 @@
         const card = document.createElement('figure');
         card.className = 'home-gallery-card';
         const photo = document.createElement('img');
-        photo.src = db.storage.from('creations').getPublicUrl(image.storage_path).data.publicUrl;
+        photo.src = image.storage_path;
         photo.loading = items.length <= 3 ? 'eager' : 'lazy';
         photo.decoding = 'async';
         const caption = document.createElement('figcaption');
@@ -77,3 +76,4 @@
   picker?.addEventListener('change', updateLanguage);
   load().catch(error => console.warn('Não foi possível carregar a galeria:', error));
 })();
+

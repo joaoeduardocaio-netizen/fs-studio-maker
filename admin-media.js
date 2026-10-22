@@ -20,7 +20,7 @@ function updateMediaTypeFields(){
   const video=document.querySelector("#media-type").value==="video";
   document.querySelector("#poster-label").hidden=!video;
   document.querySelector("#media-file").accept=video?"video/mp4,video/webm,video/quicktime":"image/jpeg,image/png,image/webp";
-  document.querySelector("#media-file-help").textContent=video?"MP4, WebM ou MOV, até 100 MB":"JPG, PNG ou WebP, até 15 MB";
+  document.querySelector("#media-file-help").textContent=video?"MP4, WebM ou MOV, até 8 MB":"JPG, PNG ou WebP, até 8 MB";
 }
 function resetMediaForm(){
   mediaForm.reset();document.querySelector("#media-id").value="";document.querySelector("#media-order").value=0;document.querySelector("#media-published").checked=true;document.querySelector("#media-form-title").textContent="Nova mídia";document.querySelector("#cancel-media-edit").hidden=true;document.querySelector("#current-media").innerHTML="";mediaNotice("");updateMediaTypeFields();
@@ -47,7 +47,7 @@ function validateMediaFile(file,type,poster=false){
   if(!file)return null;
   const imageTypes=["image/jpeg","image/png","image/webp"],videoTypes=["video/mp4","video/webm","video/quicktime"];
   const allowed=poster||type==="image"?imageTypes:videoTypes;
-  const limit=poster||type==="image"?15*1024*1024:100*1024*1024;
+  const limit=poster||type==="image"?8*1024*1024:8*1024*1024;
   if(!allowed.includes(file.type))return "Formato de arquivo não permitido.";
   if(file.size>limit)return `O arquivo ultrapassa ${limit/(1024*1024)} MB.`;
   return null;

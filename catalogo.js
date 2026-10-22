@@ -72,7 +72,9 @@ function render(){
 }
 async function load(){
   try{
-    const response=await fetch("catalog-snapshot.json?v=20261021-leve");
+    let response;
+    try {response=await fetch('https://fs-studio-maker.pages.dev/api/public/catalog',{cache:'no-store'});if(!response.ok)throw new Error('pending');}
+    catch {response=await fetch('catalog-snapshot.json?v=20261021-leve');}
     if(!response.ok)throw new Error("Catalog unavailable");
     const snapshot=await response.json();
     if(!Array.isArray(snapshot.products))throw new Error("Invalid catalog");

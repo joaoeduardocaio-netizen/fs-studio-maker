@@ -1,24 +1,87 @@
-ATUALIZAÇÃO PARA REDUZIR TRÁFEGO — FS STUDIO MAKER
+FS STUDIO MAKER — PAINEL CLOUDFLARE + MÍDIAS NO GITHUB
+Versão sem R2. Não é necessário ativar R2 nem informar dados de cobrança.
+Pacote preparado e testado localmente. Publicação/teste real ainda pendentes.
 
-Instalação:
-1. Extraia este ZIP.
-2. No repositório joaoeduardocaio-netizen/fs-studio-maker, envie os seis arquivos para a raiz e substitua as versões existentes.
-3. Confirme o commit e aguarde a publicação do GitHub Pages.
-4. Confira a home, o catálogo, a troca de idiomas, o carrinho e a reprodução dos vídeos após tocar em Play.
+1. GITHUB: REPOSITÓRIO SOMENTE PARA MÍDIAS
+Criar joaoeduardocaio-netizen/fs-studio-media.
+Visibilidade: Private. Marcar Add a README para iniciar a branch main.
+Este repositório NÃO deve ser conectado a Pages, Actions ou Cloudflare.
+Assim o upload de cada mídia não dispara uma publicação do site.
+As mídias referenciadas no site continuam visíveis aos visitantes por meio
+Do endpoint público de arquivos; a visibilidade privada do repositório não
+é um mecanismo para restringir as fotos exibidas no catálogo.
 
-Mudanças:
-- Vídeos sem reprodução automática na home.
-- Vídeos da home e do catálogo configurados com preload=none.
-- Botão Play também no primeiro vídeo da home.
-- Vídeos pausados ao sair do slide principal ou ocultar a página.
-- Galeria de fotos da home passa a ter navegação manual por arraste, sem avanço automático.
+2. TOKEN DO GITHUB
+Settings > Developer settings > Personal access tokens > Fine-grained tokens
+> Generate new token.
+Nome: FS Studio Cloudflare.
+Resource owner: joaoeduardocaio-netizen.
+Repository access: Only select repositories > fs-studio-media.
+Repository permissions > Contents: Read and write.
+Definir validade e guardar a data de renovação. Quando expirar, os novos
+uploads e as leituras não armazenadas em cache param até renovar o segredo.
+Nunca colocar o token em JavaScript público, no repositório, no ZIP ou no chat.
+O código usa o token exclusivamente no servidor para o repositório de mídias.
 
-Verificação realizada: sintaxe dos quatro arquivos JavaScript e git diff --check.
-Não publicado pelo assistente. Não foram modificados plano, dados, login, produtos ou mídias no Supabase.
+3. CLOUDFLARE
+Projeto Pages fs-studio-maker > Settings, ambiente Production.
+Binding D1: DB => fs-studio-admin (já configurado).
+As quatro tabelas já criadas são mantidas. O código cria automaticamente
+fs_meta e fs_login_limits na primeira entrada.
+Variables and secrets:
+  ADMIN_EMAIL: fs.studiomaker@gmail.com
+  ADMIN_PASSWORD: senha forte de pelo menos 12 caracteres; tipo Secret.
+  SESSION_SECRET: valor aleatório com pelo menos 32 caracteres; tipo Secret.
+  GITHUB_TOKEN: token criado acima; tipo Secret.
+Definir esses valores diretamente no Cloudflare. Não enviá-los no chat.
+Não configurar MEDIA/R2.
 
-Limitações:
-- Reduz carregamentos futuros; não reduz os 7,434 GB já registrados para FS Studio Maker.
-- preload=none é uma indicação ao navegador, não uma garantia absoluta de zero requisições.
-- Não garante ficar abaixo de 5 GB: visitas e reproduções reais continuam consumindo tráfego.
-- A conta foi confirmada como Free. Nesse plano, excesso pode causar restrições, não cobrança automática.
-- Após publicar, acompanhe o consumo diário no painel. Se ainda superar a cota, será necessário otimizar as mídias ou avaliar outra hospedagem gratuita para elas, antes de contratar um plano.
+4. ARQUIVOS / PUBLICAÇÃO
+Extrair o ZIP e enviar os 15 arquivos à RAIZ do repositório do SITE:
+joaoeduardocaio-netizen/fs-studio-maker.
+Substituir arquivos de mesmo nome; não apagar outras fotos/arquivos.
+Não enviar este ZIP nem os arquivos do painel para fs-studio-media.
+Não é necessário reenviar nenhuma foto antiga.
+O GitHub publica automaticamente no Cloudflare após o commit.
+Abrir https://fs-studio-maker.pages.dev/admin.html e entrar com o e-mail
+acima e a senha definida no Cloudflare.
+Na primeira entrada, o código importa 63 produtos, 110 referências de mídias,
+9 categorias e 4 destaques. A importação é transacional e acontece só uma vez.
+
+5. TESTE REAL ANTES DE ENTREGAR À FERNANDA
+Conferir produtos antigos, criar rascunho com uma foto, editar preço,
+publicar/ocultar, conferir o catálogo público, testar vídeo curto, categorias,
+logout e novo login. Confirmar os arquivos recebidos no repositório de mídias.
+
+COMPORTAMENTO / LIMITES
+- Fotos JPG/PNG/WebP e vídeos MP4 (produtos) ou MP4/WebM/MOV (carrossel):
+  ATÉ 8 MB POR ARQUIVO. Comprimir vídeos maiores antes do envio.
+- As fotos antigas continuam no repositório do site. Os uploads novos vão
+  para fs-studio-media/uploads/ e são entregues pelo endpoint do Cloudflare.
+- Cada upload cria um commit no repositório de mídias, sem republicar o site.
+- Exclusões retiram os registros do catálogo; os arquivos físicos são retidos
+  no histórico/repositório de mídias para evitar perda durante edições/falhas.
+  Uma rotina de limpeza/backup deverá ser definida conforme o volume crescer.
+- A solução usa as cotas das contas GitHub/Cloudflare existentes e não é
+  armazenamento ilimitado. Conteúdo pesado/alto volume exige outra estratégia.
+- Cookie Secure/HttpOnly/SameSite=Strict, sessões de 8 horas, limitação de
+  tentativas e validação no servidor para gravar dados e enviar arquivos.
+- Não há cadastro aberto nem recuperação automática de senha por e-mail.
+  Redefinir ADMIN_PASSWORD e republicar altera a senha e invalida sessões.
+- Traduções existentes preservadas. Campos alterados usam o novo texto no
+  idioma original, sem mostrar a tradução antiga. Tradução automática de novos
+  textos, avaliações e painel de visitas ainda NÃO foram migrados nesta etapa.
+- Os carregadores públicos de avaliações/estatísticas continuam como antes.
+- Antes da importação ou em falhas da API, o catálogo pode usar o retrato
+  estático anterior; alterações recentes dependem da API disponível.
+
+VALIDAÇÃO LOCAL
+SQLite real: importação, CRUD, publicação/ocultação, categorias e consistência.
+Autenticação, cookies, bloqueio de tentativas, CORS/CSRF, validação de consultas.
+GitHub simulado: upload Base64 íntegro, repositório restrito, entrega de mídia,
+erro de permissão sem revelar token e bloqueio de arquivos maiores que 8 MB.
+Sintaxe JavaScript validada. Deploy e teste de navegador reais pendentes.
+
+RETORNO
+Restaurar arquivos anteriores e remover _worker.js/_routes.json retorna à
+versão estática. Preservar o banco D1 e os arquivos do repositório de mídias.
