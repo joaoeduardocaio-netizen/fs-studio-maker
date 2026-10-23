@@ -138,10 +138,36 @@ async function githubMedia(request,env,key){
   if(cache){try{await cache.put(cacheKey,response.clone());const ranged=await cache.match(request);if(ranged)return request.method==='HEAD'?new Response(null,{status:ranged.status,headers:ranged.headers}):ranged}catch{console.warn('FS_MEDIA_CACHE_WRITE')}}
   return request.method==='HEAD'?new Response(null,{status:200,headers}):response;
 }
+const VISIT_SCHEMA='CREATE TABLE IF NOT EXISTS fs_pageviews (day TEXT NOT NULL, page TEXT NOT NULL, views INTEGER NOT NULL DEFAULT 0, PRIMARY KEY(day,page))';
+function visitDay(date=new Date()){return new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit'}).format(date)}
+async function trackVisit(request,env){
+  if(!ORIGINS.has(request.headers.get('Origin')))fail('Origem não autorizada.',403);
+  if(/bot|crawler|spider|headless|preview/i.test(request.headers.get('User-Agent')||''))return new Response(null,{status:204});
+  if(Number(request.headers.get('Content-Length'))>128)fail('Dados inválidos.',413);
+  const reader=request.body?.getReader();let size=0,chunks=[];
+  if(!reader)fail('Dados inválidos.');
+  while(true){const {done,value}=await reader.read();if(done)break;size+=value.length;if(size>128){await reader.cancel();fail('Dados inválidos.',413)}chunks.push(value)}
+  let payload;try{payload=JSON.parse(new TextDecoder().decode(Uint8Array.from(chunks.flatMap(x=>Array.from(x)))))}catch{fail('Dados inválidos.')}
+  if(!payload||!['/','/catalogo.html'].includes(payload.page)||Object.keys(payload).some(k=>k!=='page'))fail('Página inválida.');
+  await env.DB.batch([env.DB.prepare(VISIT_SCHEMA),env.DB.prepare('INSERT INTO fs_pageviews(day,page,views) VALUES (?,?,1) ON CONFLICT(day,page) DO UPDATE SET views=MIN(views+1,1000000)').bind(visitDay(),payload.page)]);
+  return new Response(null,{status:204});
+}
+async function visitStats(env){
+  await env.DB.prepare(VISIT_SCHEMA).run();
+  const today=visitDay(),month=today.slice(0,7)+'-01',since=visitDay(new Date(Date.now()-29*86400000));
+  const [summary,daily,pages]=await Promise.all([
+    env.DB.prepare('SELECT COALESCE(SUM(CASE WHEN day=? THEN views ELSE 0 END),0) AS today, COALESCE(SUM(CASE WHEN day>=? THEN views ELSE 0 END),0) AS month, COALESCE(SUM(CASE WHEN day>=? THEN views ELSE 0 END),0) AS last30 FROM fs_pageviews WHERE day>=? AND day<=?').bind(today,month,since,month<since?month:since,today).first(),
+    env.DB.prepare('SELECT day,SUM(views) AS views FROM fs_pageviews WHERE day>=? AND day<=? GROUP BY day ORDER BY day').bind(since,today).all(),
+    env.DB.prepare('SELECT page,SUM(views) AS views FROM fs_pageviews WHERE day>=? AND day<=? GROUP BY page ORDER BY views DESC,page').bind(since,today).all()
+  ]);
+  return json({today,timezone:'America/Sao_Paulo',summary,daily:daily.results,pages:pages.results});
+}
+
 async function handle(request,env){
   const url=new URL(request.url),path=url.pathname;
   if(!env.DB)fail('Conecte o banco D1 com o nome DB.',503);
-  if(path.startsWith('/api/files/')&&['GET','HEAD'].includes(request.method)){
+  if(path==='/api/visits/track'&&request.method==='POST')return trackVisit(request,env);
+  if(path.startsWith('/api/files/')&&(['GET','HEAD'].includes(request.method)||(url.pathname==='/api/visits/track'&&request.method==='POST'))){
     return githubMedia(request,env,decodeURIComponent(path.slice('/api/files/'.length)));
   }
   if(path.startsWith('/api/public/')&&request.method==='GET'){
@@ -174,6 +200,7 @@ async function handle(request,env){
   if(path==='/api/session'&&request.method==='GET')return json({data:{session:await validSession(request,env)?{user:{email:env.ADMIN_EMAIL}}:null},error:null});
   if(path==='/api/logout'&&request.method==='POST')return json({error:null},200,{'Set-Cookie':cookie('',0)});
   if(!await validSession(request,env))fail('Entre novamente no painel.',401);
+  if(path==='/api/visits/stats'&&request.method==='GET')return visitStats(env);
   if(path==='/api/query'&&request.method==='POST')return query(request,env);
   if(path==='/api/upload'&&request.method==='POST')return githubUpload(request,env);
   // Files are retained on removal to keep references safe; catalog records control visibility.
@@ -186,7 +213,7 @@ export default {
     const origin=request.headers.get('Origin');
     if(request.method==='OPTIONS')return new Response(null,{status:204,headers:ORIGINS.has(origin)?{'Access-Control-Allow-Origin':origin,'Access-Control-Allow-Methods':'GET,HEAD,OPTIONS','Vary':'Origin'}:{}});
     let response;try{response=await handle(request,env)}catch(error){console.error('FS_API_ERROR',new URL(request.url).pathname,error.status||500,error.name||'Error');response=json({error:{message:error.status?error.message:'Não foi possível concluir. Tente novamente.'}},error.status||500)}
-    const headers=new Headers(response.headers);if(ORIGINS.has(origin)&&['GET','HEAD'].includes(request.method)){headers.set('Access-Control-Allow-Origin',origin);headers.set('Vary','Origin')}
+    const headers=new Headers(response.headers);if(ORIGINS.has(origin)&&(['GET','HEAD'].includes(request.method)||(url.pathname==='/api/visits/track'&&request.method==='POST'))){headers.set('Access-Control-Allow-Origin',origin);headers.set('Vary','Origin')}
     headers.set('X-Content-Type-Options','nosniff');return new Response(response.body,{status:response.status,headers});
   }
 };

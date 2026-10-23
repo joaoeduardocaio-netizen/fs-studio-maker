@@ -1,0 +1,15 @@
+FS Studio Maker — Visitas ao site
+
+Envie os 8 arquivos deste pacote na raiz do repositório fs-studio-maker, substituindo os existentes. Não envie para fs-studio-media. Aguarde a publicação do Cloudflare.
+
+Abra o painel pela URL principal https://fs-studio-maker.pages.dev/admin.html e entre. A seção Visitas ao site aparece acima do formulário. A tabela D1 é criada automaticamente; nenhuma chave adicional é necessária.
+
+Abra https://fsstudiomaker.com.br/ ou /catalogo.html e volte ao painel para atualizar as visitas. A contagem começa agora e não recupera visitas anteriores.
+
+Métrica: visualizações por dia e por página. Não mede pessoas únicas, vendas, localização ou origem das visitas. Não registra nomes, IPs, identificadores, parâmetros da URL ou dados pessoais no banco. O navegador usa sessionStorage apenas para ignorar recargas na mesma aba em menos de um minuto. Não usa cookies de rastreamento. DNT e Global Privacy Control são respeitados.
+
+Os números são aproximados: bloqueadores, robôs não reconhecidos e restrições do navegador podem alterar a contagem. Horário: Brasília. Mostra hoje, mês atual, últimos 30 dias e as páginas inicial/catálogo. Não conta páginas do administrador.
+
+Armazenamento: uma linha agregada por dia/página (no máximo duas por dia), sem histórico individual. As consultas e gravações utilizam as cotas existentes do D1 e Workers.
+
+Teste local: SQL real SQLite, autorização da leitura, origem permitida no registro, limites de entrada, agregação e preservação das rotas existentes. Validação real após publicar ainda necessária.
