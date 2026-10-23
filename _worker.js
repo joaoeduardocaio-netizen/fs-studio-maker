@@ -93,8 +93,10 @@ async function query(request,env){
 const MEDIA_REPO='joaoeduardocaio-netizen/fs-studio-media';
 const MEDIA_TYPES={'jpg':'image/jpeg','png':'image/png','webp':'image/webp','mp4':'video/mp4','webm':'video/webm','mov':'video/quicktime'};
 function githubHeaders(env,raw=false){
-  if(!env.GITHUB_TOKEN)fail('Configure GITHUB_TOKEN nos segredos do Cloudflare.',503);
-  return {'Authorization':`Bearer ${env.GITHUB_TOKEN}`,'User-Agent':'FS-Studio-Admin','Accept':raw?'application/vnd.github.raw+json':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'};
+  const token=String(env.GITHUB_TOKEN||'').trim();
+  if(!token)fail('Configure GITHUB_TOKEN nos segredos do Cloudflare.',503);
+  if(!/^[A-Za-z0-9_-]+$/.test(token))fail('GITHUB_TOKEN contém espaços ou caracteres inválidos. Cole somente o código gerado pelo GitHub.',503);
+  return {'Authorization':`Bearer ${token}`,'User-Agent':'FS-Studio-Admin','Accept':raw?'application/vnd.github.raw+json':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'};
 }
 function toBase64(bytes){
   const chunks=[];for(let i=0;i<bytes.length;i+=24576)chunks.push(btoa(String.fromCharCode(...bytes.subarray(i,i+24576))));return chunks.join('');
@@ -105,22 +107,23 @@ async function githubUpload(request,env){
   const type=request.headers.get('Content-Type'),ext=types[type];if(!ext)fail('Formato não permitido.',415);
   const length=Number(request.headers.get('Content-Length')),limit=8*1024*1024;
   if(!length||length>limit)fail('Envie uma foto ou vídeo de até 8 MB.',413);
-  const bytes=new Uint8Array(await request.arrayBuffer());if(bytes.length!==length||bytes.length>limit)fail('Tamanho inválido.',413);
+  let bytes;try{bytes=new Uint8Array(await request.arrayBuffer())}catch{fail('O envio da foto foi interrompido. Selecione o arquivo novamente.',400)}if(bytes.length!==length||bytes.length>limit)fail('Tamanho inválido.',413);
   const key=`uploads/${crypto.randomUUID()}.${ext}`;
-  const body=JSON.stringify({message:'Adicionar mídia FS Studio Maker',branch:'main',content:toBase64(bytes)});
+  let body;try{body=JSON.stringify({message:'Adicionar mídia FS Studio Maker',branch:'main',content:toBase64(bytes)})}catch{fail('Falha ao preparar a mídia (UP-PREP).',500)}
   let response;
   for(let attempt=0;attempt<3;attempt++){
-    response=await fetch(`https://api.github.com/repos/${MEDIA_REPO}/contents/${key}`,{method:'PUT',headers:{...headers,'Content-Type':'application/json'},body,redirect:'error'});
+    try{response=await fetch(`https://api.github.com/repos/${MEDIA_REPO}/contents/${key}`,{method:'PUT',headers:{...headers,'Content-Type':'application/json'},body,redirect:'manual'})}catch{console.error('FS_UPLOAD_NETWORK');fail('Falha na conexão entre Cloudflare e GitHub (UP-NET).',503)}
     if(response.status!==409)break;
     await response.arrayBuffer();
   }
   if(!response.ok){
+    console.error('FS_UPLOAD_HTTP',response.status);
     if(response.status===401||response.status===403)fail('O GitHub recusou o acesso. Confira a validade do token e a permissão Contents: Read and write para fs-studio-media.',503);
     if(response.status===404)fail('Crie o repositório fs-studio-media com a branch main e autorize o token para esse repositório.',503);
     if(response.status===409)fail('Outro envio está em andamento. Tente novamente.',409);
     fail('Não foi possível enviar a mídia ao GitHub. Tente novamente.',503);
   }
-  await response.arrayBuffer();return json({data:{path:key},error:null});
+  if(response.body)await response.body.cancel();return json({data:{path:key},error:null});
 }
 async function githubMedia(request,env,key){
   const match=key.match(/^uploads\/[a-f0-9-]+\.(jpg|png|webp|mp4|webm|mov)$/);if(!match)fail('Arquivo inválido.',404);
@@ -182,7 +185,7 @@ export default {
     const url=new URL(request.url);if(!url.pathname.startsWith('/api/'))return env.ASSETS.fetch(request);
     const origin=request.headers.get('Origin');
     if(request.method==='OPTIONS')return new Response(null,{status:204,headers:ORIGINS.has(origin)?{'Access-Control-Allow-Origin':origin,'Access-Control-Allow-Methods':'GET,HEAD,OPTIONS','Vary':'Origin'}:{}});
-    let response;try{response=await handle(request,env)}catch(error){response=json({error:{message:error.status?error.message:'Não foi possível concluir. Tente novamente.'}},error.status||500)}
+    let response;try{response=await handle(request,env)}catch(error){console.error('FS_API_ERROR',new URL(request.url).pathname,error.status||500,error.name||'Error');response=json({error:{message:error.status?error.message:'Não foi possível concluir. Tente novamente.'}},error.status||500)}
     const headers=new Headers(response.headers);if(ORIGINS.has(origin)&&['GET','HEAD'].includes(request.method)){headers.set('Access-Control-Allow-Origin',origin);headers.set('Vary','Origin')}
     headers.set('X-Content-Type-Options','nosniff');return new Response(response.body,{status:response.status,headers});
   }
