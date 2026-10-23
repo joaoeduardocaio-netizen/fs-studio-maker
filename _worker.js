@@ -128,14 +128,14 @@ async function githubUpload(request,env){
 async function githubMedia(request,env,key){
   const match=key.match(/^uploads\/[a-f0-9-]+\.(jpg|png|webp|mp4|webm|mov)$/);if(!match)fail('Arquivo inválido.',404);
   const cache=globalThis.caches?.default,cacheKey=new Request(request.url,{method:'GET'});
-  const cached=cache?await cache.match(request):null;
+  let cached;try{cached=cache?await cache.match(request):null}catch{console.warn('FS_MEDIA_CACHE_READ')}
   if(cached)return request.method==='HEAD'?new Response(null,{status:cached.status,headers:cached.headers}):cached;
-  const upstream=await fetch(`https://api.github.com/repos/${MEDIA_REPO}/contents/${key}?ref=main`,{headers:githubHeaders(env,true),redirect:'error'});
+  let upstream;try{upstream=await fetch(`https://api.github.com/repos/${MEDIA_REPO}/contents/${key}?ref=main`,{headers:githubHeaders(env,true),redirect:'manual'})}catch{console.error('FS_MEDIA_NETWORK');fail('Falha na conexão com a mídia (MEDIA-NET).',503)}
   if(!upstream.ok)fail('Não foi possível carregar a mídia.',upstream.status===404?404:503);
   const headers={'Content-Type':MEDIA_TYPES[match[1]],'Cache-Control':'public, max-age=86400, immutable','X-Content-Type-Options':'nosniff'};
   const response=new Response(upstream.body,{status:200,headers});
   // Cache only media bytes. GitHub credentials never enter response headers or cache keys.
-  if(cache){await cache.put(cacheKey,response.clone());const ranged=await cache.match(request);if(ranged)return request.method==='HEAD'?new Response(null,{status:ranged.status,headers:ranged.headers}):ranged}
+  if(cache){try{await cache.put(cacheKey,response.clone());const ranged=await cache.match(request);if(ranged)return request.method==='HEAD'?new Response(null,{status:ranged.status,headers:ranged.headers}):ranged}catch{console.warn('FS_MEDIA_CACHE_WRITE')}}
   return request.method==='HEAD'?new Response(null,{status:200,headers}):response;
 }
 async function handle(request,env){
